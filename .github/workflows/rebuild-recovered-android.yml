@@ -118,8 +118,8 @@ jobs:
                           except ET.ParseError:
                               continue
                           xml_count += 1
-                          for child in root:
-                              if child.tag == "attr" and child.attrib.get("name"):
+                          for child in root.iter("attr"):
+                              if child.attrib.get("name"):
                                   library_attrs.add(child.attrib["name"])
               except (OSError, zipfile.BadZipFile):
                   continue
