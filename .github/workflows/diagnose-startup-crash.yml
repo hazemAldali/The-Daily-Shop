@@ -1,6 +1,11 @@
 name: Diagnose The Daily Shop startup crash
 
 on:
+  push:
+    branches:
+      - the-daily-shop-development
+    paths:
+      - ".github/workflows/diagnose-startup-crash.yml"
   workflow_dispatch:
 
 permissions:
