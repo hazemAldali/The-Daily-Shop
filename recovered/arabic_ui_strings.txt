@@ -1,0 +1,2243 @@
+
+
+الطلب محفوظ على الجهاز الثانوي وسيُرسل إلى الجهاز الأساسي. لم يُرحّل التحويل أو يُنشأ الدين نهائياً بعد؛ يعتمد ذلك على تحقق الجهاز الأساسي من الرصيد والبيانات.
+
+
+سيتم حفظ جميع الأصناف في عملية واحدة أو إلغاء العملية كاملة عند وجود خطأ. سيبقى المخزون صفراً والباركود فارغاً إذا لم يرد في الملف.
+
+المبلغ المستحق: 
+
+المعاينة:
+
+
+لا يتم تعديل المخزون من شاشة بيانات المنتج؛ استخدم حركة مخزون لاحقاً.
+
+معرّف هذا الجهاز: 
+   •   الوحدة: 
+  •  اعتماد الفاتورة: 
+  •  سعر الصرف غير مسجل
+ (إلكتروني)
+ (الصف 
+ (المتوفر: 
+ (نقدي)
+ USD
+الصافي: 
+ USD
+تخفيض مستحق المورد: 
+ USD • الرصيد التاريخي المحسوب بالليرة: 
+ USD • سعر الفاتورة: 
+ USD • عددها: 
+ أصناف
+ حركات بلا سعر صرف موثوق لم تدخل في الرصيد.
+ حركة بلا سعر صرف موثوق؛ لا تدخل في الرصيد المحسوب.
+ حساب 
+ حساب المستخدم
+ سنت USD
+ سنت USD
+المبلغ النقدي المطلوب رده: 
+ سنت USD
+تخفيض الدين: 
+ سيُفعّل في مرحلته
+ صنفاً بنجاح. المخزون الافتتاحي بقي صفراً بانتظار الجرد.
+ عملية
+ عن الفاتورة 
+ غير صالح
+ غير كافٍ. المتاح: 
+ غير نشط أو تغير نوعه
+ فاتورة قديمة بلا سعر صرف محفوظ. لم نُدخلها في إجمالي الليرة ولم نُعد تقييمها تلقائياً.
+ كدرج اليوم الرئيسي. صندوق الموردين المدور لم يتغير.
+ ل.س
+ ل.س
+
+ ل.س
+المبلغ المسترد نقداً: 
+ ل.س
+المبلغ المطلوب من الزبون بعد التقريب: 
+ ل.س
+المتبقي: 
+ ل.س
+ربح المتجر (
+ ل.س
+ربح المتجر: 
+ ل.س
+رسوم الشركة: 
+ ل.س لكل دولار.
+ ل.س لكل دولار. تعديل أي حقل يحدّث العملة المقابلة تلقائياً.
+ ل.س • 
+ ل.س • الربح 
+ ل.س • المتبقي: 
+ ل.س • المخصوم من المحفظة: 
+ ل.س • المسدد: 
+ ل.س • بسعر صرف يوم الشراء
+ ل.س • دفعات الموردين: 
+ ل.س • رسوم الشركة 
+ ل.س • رسوم الشركة: 
+ ل.س • قيمة الرصيد اللازم تعويضه: 
+ ل.س • قيمة الرصيد المطلوب تعويضه 
+ ل.س/دولار • 
+ لرد المبلغ
+ من 
+ من القوائم الجديدة مع الاحتفاظ بسجلاته.
+ من نقطة البيع، مع الاحتفاظ بسجلاته.
+ • استرداد نقدي 
+ • استرداد نقدي: 
+ • الحساب: 
+ • الرصيد 
+ • الرصيد: 
+ • السعر الفعال: 
+ • المتاح من طبقة الشراء 
+ • المتاح: 
+ • المرتجعات: 
+ • المرجع: 
+ • المسحوبات: 
+ • تكلفة المرتجع: 
+ • درج اليوم الرئيسي
+ • ربح 
+ • رد نقدي 
+ • رد نقدي: 
+ • سبق إرجاعه 
+ • سعر التحصيل: 
+ • صادرة: 
+ • صندوق شراء الرصيد • المتاح 
+ • عمولة شحن 2%: 
+ • قبض إلكتروني
+ • قبض نقدي
+ • مباع 
+ • متاح 
+ • مرتجعات بلا تكلفة معروفة: 
+ • مرتجعات بلا تكلفة: 
+ • مشتراة 
+(?:(?:(?:[a-zA-Z0-9[ -퟿豈-﷏ﷰ-￯������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������&&[^ [ - ]   　]]](?:[a-zA-Z0-9[ -퟿豈-﷏ﷰ-￯������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������&&[^ [ - ]   　]]_\-]{0,61}[a-zA-Z0-9[ -퟿豈-﷏ﷰ-￯������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������&&[^ [ - ]   　]]]){0,1}\.)+(?:(?:(?:aaa|aarp|abb|abbott|abbvie|abc|able|abogado|abudhabi|academy|accenture|accountant|accountants|aco|actor|ads|adult|aeg|aero|aetna|afl|africa|agakhan|agency|aig|airbus|airforce|airtel|akdn|alibaba|alipay|allfinanz|allstate|ally|alsace|alstom|amazon|americanexpress|americanfamily|amex|amfam|amica|amsterdam|analytics|android|anquan|anz|aol|apartments|app|apple|aquarelle|arab|aramco|archi|army|arpa|art|arte|asda|asia|associates|athleta|attorney|auction|audi|audible|audio|auspost|author|auto|autos|avianca|aws|axa|azure|a[cdefgilmoqrstuwxz])|(?:baby|baidu|banamex|bananarepublic|band|bank|bar|barcelona|barclaycard|barclays|barefoot|bargains|baseball|basketball|bauhaus|bayern|bbc|bbt|bbva|bcg|bcn|beats|beauty|beer|bentley|berlin|best|bestbuy|bet|bharti|bible|bid|bike|bing|bingo|bio|biz|black|blackfriday|blockbuster|blog|bloomberg|blue|bms|bmw|bnpparibas|boats|boehringer|bofa|bom|bond|boo|book|booking|bosch|bostik|boston|bot|boutique|box|bradesco|bridgestone|broadway|broker|brother|brussels|build|builders|business|buy|buzz|bzh|b[abdefghijmnorstvwyz])|(?:cab|cafe|cal|call|calvinklein|cam|camera|camp|canon|capetown|capital|capitalone|car|caravan|cards|care|career|careers|cars|casa|case|cash|casino|cat|catering|catholic|cba|cbn|cbre|cbs|center|ceo|cern|cfa|cfd|chanel|channel|charity|chase|chat|cheap|chintai|christmas|chrome|church|cipriani|circle|cisco|citadel|citi|citic|city|cityeats|claims|cleaning|click|clinic|clinique|clothing|cloud|club|clubmed|coach|codes|coffee|college|cologne|com|comcast|commbank|community|company|compare|computer|comsec|condos|construction|consulting|contact|contractors|cooking|cool|coop|corsica|country|coupon|coupons|courses|cpa|credit|creditcard|creditunion|cricket|crown|crs|cruise|cruises|cuisinella|cymru|cyou|c[acdfghiklmnoruvwxyz])|(?:dabur|dad|dance|data|date|dating|datsun|day|dclk|dds|deal|dealer|deals|degree|delivery|dell|deloitte|delta|democrat|dental|dentist|desi|design|dev|dhl|diamonds|diet|digital|direct|directory|discount|discover|dish|diy|dnp|docs|doctor|dog|domains|dot|download|drive|dtv|dubai|dunlop|dupont|durban|dvag|dvr|d[ejkmoz])|(?:earth|eat|eco|edeka|edu|education|email|emerck|energy|engineer|engineering|enterprises|epson|equipment|ericsson|erni|esq|estate|etisalat|eurovision|eus|events|exchange|expert|exposed|express|extraspace|e[cegrstu])|(?:fage|fail|fairwinds|faith|family|fan|fans|farm|farmers|fashion|fast|fedex|feedback|ferrari|ferrero|fidelity|fido|film|final|finance|financial|fire|firestone|firmdale|fish|fishing|fit|fitness|flickr|flights|flir|florist|flowers|fly|foo|food|football|ford|forex|forsale|forum|foundation|fox|free|fresenius|frl|frogans|frontdoor|frontier|ftr|fujitsu|fun|fund|furniture|futbol|fyi|f[ijkmor])|(?:gal|gallery|gallo|gallup|game|games|gap|garden|gay|gbiz|gdn|gea|gent|genting|george|ggee|gift|gifts|gives|giving|glass|gle|global|globo|gmail|gmbh|gmo|gmx|godaddy|gold|goldpoint|golf|goo|goodyear|goog|google|gop|got|gov|grainger|graphics|gratis|green|gripe|grocery|group|guardian|gucci|guge|guide|guitars|guru|g[abdefghilmnpqrstuwy])|(?:hair|hamburg|hangout|haus|hbo|hdfc|hdfcbank|health|healthcare|help|helsinki|here|hermes|hiphop|hisamitsu|hitachi|hiv|hkt|hockey|holdings|holiday|homedepot|homegoods|homes|homesense|honda|horse|hospital|host|hosting|hot|hotels|hotmail|house|how|hsbc|hughes|hyatt|hyundai|h[kmnrtu])|(?:ibm|icbc|ice|icu|ieee|ifm|ikano|imamat|imdb|immo|immobilien|inc|industries|infiniti|info|ing|ink|institute|insurance|insure|int|international|intuit|investments|ipiranga|irish|ismaili|ist|istanbul|itau|itv|i[delmnoqrst])|(?:jaguar|java|jcb|jeep|jetzt|jewelry|jio|jll|jmp|jnj|jobs|joburg|jot|joy|jpmorgan|jprs|juegos|juniper|j[emop])|(?:kaufen|kddi|kerryhotels|kerrylogistics|kerryproperties|kfh|kia|kids|kim|kinder|kindle|kitchen|kiwi|koeln|komatsu|kosher|kpmg|kpn|krd|kred|kuokgroup|kyoto|k[eghimnprwyz])|(?:lacaixa|lamborghini|lamer|lancaster|land|landrover|lanxess|lasalle|lat|latino|latrobe|law|lawyer|lds|lease|leclerc|lefrak|legal|lego|lexus|lgbt|lidl|life|lifeinsurance|lifestyle|lighting|like|lilly|limited|limo|lincoln|link|lipsy|live|living|llc|llp|loan|loans|locker|locus|lol|london|lotte|lotto|love|lpl|lplfinancial|ltd|ltda|lundbeck|luxe|luxury|l[abcikrstuvy])|(?:madrid|maif|maison|makeup|man|management|mango|map|market|marketing|markets|marriott|marshalls|mattel|mba|mckinsey|med|media|meet|melbourne|meme|memorial|men|menu|merckmsd|miami|microsoft|mil|mini|mint|mit|mitsubishi|mlb|mls|mma|mobi|mobile|moda|moe|moi|mom|monash|money|monster|mormon|mortgage|moscow|moto|motorcycles|mov|movie|msd|mtn|mtr|museum|music|m[acdeghklmnopqrstuvwxyz])|(?:nab|nagoya|name|natura|navy|nba|nec|net|netbank|netflix|network|neustar|new|news|next|nextdirect|nexus|nfl|ngo|nhk|nico|nike|nikon|ninja|nissan|nissay|nokia|norton|now|nowruz|nowtv|nra|nrw|ntt|nyc|n[acefgilopruz])|(?:obi|observer|office|okinawa|olayan|olayangroup|oldnavy|ollo|omega|one|ong|onl|online|ooo|open|oracle|orange|org|organic|origins|osaka|otsuka|ott|ovh|om)|(?:page|panasonic|paris|pars|partners|parts|party|pay|pccw|pet|pfizer|pharmacy|phd|philips|phone|photo|photography|photos|physio|pics|pictet|pictures|pid|pin|ping|pink|pioneer|pizza|place|play|playstation|plumbing|plus|pnc|pohl|poker|politie|porn|post|pramerica|praxi|press|prime|pro|prod|productions|prof|progressive|promo|properties|property|protection|pru|prudential|pub|pwc|p[aefghklmnrstwy])|(?:qpon|quebec|quest|qa)|(?:racing|radio|read|realestate|realtor|realty|recipes|red|redstone|redumbrella|rehab|reise|reisen|reit|reliance|ren|rent|rentals|repair|report|republican|rest|restaurant|review|reviews|rexroth|rich|richardli|ricoh|ril|rio|rip|rocher|rocks|rodeo|rogers|room|rsvp|rugby|ruhr|run|rwe|ryukyu|r[eosuw])|(?:saarland|safe|safety|sakura|sale|salon|samsclub|samsung|sandvik|sandvikcoromant|sanofi|sap|sarl|sas|save|saxo|sbi|sbs|sca|scb|schaeffler|schmidt|scholarships|school|schule|schwarz|science|scot|search|seat|secure|security|seek|select|sener|services|seven|sew|sex|sexy|sfr|shangrila|sharp|shaw|shell|shia|shiksha|shoes|shop|shopping|shouji|show|showtime|silk|sina|singles|site|ski|skin|sky|skype|sling|smart|smile|sncf|soccer|social|softbank|software|sohu|solar|solutions|song|sony|soy|spa|space|sport|spot|srl|stada|staples|star|statebank|statefarm|stc|stcgroup|stockholm|storage|store|stream|studio|study|style|sucks|supplies|supply|support|surf|surgery|suzuki|swatch|swiss|sydney|systems|s[abcdeghijklmnorstuvxyz])|(?:tab|taipei|talk|taobao|target|tatamotors|tatar|tattoo|tax|taxi|tci|tdk|team|tech|technology|tel|temasek|tennis|teva|thd|theater|theatre|tiaa|tickets|tienda|tips|tires|tirol|tjmaxx|tjx|tkmaxx|tmall|today|tokyo|tools|top|toray|toshiba|total|tours|town|toyota|toys|trade|trading|training|travel|travelers|travelersinsurance|trust|trv|tube|tui|tunes|tushu|tvs|t[cdfghjklmnortvwz])|(?:ubank|ubs|unicom|university|uno|uol|ups|u[agksyz])|(?:vacations|vana|vanguard|vegas|ventures|verisign|versicherung|vet|viajes|video|vig|viking|villas|vin|vip|virgin|visa|vision|viva|vivo|vlaanderen|vodka|volkswagen|volvo|vote|voting|voto|voyage|v[aceginu])|(?:wales|walmart|walter|wang|wanggou|watch|watches|weather|weatherchannel|webcam|weber|website|wed|wedding|weibo|weir|whoswho|wien|wiki|williamhill|win|windows|wine|winners|wme|wolterskluwer|woodside|work|works|world|wow|wtc|wtf|w[fs])|(?:ελ|ευ|бг|бел|дети|ею|католик|ком|мкд|мон|москва|онлайн|орг|рус|рф|сайт|срб|укр|қаз|հայ|ישראל|קום|ابوظبي|اتصالات|ارامكو|الاردن|البحرين|الجزائر|السعودية|العليان|المغرب|امارات|ایران|بارت|بازار|بيتك|بھارت|تونس|سودان|سورية|شبكة|عراق|عرب|عمان|فلسطين|قطر|كاثوليك|كوم|مصر|مليسيا|موريتانيا|موقع|همراه|پاکستان|ڀارت|कॉम|नेट|भारत|भारतम्|भारोत|संगठन|বাংলা|ভারত|ভাৰত|ਭਾਰਤ|ભારત|ଭାରତ|இந்தியா|இலங்கை|சிங்கப்பூர்|భారత్|ಭಾರತ|ഭാരതം|ලංකා|คอม|ไทย|ລາວ|გე|みんな|アマゾン|クラウド|グーグル|コム|ストア|セール|ファッション|ポイント|世界|中信|中国|中國|中文网|亚马逊|企业|佛山|信息|健康|八卦|公司|公益|台湾|台灣|商城|商店|商标|嘉里|嘉里大酒店|在线|大拿|天主教|娱乐|家電|广东|微博|慈善|我爱你|手机|招聘|政务|政府|新加坡|新闻|时尚|書籍|机构|淡马锡|游戏|澳門|点看|移动|组织机构|网址|网店|网站|网络|联通|谷歌|购物|通販|集团|電訊盈科|飞利浦|食品|餐厅|香格里拉|香港|닷넷|닷컴|삼성|한국|xbox|xerox|xfinity|xihuan|xin|xn\-\-11b4c3d|xn\-\-1ck2e1b|xn\-\-1qqw23a|xn\-\-2scrj9c|xn\-\-30rr7y|xn\-\-3bst00m|xn\-\-3ds443g|xn\-\-3e0b707e|xn\-\-3hcrj9c|xn\-\-3pxu8k|xn\-\-42c2d9a|xn\-\-45br5cyl|xn\-\-45brj9c|xn\-\-45q11c|xn\-\-4dbrk0ce|xn\-\-4gbrim|xn\-\-54b7fta0cc|xn\-\-55qw42g|xn\-\-55qx5d|xn\-\-5su34j936bgsg|xn\-\-5tzm5g|xn\-\-6frz82g|xn\-\-6qq986b3xl|xn\-\-80adxhks|xn\-\-80ao21a|xn\-\-80aqecdr1a|xn\-\-80asehdb|xn\-\-80aswg|xn\-\-8y0a063a|xn\-\-90a3ac|xn\-\-90ae|xn\-\-90ais|xn\-\-9dbq2a|xn\-\-9et52u|xn\-\-9krt00a|xn\-\-b4w605ferd|xn\-\-bck1b9a5dre4c|xn\-\-c1avg|xn\-\-c2br7g|xn\-\-cck2b3b|xn\-\-cckwcxetd|xn\-\-cg4bki|xn\-\-clchc0ea0b2g2a9gcd|xn\-\-czr694b|xn\-\-czrs0t|xn\-\-czru2d|xn\-\-d1acj3b|xn\-\-d1alf|xn\-\-e1a4c|xn\-\-eckvdtc9d|xn\-\-efvy88h|xn\-\-fct429k|xn\-\-fhbei|xn\-\-fiq228c5hs|xn\-\-fiq64b|xn\-\-fiqs8s|xn\-\-fiqz9s|xn\-\-fjq720a|xn\-\-flw351e|xn\-\-fpcrj9c3d|xn\-\-fzc2c9e2c|xn\-\-fzys8d69uvgm|xn\-\-g2xx48c|xn\-\-gckr3f0f|xn\-\-gecrj9c|xn\-\-gk3at1e|xn\-\-h2breg3eve|xn\-\-h2brj9c|xn\-\-h2brj9c8c|xn\-\-hxt814e|xn\-\-i1b6b1a6a2e|xn\-\-imr513n|xn\-\-io0a7i|xn\-\-j1aef|xn\-\-j1amh|xn\-\-j6w193g|xn\-\-jlq480n2rg|xn\-\-jvr189m|xn\-\-kcrx77d1x4a|xn\-\-kprw13d|xn\-\-kpry57d|xn\-\-kput3i|xn\-\-l1acc|xn\-\-lgbbat1ad8j|xn\-\-mgb9awbf|xn\-\-mgba3a3ejt|xn\-\-mgba3a4f16a|xn\-\-mgba7c0bbn0a|xn\-\-mgbaakc7dvf|xn\-\-mgbaam7a8h|xn\-\-mgbab2bd|xn\-\-mgbah1a3hjkrd|xn\-\-mgbai9azgqp6j|xn\-\-mgbayh7gpa|xn\-\-mgbbh1a|xn\-\-mgbbh1a71e|xn\-\-mgbc0a9azcg|xn\-\-mgbca7dzdo|xn\-\-mgbcpq6gpa1a|xn\-\-mgberp4a5d4ar|xn\-\-mgbgu82a|xn\-\-mgbi4ecexp|xn\-\-mgbpl2fh|xn\-\-mgbt3dhd|xn\-\-mgbtx2b|xn\-\-mgbx4cd0ab|xn\-\-mix891f|xn\-\-mk1bu44c|xn\-\-mxtq1m|xn\-\-ngbc5azd|xn\-\-ngbe9e0a|xn\-\-ngbrx|xn\-\-node|xn\-\-nqv7f|xn\-\-nqv7fs00ema|xn\-\-nyqy26a|xn\-\-o3cw4h|xn\-\-ogbpf8fl|xn\-\-otu796d|xn\-\-p1acf|xn\-\-p1ai|xn\-\-pgbs0dh|xn\-\-pssy2u|xn\-\-q7ce6a|xn\-\-q9jyb4c|xn\-\-qcka1pmc|xn\-\-qxa6a|xn\-\-qxam|xn\-\-rhqv96g|xn\-\-rovu88b|xn\-\-rvc1e0am3e|xn\-\-s9brj9c|xn\-\-ses554g|xn\-\-t60b56a|xn\-\-tckwe|xn\-\-tiq49xqyj|xn\-\-unup4y|xn\-\-vermgensberater\-ctb|xn\-\-vermgensberatung\-pwb|xn\-\-vhquv|xn\-\-vuq861b|xn\-\-w4r85el8fhu5dnra|xn\-\-w4rs40l|xn\-\-wgbh1c|xn\-\-wgbl6a|xn\-\-xhq521b|xn\-\-xkc2al3hye2a|xn\-\-xkc2dl3a5ee0h|xn\-\-y9a3aq|xn\-\-yfro4i67o|xn\-\-ygbi2ammx|xn\-\-zfr164b|xxx|xyz)|(?:yachts|yahoo|yamaxun|yandex|yodobashi|yoga|yokohama|you|youtube|yun|y[et])|(?:zappos|zara|zero|zip|zone|zuerich|z[amw]))|xn\-\-[\w\-]{0,58}\w))|
+(?:(?:(?:aaa|aarp|abb|abbott|abbvie|abc|able|abogado|abudhabi|academy|accenture|accountant|accountants|aco|actor|ads|adult|aeg|aero|aetna|afl|africa|agakhan|agency|aig|airbus|airforce|airtel|akdn|alibaba|alipay|allfinanz|allstate|ally|alsace|alstom|amazon|americanexpress|americanfamily|amex|amfam|amica|amsterdam|analytics|android|anquan|anz|aol|apartments|app|apple|aquarelle|arab|aramco|archi|army|arpa|art|arte|asda|asia|associates|athleta|attorney|auction|audi|audible|audio|auspost|author|auto|autos|avianca|aws|axa|azure|a[cdefgilmoqrstuwxz])|(?:baby|baidu|banamex|bananarepublic|band|bank|bar|barcelona|barclaycard|barclays|barefoot|bargains|baseball|basketball|bauhaus|bayern|bbc|bbt|bbva|bcg|bcn|beats|beauty|beer|bentley|berlin|best|bestbuy|bet|bharti|bible|bid|bike|bing|bingo|bio|biz|black|blackfriday|blockbuster|blog|bloomberg|blue|bms|bmw|bnpparibas|boats|boehringer|bofa|bom|bond|boo|book|booking|bosch|bostik|boston|bot|boutique|box|bradesco|bridgestone|broadway|broker|brother|brussels|build|builders|business|buy|buzz|bzh|b[abdefghijmnorstvwyz])|(?:cab|cafe|cal|call|calvinklein|cam|camera|camp|canon|capetown|capital|capitalone|car|caravan|cards|care|career|careers|cars|casa|case|cash|casino|cat|catering|catholic|cba|cbn|cbre|cbs|center|ceo|cern|cfa|cfd|chanel|channel|charity|chase|chat|cheap|chintai|christmas|chrome|church|cipriani|circle|cisco|citadel|citi|citic|city|cityeats|claims|cleaning|click|clinic|clinique|clothing|cloud|club|clubmed|coach|codes|coffee|college|cologne|com|comcast|commbank|community|company|compare|computer|comsec|condos|construction|consulting|contact|contractors|cooking|cool|coop|corsica|country|coupon|coupons|courses|cpa|credit|creditcard|creditunion|cricket|crown|crs|cruise|cruises|cuisinella|cymru|cyou|c[acdfghiklmnoruvwxyz])|(?:dabur|dad|dance|data|date|dating|datsun|day|dclk|dds|deal|dealer|deals|degree|delivery|dell|deloitte|delta|democrat|dental|dentist|desi|design|dev|dhl|diamonds|diet|digital|direct|directory|discount|discover|dish|diy|dnp|docs|doctor|dog|domains|dot|download|drive|dtv|dubai|dunlop|dupont|durban|dvag|dvr|d[ejkmoz])|(?:earth|eat|eco|edeka|edu|education|email|emerck|energy|engineer|engineering|enterprises|epson|equipment|ericsson|erni|esq|estate|etisalat|eurovision|eus|events|exchange|expert|exposed|express|extraspace|e[cegrstu])|(?:fage|fail|fairwinds|faith|family|fan|fans|farm|farmers|fashion|fast|fedex|feedback|ferrari|ferrero|fidelity|fido|film|final|finance|financial|fire|firestone|firmdale|fish|fishing|fit|fitness|flickr|flights|flir|florist|flowers|fly|foo|food|football|ford|forex|forsale|forum|foundation|fox|free|fresenius|frl|frogans|frontdoor|frontier|ftr|fujitsu|fun|fund|furniture|futbol|fyi|f[ijkmor])|(?:gal|gallery|gallo|gallup|game|games|gap|garden|gay|gbiz|gdn|gea|gent|genting|george|ggee|gift|gifts|gives|giving|glass|gle|global|globo|gmail|gmbh|gmo|gmx|godaddy|gold|goldpoint|golf|goo|goodyear|goog|google|gop|got|gov|grainger|graphics|gratis|green|gripe|grocery|group|guardian|gucci|guge|guide|guitars|guru|g[abdefghilmnpqrstuwy])|(?:hair|hamburg|hangout|haus|hbo|hdfc|hdfcbank|health|healthcare|help|helsinki|here|hermes|hiphop|hisamitsu|hitachi|hiv|hkt|hockey|holdings|holiday|homedepot|homegoods|homes|homesense|honda|horse|hospital|host|hosting|hot|hotels|hotmail|house|how|hsbc|hughes|hyatt|hyundai|h[kmnrtu])|(?:ibm|icbc|ice|icu|ieee|ifm|ikano|imamat|imdb|immo|immobilien|inc|industries|infiniti|info|ing|ink|institute|insurance|insure|int|international|intuit|investments|ipiranga|irish|ismaili|ist|istanbul|itau|itv|i[delmnoqrst])|(?:jaguar|java|jcb|jeep|jetzt|jewelry|jio|jll|jmp|jnj|jobs|joburg|jot|joy|jpmorgan|jprs|juegos|juniper|j[emop])|(?:kaufen|kddi|kerryhotels|kerrylogistics|kerryproperties|kfh|kia|kids|kim|kinder|kindle|kitchen|kiwi|koeln|komatsu|kosher|kpmg|kpn|krd|kred|kuokgroup|kyoto|k[eghimnprwyz])|(?:lacaixa|lamborghini|lamer|lancaster|land|landrover|lanxess|lasalle|lat|latino|latrobe|law|lawyer|lds|lease|leclerc|lefrak|legal|lego|lexus|lgbt|lidl|life|lifeinsurance|lifestyle|lighting|like|lilly|limited|limo|lincoln|link|lipsy|live|living|llc|llp|loan|loans|locker|locus|lol|london|lotte|lotto|love|lpl|lplfinancial|ltd|ltda|lundbeck|luxe|luxury|l[abcikrstuvy])|(?:madrid|maif|maison|makeup|man|management|mango|map|market|marketing|markets|marriott|marshalls|mattel|mba|mckinsey|med|media|meet|melbourne|meme|memorial|men|menu|merckmsd|miami|microsoft|mil|mini|mint|mit|mitsubishi|mlb|mls|mma|mobi|mobile|moda|moe|moi|mom|monash|money|monster|mormon|mortgage|moscow|moto|motorcycles|mov|movie|msd|mtn|mtr|museum|music|m[acdeghklmnopqrstuvwxyz])|(?:nab|nagoya|name|natura|navy|nba|nec|net|netbank|netflix|network|neustar|new|news|next|nextdirect|nexus|nfl|ngo|nhk|nico|nike|nikon|ninja|nissan|nissay|nokia|norton|now|nowruz|nowtv|nra|nrw|ntt|nyc|n[acefgilopruz])|(?:obi|observer|office|okinawa|olayan|olayangroup|oldnavy|ollo|omega|one|ong|onl|online|ooo|open|oracle|orange|org|organic|origins|osaka|otsuka|ott|ovh|om)|(?:page|panasonic|paris|pars|partners|parts|party|pay|pccw|pet|pfizer|pharmacy|phd|philips|phone|photo|photography|photos|physio|pics|pictet|pictures|pid|pin|ping|pink|pioneer|pizza|place|play|playstation|plumbing|plus|pnc|pohl|poker|politie|porn|post|pramerica|praxi|press|prime|pro|prod|productions|prof|progressive|promo|properties|property|protection|pru|prudential|pub|pwc|p[aefghklmnrstwy])|(?:qpon|quebec|quest|qa)|(?:racing|radio|read|realestate|realtor|realty|recipes|red|redstone|redumbrella|rehab|reise|reisen|reit|reliance|ren|rent|rentals|repair|report|republican|rest|restaurant|review|reviews|rexroth|rich|richardli|ricoh|ril|rio|rip|rocher|rocks|rodeo|rogers|room|rsvp|rugby|ruhr|run|rwe|ryukyu|r[eosuw])|(?:saarland|safe|safety|sakura|sale|salon|samsclub|samsung|sandvik|sandvikcoromant|sanofi|sap|sarl|sas|save|saxo|sbi|sbs|sca|scb|schaeffler|schmidt|scholarships|school|schule|schwarz|science|scot|search|seat|secure|security|seek|select|sener|services|seven|sew|sex|sexy|sfr|shangrila|sharp|shaw|shell|shia|shiksha|shoes|shop|shopping|shouji|show|showtime|silk|sina|singles|site|ski|skin|sky|skype|sling|smart|smile|sncf|soccer|social|softbank|software|sohu|solar|solutions|song|sony|soy|spa|space|sport|spot|srl|stada|staples|star|statebank|statefarm|stc|stcgroup|stockholm|storage|store|stream|studio|study|style|sucks|supplies|supply|support|surf|surgery|suzuki|swatch|swiss|sydney|systems|s[abcdeghijklmnorstuvxyz])|(?:tab|taipei|talk|taobao|target|tatamotors|tatar|tattoo|tax|taxi|tci|tdk|team|tech|technology|tel|temasek|tennis|teva|thd|theater|theatre|tiaa|tickets|tienda|tips|tires|tirol|tjmaxx|tjx|tkmaxx|tmall|today|tokyo|tools|top|toray|toshiba|total|tours|town|toyota|toys|trade|trading|training|travel|travelers|travelersinsurance|trust|trv|tube|tui|tunes|tushu|tvs|t[cdfghjklmnortvwz])|(?:ubank|ubs|unicom|university|uno|uol|ups|u[agksyz])|(?:vacations|vana|vanguard|vegas|ventures|verisign|versicherung|vet|viajes|video|vig|viking|villas|vin|vip|virgin|visa|vision|viva|vivo|vlaanderen|vodka|volkswagen|volvo|vote|voting|voto|voyage|v[aceginu])|(?:wales|walmart|walter|wang|wanggou|watch|watches|weather|weatherchannel|webcam|weber|website|wed|wedding|weibo|weir|whoswho|wien|wiki|williamhill|win|windows|wine|winners|wme|wolterskluwer|woodside|work|works|world|wow|wtc|wtf|w[fs])|(?:ελ|ευ|бг|бел|дети|ею|католик|ком|мкд|мон|москва|онлайн|орг|рус|рф|сайт|срб|укр|қаз|հայ|ישראל|קום|ابوظبي|اتصالات|ارامكو|الاردن|البحرين|الجزائر|السعودية|العليان|المغرب|امارات|ایران|بارت|بازار|بيتك|بھارت|تونس|سودان|سورية|شبكة|عراق|عرب|عمان|فلسطين|قطر|كاثوليك|كوم|مصر|مليسيا|موريتانيا|موقع|همراه|پاکستان|ڀارت|कॉम|नेट|भारत|भारतम्|भारोत|संगठन|বাংলা|ভারত|ভাৰত|ਭਾਰਤ|ભારત|ଭାରତ|இந்தியா|இலங்கை|சிங்கப்பூர்|భారత్|ಭಾರತ|ഭാരതം|ලංකා|คอม|ไทย|ລາວ|გე|みんな|アマゾン|クラウド|グーグル|コム|ストア|セール|ファッション|ポイント|世界|中信|中国|中國|中文网|亚马逊|企业|佛山|信息|健康|八卦|公司|公益|台湾|台灣|商城|商店|商标|嘉里|嘉里大酒店|在线|大拿|天主教|娱乐|家電|广东|微博|慈善|我爱你|手机|招聘|政务|政府|新加坡|新闻|时尚|書籍|机构|淡马锡|游戏|澳門|点看|移动|组织机构|网址|网店|网站|网络|联通|谷歌|购物|通販|集团|電訊盈科|飞利浦|食品|餐厅|香格里拉|香港|닷넷|닷컴|삼성|한국|xbox|xerox|xfinity|xihuan|xin|xn\-\-11b4c3d|xn\-\-1ck2e1b|xn\-\-1qqw23a|xn\-\-2scrj9c|xn\-\-30rr7y|xn\-\-3bst00m|xn\-\-3ds443g|xn\-\-3e0b707e|xn\-\-3hcrj9c|xn\-\-3pxu8k|xn\-\-42c2d9a|xn\-\-45br5cyl|xn\-\-45brj9c|xn\-\-45q11c|xn\-\-4dbrk0ce|xn\-\-4gbrim|xn\-\-54b7fta0cc|xn\-\-55qw42g|xn\-\-55qx5d|xn\-\-5su34j936bgsg|xn\-\-5tzm5g|xn\-\-6frz82g|xn\-\-6qq986b3xl|xn\-\-80adxhks|xn\-\-80ao21a|xn\-\-80aqecdr1a|xn\-\-80asehdb|xn\-\-80aswg|xn\-\-8y0a063a|xn\-\-90a3ac|xn\-\-90ae|xn\-\-90ais|xn\-\-9dbq2a|xn\-\-9et52u|xn\-\-9krt00a|xn\-\-b4w605ferd|xn\-\-bck1b9a5dre4c|xn\-\-c1avg|xn\-\-c2br7g|xn\-\-cck2b3b|xn\-\-cckwcxetd|xn\-\-cg4bki|xn\-\-clchc0ea0b2g2a9gcd|xn\-\-czr694b|xn\-\-czrs0t|xn\-\-czru2d|xn\-\-d1acj3b|xn\-\-d1alf|xn\-\-e1a4c|xn\-\-eckvdtc9d|xn\-\-efvy88h|xn\-\-fct429k|xn\-\-fhbei|xn\-\-fiq228c5hs|xn\-\-fiq64b|xn\-\-fiqs8s|xn\-\-fiqz9s|xn\-\-fjq720a|xn\-\-flw351e|xn\-\-fpcrj9c3d|xn\-\-fzc2c9e2c|xn\-\-fzys8d69uvgm|xn\-\-g2xx48c|xn\-\-gckr3f0f|xn\-\-gecrj9c|xn\-\-gk3at1e|xn\-\-h2breg3eve|xn\-\-h2brj9c|xn\-\-h2brj9c8c|xn\-\-hxt814e|xn\-\-i1b6b1a6a2e|xn\-\-imr513n|xn\-\-io0a7i|xn\-\-j1aef|xn\-\-j1amh|xn\-\-j6w193g|xn\-\-jlq480n2rg|xn\-\-jvr189m|xn\-\-kcrx77d1x4a|xn\-\-kprw13d|xn\-\-kpry57d|xn\-\-kput3i|xn\-\-l1acc|xn\-\-lgbbat1ad8j|xn\-\-mgb9awbf|xn\-\-mgba3a3ejt|xn\-\-mgba3a4f16a|xn\-\-mgba7c0bbn0a|xn\-\-mgbaakc7dvf|xn\-\-mgbaam7a8h|xn\-\-mgbab2bd|xn\-\-mgbah1a3hjkrd|xn\-\-mgbai9azgqp6j|xn\-\-mgbayh7gpa|xn\-\-mgbbh1a|xn\-\-mgbbh1a71e|xn\-\-mgbc0a9azcg|xn\-\-mgbca7dzdo|xn\-\-mgbcpq6gpa1a|xn\-\-mgberp4a5d4ar|xn\-\-mgbgu82a|xn\-\-mgbi4ecexp|xn\-\-mgbpl2fh|xn\-\-mgbt3dhd|xn\-\-mgbtx2b|xn\-\-mgbx4cd0ab|xn\-\-mix891f|xn\-\-mk1bu44c|xn\-\-mxtq1m|xn\-\-ngbc5azd|xn\-\-ngbe9e0a|xn\-\-ngbrx|xn\-\-node|xn\-\-nqv7f|xn\-\-nqv7fs00ema|xn\-\-nyqy26a|xn\-\-o3cw4h|xn\-\-ogbpf8fl|xn\-\-otu796d|xn\-\-p1acf|xn\-\-p1ai|xn\-\-pgbs0dh|xn\-\-pssy2u|xn\-\-q7ce6a|xn\-\-q9jyb4c|xn\-\-qcka1pmc|xn\-\-qxa6a|xn\-\-qxam|xn\-\-rhqv96g|xn\-\-rovu88b|xn\-\-rvc1e0am3e|xn\-\-s9brj9c|xn\-\-ses554g|xn\-\-t60b56a|xn\-\-tckwe|xn\-\-tiq49xqyj|xn\-\-unup4y|xn\-\-vermgensberater\-ctb|xn\-\-vermgensberatung\-pwb|xn\-\-vhquv|xn\-\-vuq861b|xn\-\-w4r85el8fhu5dnra|xn\-\-w4rs40l|xn\-\-wgbh1c|xn\-\-wgbl6a|xn\-\-xhq521b|xn\-\-xkc2al3hye2a|xn\-\-xkc2dl3a5ee0h|xn\-\-y9a3aq|xn\-\-yfro4i67o|xn\-\-ygbi2ammx|xn\-\-zfr164b|xxx|xyz)|(?:yachts|yahoo|yamaxun|yandex|yodobashi|yoga|yokohama|you|youtube|yun|y[et])|(?:zappos|zara|zero|zip|zone|zuerich|z[amw]))|xn\-\-[\w\-]{0,58}\w)
+(?:(?:[a-zA-Z0-9[ -퟿豈-﷏ﷰ-￯������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������&&[^ [ - ]   　]]](?:[a-zA-Z0-9[ -퟿豈-﷏ﷰ-￯������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������&&[^ [ - ]   　]]_\-]{0,61}[a-zA-Z0-9[ -퟿豈-﷏ﷰ-￯������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������������-������&&[^ [ - ]   　]]]){0,1}\.)+(?:(?:(?:aaa|aarp|abb|abbott|abbvie|abc|able|abogado|abudhabi|academy|accenture|accountant|accountants|aco|actor|ads|adult|aeg|aero|aetna|afl|africa|agakhan|agency|aig|airbus|airforce|airtel|akdn|alibaba|alipay|allfinanz|allstate|ally|alsace|alstom|amazon|americanexpress|americanfamily|amex|amfam|amica|amsterdam|analytics|android|anquan|anz|aol|apartments|app|apple|aquarelle|arab|aramco|archi|army|arpa|art|arte|asda|asia|associates|athleta|attorney|auction|audi|audible|audio|auspost|author|auto|autos|avianca|aws|axa|azure|a[cdefgilmoqrstuwxz])|(?:baby|baidu|banamex|bananarepublic|band|bank|bar|barcelona|barclaycard|barclays|barefoot|bargains|baseball|basketball|bauhaus|bayern|bbc|bbt|bbva|bcg|bcn|beats|beauty|beer|bentley|berlin|best|bestbuy|bet|bharti|bible|bid|bike|bing|bingo|bio|biz|black|blackfriday|blockbuster|blog|bloomberg|blue|bms|bmw|bnpparibas|boats|boehringer|bofa|bom|bond|boo|book|booking|bosch|bostik|boston|bot|boutique|box|bradesco|bridgestone|broadway|broker|brother|brussels|build|builders|business|buy|buzz|bzh|b[abdefghijmnorstvwyz])|(?:cab|cafe|cal|call|calvinklein|cam|camera|camp|canon|capetown|capital|capitalone|car|caravan|cards|care|career|careers|cars|casa|case|cash|casino|cat|catering|catholic|cba|cbn|cbre|cbs|center|ceo|cern|cfa|cfd|chanel|channel|charity|chase|chat|cheap|chintai|christmas|chrome|church|cipriani|circle|cisco|citadel|citi|citic|city|cityeats|claims|cleaning|click|clinic|clinique|clothing|cloud|club|clubmed|coach|codes|coffee|college|cologne|com|comcast|commbank|community|company|compare|computer|comsec|condos|construction|consulting|contact|contractors|cooking|cool|coop|corsica|country|coupon|coupons|courses|cpa|credit|creditcard|creditunion|cricket|crown|crs|cruise|cruises|cuisinella|cymru|cyou|c[acdfghiklmnoruvwxyz])|(?:dabur|dad|dance|data|date|dating|datsun|day|dclk|dds|deal|dealer|deals|degree|delivery|dell|deloitte|delta|democrat|dental|dentist|desi|design|dev|dhl|diamonds|diet|digital|direct|directory|discount|discover|dish|diy|dnp|docs|doctor|dog|domains|dot|download|drive|dtv|dubai|dunlop|dupont|durban|dvag|dvr|d[ejkmoz])|(?:earth|eat|eco|edeka|edu|education|email|emerck|energy|engineer|engineering|enterprises|epson|equipment|ericsson|erni|esq|estate|etisalat|eurovision|eus|events|exchange|expert|exposed|express|extraspace|e[cegrstu])|(?:fage|fail|fairwinds|faith|family|fan|fans|farm|farmers|fashion|fast|fedex|feedback|ferrari|ferrero|fidelity|fido|film|final|finance|financial|fire|firestone|firmdale|fish|fishing|fit|fitness|flickr|flights|flir|florist|flowers|fly|foo|food|football|ford|forex|forsale|forum|foundation|fox|free|fresenius|frl|frogans|frontdoor|frontier|ftr|fujitsu|fun|fund|furniture|futbol|fyi|f[ijkmor])|(?:gal|gallery|gallo|gallup|game|games|gap|garden|gay|gbiz|gdn|gea|gent|genting|george|ggee|gift|gifts|gives|giving|glass|gle|global|globo|gmail|gmbh|gmo|gmx|godaddy|gold|goldpoint|golf|goo|goodyear|goog|google|gop|got|gov|grainger|graphics|gratis|green|gripe|grocery|group|guardian|gucci|guge|guide|guitars|guru|g[abdefghilmnpqrstuwy])|(?:hair|hamburg|hangout|haus|hbo|hdfc|hdfcbank|health|healthcare|help|helsinki|here|hermes|hiphop|hisamitsu|hitachi|hiv|hkt|hockey|holdings|holiday|homedepot|homegoods|homes|homesense|honda|horse|hospital|host|hosting|hot|hotels|hotmail|house|how|hsbc|hughes|hyatt|hyundai|h[kmnrtu])|(?:ibm|icbc|ice|icu|ieee|ifm|ikano|imamat|imdb|immo|immobilien|inc|industries|infiniti|info|ing|ink|institute|insurance|insure|int|international|intuit|investments|ipiranga|irish|ismaili|ist|istanbul|itau|itv|i[delmnoqrst])|(?:jaguar|java|jcb|jeep|jetzt|jewelry|jio|jll|jmp|jnj|jobs|joburg|jot|joy|jpmorgan|jprs|juegos|juniper|j[emop])|(?:kaufen|kddi|kerryhotels|kerrylogistics|kerryproperties|kfh|kia|kids|kim|kinder|kindle|kitchen|kiwi|koeln|komatsu|kosher|kpmg|kpn|krd|kred|kuokgroup|kyoto|k[eghimnprwyz])|(?:lacaixa|lamborghini|lamer|lancaster|land|landrover|lanxess|lasalle|lat|latino|latrobe|law|lawyer|lds|lease|leclerc|lefrak|legal|lego|lexus|lgbt|lidl|life|lifeinsurance|lifestyle|lighting|like|lilly|limited|limo|lincoln|link|lipsy|live|living|llc|llp|loan|loans|locker|locus|lol|london|lotte|lotto|love|lpl|lplfinancial|ltd|ltda|lundbeck|luxe|luxury|l[abcikrstuvy])|(?:madrid|maif|maison|makeup|man|management|mango|map|market|marketing|markets|marriott|marshalls|mattel|mba|mckinsey|med|media|meet|melbourne|meme|memorial|men|menu|merckmsd|miami|microsoft|mil|mini|mint|mit|mitsubishi|mlb|mls|mma|mobi|mobile|moda|moe|moi|mom|monash|money|monster|mormon|mortgage|moscow|moto|motorcycles|mov|movie|msd|mtn|mtr|museum|music|m[acdeghklmnopqrstuvwxyz])|(?:nab|nagoya|name|natura|navy|nba|nec|net|netbank|netflix|network|neustar|new|news|next|nextdirect|nexus|nfl|ngo|nhk|nico|nike|nikon|ninja|nissan|nissay|nokia|norton|now|nowruz|nowtv|nra|nrw|ntt|nyc|n[acefgilopruz])|(?:obi|observer|office|okinawa|olayan|olayangroup|oldnavy|ollo|omega|one|ong|onl|online|ooo|open|oracle|orange|org|organic|origins|osaka|otsuka|ott|ovh|om)|(?:page|panasonic|paris|pars|partners|parts|party|pay|pccw|pet|pfizer|pharmacy|phd|philips|phone|photo|photography|photos|physio|pics|pictet|pictures|pid|pin|ping|pink|pioneer|pizza|place|play|playstation|plumbing|plus|pnc|pohl|poker|politie|porn|post|pramerica|praxi|press|prime|pro|prod|productions|prof|progressive|promo|properties|property|protection|pru|prudential|pub|pwc|p[aefghklmnrstwy])|(?:qpon|quebec|quest|qa)|(?:racing|radio|read|realestate|realtor|realty|recipes|red|redstone|redumbrella|rehab|reise|reisen|reit|reliance|ren|rent|rentals|repair|report|republican|rest|restaurant|review|reviews|rexroth|rich|richardli|ricoh|ril|rio|rip|rocher|rocks|rodeo|rogers|room|rsvp|rugby|ruhr|run|rwe|ryukyu|r[eosuw])|(?:saarland|safe|safety|sakura|sale|salon|samsclub|samsung|sandvik|sandvikcoromant|sanofi|sap|sarl|sas|save|saxo|sbi|sbs|sca|scb|schaeffler|schmidt|scholarships|school|schule|schwarz|science|scot|search|seat|secure|security|seek|select|sener|services|seven|sew|sex|sexy|sfr|shangrila|sharp|shaw|shell|shia|shiksha|shoes|shop|shopping|shouji|show|showtime|silk|sina|singles|site|ski|skin|sky|skype|sling|smart|smile|sncf|soccer|social|softbank|software|sohu|solar|solutions|song|sony|soy|spa|space|sport|spot|srl|stada|staples|star|statebank|statefarm|stc|stcgroup|stockholm|storage|store|stream|studio|study|style|sucks|supplies|supply|support|surf|surgery|suzuki|swatch|swiss|sydney|systems|s[abcdeghijklmnorstuvxyz])|(?:tab|taipei|talk|taobao|target|tatamotors|tatar|tattoo|tax|taxi|tci|tdk|team|tech|technology|tel|temasek|tennis|teva|thd|theater|theatre|tiaa|tickets|tienda|tips|tires|tirol|tjmaxx|tjx|tkmaxx|tmall|today|tokyo|tools|top|toray|toshiba|total|tours|town|toyota|toys|trade|trading|training|travel|travelers|travelersinsurance|trust|trv|tube|tui|tunes|tushu|tvs|t[cdfghjklmnortvwz])|(?:ubank|ubs|unicom|university|uno|uol|ups|u[agksyz])|(?:vacations|vana|vanguard|vegas|ventures|verisign|versicherung|vet|viajes|video|vig|viking|villas|vin|vip|virgin|visa|vision|viva|vivo|vlaanderen|vodka|volkswagen|volvo|vote|voting|voto|voyage|v[aceginu])|(?:wales|walmart|walter|wang|wanggou|watch|watches|weather|weatherchannel|webcam|weber|website|wed|wedding|weibo|weir|whoswho|wien|wiki|williamhill|win|windows|wine|winners|wme|wolterskluwer|woodside|work|works|world|wow|wtc|wtf|w[fs])|(?:ελ|ευ|бг|бел|дети|ею|католик|ком|мкд|мон|москва|онлайн|орг|рус|рф|сайт|срб|укр|қаз|հայ|ישראל|קום|ابوظبي|اتصالات|ارامكو|الاردن|البحرين|الجزائر|السعودية|العليان|المغرب|امارات|ایران|بارت|بازار|بيتك|بھارت|تونس|سودان|سورية|شبكة|عراق|عرب|عمان|فلسطين|قطر|كاثوليك|كوم|مصر|مليسيا|موريتانيا|موقع|همراه|پاکستان|ڀارت|कॉम|नेट|भारत|भारतम्|भारोत|संगठन|বাংলা|ভারত|ভাৰত|ਭਾਰਤ|ભારત|ଭାରତ|இந்தியா|இலங்கை|சிங்கப்பூர்|భారత్|ಭಾರತ|ഭാരതം|ලංකා|คอม|ไทย|ລາວ|გე|みんな|アマゾン|クラウド|グーグル|コム|ストア|セール|ファッション|ポイント|世界|中信|中国|中國|中文网|亚马逊|企业|佛山|信息|健康|八卦|公司|公益|台湾|台灣|商城|商店|商标|嘉里|嘉里大酒店|在线|大拿|天主教|娱乐|家電|广东|微博|慈善|我爱你|手机|招聘|政务|政府|新加坡|新闻|时尚|書籍|机构|淡马锡|游戏|澳門|点看|移动|组织机构|网址|网店|网站|网络|联通|谷歌|购物|通販|集团|電訊盈科|飞利浦|食品|餐厅|香格里拉|香港|닷넷|닷컴|삼성|한국|xbox|xerox|xfinity|xihuan|xin|xn\-\-11b4c3d|xn\-\-1ck2e1b|xn\-\-1qqw23a|xn\-\-2scrj9c|xn\-\-30rr7y|xn\-\-3bst00m|xn\-\-3ds443g|xn\-\-3e0b707e|xn\-\-3hcrj9c|xn\-\-3pxu8k|xn\-\-42c2d9a|xn\-\-45br5cyl|xn\-\-45brj9c|xn\-\-45q11c|xn\-\-4dbrk0ce|xn\-\-4gbrim|xn\-\-54b7fta0cc|xn\-\-55qw42g|xn\-\-55qx5d|xn\-\-5su34j936bgsg|xn\-\-5tzm5g|xn\-\-6frz82g|xn\-\-6qq986b3xl|xn\-\-80adxhks|xn\-\-80ao21a|xn\-\-80aqecdr1a|xn\-\-80asehdb|xn\-\-80aswg|xn\-\-8y0a063a|xn\-\-90a3ac|xn\-\-90ae|xn\-\-90ais|xn\-\-9dbq2a|xn\-\-9et52u|xn\-\-9krt00a|xn\-\-b4w605ferd|xn\-\-bck1b9a5dre4c|xn\-\-c1avg|xn\-\-c2br7g|xn\-\-cck2b3b|xn\-\-cckwcxetd|xn\-\-cg4bki|xn\-\-clchc0ea0b2g2a9gcd|xn\-\-czr694b|xn\-\-czrs0t|xn\-\-czru2d|xn\-\-d1acj3b|xn\-\-d1alf|xn\-\-e1a4c|xn\-\-eckvdtc9d|xn\-\-efvy88h|xn\-\-fct429k|xn\-\-fhbei|xn\-\-fiq228c5hs|xn\-\-fiq64b|xn\-\-fiqs8s|xn\-\-fiqz9s|xn\-\-fjq720a|xn\-\-flw351e|xn\-\-fpcrj9c3d|xn\-\-fzc2c9e2c|xn\-\-fzys8d69uvgm|xn\-\-g2xx48c|xn\-\-gckr3f0f|xn\-\-gecrj9c|xn\-\-gk3at1e|xn\-\-h2breg3eve|xn\-\-h2brj9c|xn\-\-h2brj9c8c|xn\-\-hxt814e|xn\-\-i1b6b1a6a2e|xn\-\-imr513n|xn\-\-io0a7i|xn\-\-j1aef|xn\-\-j1amh|xn\-\-j6w193g|xn\-\-jlq480n2rg|xn\-\-jvr189m|xn\-\-kcrx77d1x4a|xn\-\-kprw13d|xn\-\-kpry57d|xn\-\-kput3i|xn\-\-l1acc|xn\-\-lgbbat1ad8j|xn\-\-mgb9awbf|xn\-\-mgba3a3ejt|xn\-\-mgba3a4f16a|xn\-\-mgba7c0bbn0a|xn\-\-mgbaakc7dvf|xn\-\-mgbaam7a8h|xn\-\-mgbab2bd|xn\-\-mgbah1a3hjkrd|xn\-\-mgbai9azgqp6j|xn\-\-mgbayh7gpa|xn\-\-mgbbh1a|xn\-\-mgbbh1a71e|xn\-\-mgbc0a9azcg|xn\-\-mgbca7dzdo|xn\-\-mgbcpq6gpa1a|xn\-\-mgberp4a5d4ar|xn\-\-mgbgu82a|xn\-\-mgbi4ecexp|xn\-\-mgbpl2fh|xn\-\-mgbt3dhd|xn\-\-mgbtx2b|xn\-\-mgbx4cd0ab|xn\-\-mix891f|xn\-\-mk1bu44c|xn\-\-mxtq1m|xn\-\-ngbc5azd|xn\-\-ngbe9e0a|xn\-\-ngbrx|xn\-\-node|xn\-\-nqv7f|xn\-\-nqv7fs00ema|xn\-\-nyqy26a|xn\-\-o3cw4h|xn\-\-ogbpf8fl|xn\-\-otu796d|xn\-\-p1acf|xn\-\-p1ai|xn\-\-pgbs0dh|xn\-\-pssy2u|xn\-\-q7ce6a|xn\-\-q9jyb4c|xn\-\-qcka1pmc|xn\-\-qxa6a|xn\-\-qxam|xn\-\-rhqv96g|xn\-\-rovu88b|xn\-\-rvc1e0am3e|xn\-\-s9brj9c|xn\-\-ses554g|xn\-\-t60b56a|xn\-\-tckwe|xn\-\-tiq49xqyj|xn\-\-unup4y|xn\-\-vermgensberater\-ctb|xn\-\-vermgensberatung\-pwb|xn\-\-vhquv|xn\-\-vuq861b|xn\-\-w4r85el8fhu5dnra|xn\-\-w4rs40l|xn\-\-wgbh1c|xn\-\-wgbl6a|xn\-\-xhq521b|xn\-\-xkc2al3hye2a|xn\-\-xkc2dl3a5ee0h|xn\-\-y9a3aq|xn\-\-yfro4i67o|xn\-\-ygbi2ammx|xn\-\-zfr164b|xxx|xyz)|(?:yachts|yahoo|yamaxun|yandex|yodobashi|yoga|yokohama|you|youtube|yun|y[et])|(?:zappos|zara|zero|zip|zone|zuerich|z[amw]))|xn\-\-[\w\-]{0,58}\w))
+(?:(?:aaa|aarp|abb|abbott|abbvie|abc|able|abogado|abudhabi|academy|accenture|accountant|accountants|aco|actor|ads|adult|aeg|aero|aetna|afl|africa|agakhan|agency|aig|airbus|airforce|airtel|akdn|alibaba|alipay|allfinanz|allstate|ally|alsace|alstom|amazon|americanexpress|americanfamily|amex|amfam|amica|amsterdam|analytics|android|anquan|anz|aol|apartments|app|apple|aquarelle|arab|aramco|archi|army|arpa|art|arte|asda|asia|associates|athleta|attorney|auction|audi|audible|audio|auspost|author|auto|autos|avianca|aws|axa|azure|a[cdefgilmoqrstuwxz])|(?:baby|baidu|banamex|bananarepublic|band|bank|bar|barcelona|barclaycard|barclays|barefoot|bargains|baseball|basketball|bauhaus|bayern|bbc|bbt|bbva|bcg|bcn|beats|beauty|beer|bentley|berlin|best|bestbuy|bet|bharti|bible|bid|bike|bing|bingo|bio|biz|black|blackfriday|blockbuster|blog|bloomberg|blue|bms|bmw|bnpparibas|boats|boehringer|bofa|bom|bond|boo|book|booking|bosch|bostik|boston|bot|boutique|box|bradesco|bridgestone|broadway|broker|brother|brussels|build|builders|business|buy|buzz|bzh|b[abdefghijmnorstvwyz])|(?:cab|cafe|cal|call|calvinklein|cam|camera|camp|canon|capetown|capital|capitalone|car|caravan|cards|care|career|careers|cars|casa|case|cash|casino|cat|catering|catholic|cba|cbn|cbre|cbs|center|ceo|cern|cfa|cfd|chanel|channel|charity|chase|chat|cheap|chintai|christmas|chrome|church|cipriani|circle|cisco|citadel|citi|citic|city|cityeats|claims|cleaning|click|clinic|clinique|clothing|cloud|club|clubmed|coach|codes|coffee|college|cologne|com|comcast|commbank|community|company|compare|computer|comsec|condos|construction|consulting|contact|contractors|cooking|cool|coop|corsica|country|coupon|coupons|courses|cpa|credit|creditcard|creditunion|cricket|crown|crs|cruise|cruises|cuisinella|cymru|cyou|c[acdfghiklmnoruvwxyz])|(?:dabur|dad|dance|data|date|dating|datsun|day|dclk|dds|deal|dealer|deals|degree|delivery|dell|deloitte|delta|democrat|dental|dentist|desi|design|dev|dhl|diamonds|diet|digital|direct|directory|discount|discover|dish|diy|dnp|docs|doctor|dog|domains|dot|download|drive|dtv|dubai|dunlop|dupont|durban|dvag|dvr|d[ejkmoz])|(?:earth|eat|eco|edeka|edu|education|email|emerck|energy|engineer|engineering|enterprises|epson|equipment|ericsson|erni|esq|estate|etisalat|eurovision|eus|events|exchange|expert|exposed|express|extraspace|e[cegrstu])|(?:fage|fail|fairwinds|faith|family|fan|fans|farm|farmers|fashion|fast|fedex|feedback|ferrari|ferrero|fidelity|fido|film|final|finance|financial|fire|firestone|firmdale|fish|fishing|fit|fitness|flickr|flights|flir|florist|flowers|fly|foo|food|football|ford|forex|forsale|forum|foundation|fox|free|fresenius|frl|frogans|frontdoor|frontier|ftr|fujitsu|fun|fund|furniture|futbol|fyi|f[ijkmor])|(?:gal|gallery|gallo|gallup|game|games|gap|garden|gay|gbiz|gdn|gea|gent|genting|george|ggee|gift|gifts|gives|giving|glass|gle|global|globo|gmail|gmbh|gmo|gmx|godaddy|gold|goldpoint|golf|goo|goodyear|goog|google|gop|got|gov|grainger|graphics|gratis|green|gripe|grocery|group|guardian|gucci|guge|guide|guitars|guru|g[abdefghilmnpqrstuwy])|(?:hair|hamburg|hangout|haus|hbo|hdfc|hdfcbank|health|healthcare|help|helsinki|here|hermes|hiphop|hisamitsu|hitachi|hiv|hkt|hockey|holdings|holiday|homedepot|homegoods|homes|homesense|honda|horse|hospital|host|hosting|hot|hotels|hotmail|house|how|hsbc|hughes|hyatt|hyundai|h[kmnrtu])|(?:ibm|icbc|ice|icu|ieee|ifm|ikano|imamat|imdb|immo|immobilien|inc|industries|infiniti|info|ing|ink|institute|insurance|insure|int|international|intuit|investments|ipiranga|irish|ismaili|ist|istanbul|itau|itv|i[delmnoqrst])|(?:jaguar|java|jcb|jeep|jetzt|jewelry|jio|jll|jmp|jnj|jobs|joburg|jot|joy|jpmorgan|jprs|juegos|juniper|j[emop])|(?:kaufen|kddi|kerryhotels|kerrylogistics|kerryproperties|kfh|kia|kids|kim|kinder|kindle|kitchen|kiwi|koeln|komatsu|kosher|kpmg|kpn|krd|kred|kuokgroup|kyoto|k[eghimnprwyz])|(?:lacaixa|lamborghini|lamer|lancaster|land|landrover|lanxess|lasalle|lat|latino|latrobe|law|lawyer|lds|lease|leclerc|lefrak|legal|lego|lexus|lgbt|lidl|life|lifeinsurance|lifestyle|lighting|like|lilly|limited|limo|lincoln|link|lipsy|live|living|llc|llp|loan|loans|locker|locus|lol|london|lotte|lotto|love|lpl|lplfinancial|ltd|ltda|lundbeck|luxe|luxury|l[abcikrstuvy])|(?:madrid|maif|maison|makeup|man|management|mango|map|market|marketing|markets|marriott|marshalls|mattel|mba|mckinsey|med|media|meet|melbourne|meme|memorial|men|menu|merckmsd|miami|microsoft|mil|mini|mint|mit|mitsubishi|mlb|mls|mma|mobi|mobile|moda|moe|moi|mom|monash|money|monster|mormon|mortgage|moscow|moto|motorcycles|mov|movie|msd|mtn|mtr|museum|music|m[acdeghklmnopqrstuvwxyz])|(?:nab|nagoya|name|natura|navy|nba|nec|net|netbank|netflix|network|neustar|new|news|next|nextdirect|nexus|nfl|ngo|nhk|nico|nike|nikon|ninja|nissan|nissay|nokia|norton|now|nowruz|nowtv|nra|nrw|ntt|nyc|n[acefgilopruz])|(?:obi|observer|office|okinawa|olayan|olayangroup|oldnavy|ollo|omega|one|ong|onl|online|ooo|open|oracle|orange|org|organic|origins|osaka|otsuka|ott|ovh|om)|(?:page|panasonic|paris|pars|partners|parts|party|pay|pccw|pet|pfizer|pharmacy|phd|philips|phone|photo|photography|photos|physio|pics|pictet|pictures|pid|pin|ping|pink|pioneer|pizza|place|play|playstation|plumbing|plus|pnc|pohl|poker|politie|porn|post|pramerica|praxi|press|prime|pro|prod|productions|prof|progressive|promo|properties|property|protection|pru|prudential|pub|pwc|p[aefghklmnrstwy])|(?:qpon|quebec|quest|qa)|(?:racing|radio|read|realestate|realtor|realty|recipes|red|redstone|redumbrella|rehab|reise|reisen|reit|reliance|ren|rent|rentals|repair|report|republican|rest|restaurant|review|reviews|rexroth|rich|richardli|ricoh|ril|rio|rip|rocher|rocks|rodeo|rogers|room|rsvp|rugby|ruhr|run|rwe|ryukyu|r[eosuw])|(?:saarland|safe|safety|sakura|sale|salon|samsclub|samsung|sandvik|sandvikcoromant|sanofi|sap|sarl|sas|save|saxo|sbi|sbs|sca|scb|schaeffler|schmidt|scholarships|school|schule|schwarz|science|scot|search|seat|secure|security|seek|select|sener|services|seven|sew|sex|sexy|sfr|shangrila|sharp|shaw|shell|shia|shiksha|shoes|shop|shopping|shouji|show|showtime|silk|sina|singles|site|ski|skin|sky|skype|sling|smart|smile|sncf|soccer|social|softbank|software|sohu|solar|solutions|song|sony|soy|spa|space|sport|spot|srl|stada|staples|star|statebank|statefarm|stc|stcgroup|stockholm|storage|store|stream|studio|study|style|sucks|supplies|supply|support|surf|surgery|suzuki|swatch|swiss|sydney|systems|s[abcdeghijklmnorstuvxyz])|(?:tab|taipei|talk|taobao|target|tatamotors|tatar|tattoo|tax|taxi|tci|tdk|team|tech|technology|tel|temasek|tennis|teva|thd|theater|theatre|tiaa|tickets|tienda|tips|tires|tirol|tjmaxx|tjx|tkmaxx|tmall|today|tokyo|tools|top|toray|toshiba|total|tours|town|toyota|toys|trade|trading|training|travel|travelers|travelersinsurance|trust|trv|tube|tui|tunes|tushu|tvs|t[cdfghjklmnortvwz])|(?:ubank|ubs|unicom|university|uno|uol|ups|u[agksyz])|(?:vacations|vana|vanguard|vegas|ventures|verisign|versicherung|vet|viajes|video|vig|viking|villas|vin|vip|virgin|visa|vision|viva|vivo|vlaanderen|vodka|volkswagen|volvo|vote|voting|voto|voyage|v[aceginu])|(?:wales|walmart|walter|wang|wanggou|watch|watches|weather|weatherchannel|webcam|weber|website|wed|wedding|weibo|weir|whoswho|wien|wiki|williamhill|win|windows|wine|winners|wme|wolterskluwer|woodside|work|works|world|wow|wtc|wtf|w[fs])|(?:ελ|ευ|бг|бел|дети|ею|католик|ком|мкд|мон|москва|онлайн|орг|рус|рф|сайт|срб|укр|қаз|հայ|ישראל|קום|ابوظبي|اتصالات|ارامكو|الاردن|البحرين|الجزائر|السعودية|العليان|المغرب|امارات|ایران|بارت|بازار|بيتك|بھارت|تونس|سودان|سورية|شبكة|عراق|عرب|عمان|فلسطين|قطر|كاثوليك|كوم|مصر|مليسيا|موريتانيا|موقع|همراه|پاکستان|ڀارت|कॉम|नेट|भारत|भारतम्|भारोत|संगठन|বাংলা|ভারত|ভাৰত|ਭਾਰਤ|ભારત|ଭାରତ|இந்தியா|இலங்கை|சிங்கப்பூர்|భారత్|ಭಾರತ|ഭാരതം|ලංකා|คอม|ไทย|ລາວ|გე|みんな|アマゾン|クラウド|グーグル|コム|ストア|セール|ファッション|ポイント|世界|中信|中国|中國|中文网|亚马逊|企业|佛山|信息|健康|八卦|公司|公益|台湾|台灣|商城|商店|商标|嘉里|嘉里大酒店|在线|大拿|天主教|娱乐|家電|广东|微博|慈善|我爱你|手机|招聘|政务|政府|新加坡|新闻|时尚|書籍|机构|淡马锡|游戏|澳門|点看|移动|组织机构|网址|网店|网站|网络|联通|谷歌|购物|通販|集团|電訊盈科|飞利浦|食品|餐厅|香格里拉|香港|닷넷|닷컴|삼성|한국|xbox|xerox|xfinity|xihuan|xin|xn\-\-11b4c3d|xn\-\-1ck2e1b|xn\-\-1qqw23a|xn\-\-2scrj9c|xn\-\-30rr7y|xn\-\-3bst00m|xn\-\-3ds443g|xn\-\-3e0b707e|xn\-\-3hcrj9c|xn\-\-3pxu8k|xn\-\-42c2d9a|xn\-\-45br5cyl|xn\-\-45brj9c|xn\-\-45q11c|xn\-\-4dbrk0ce|xn\-\-4gbrim|xn\-\-54b7fta0cc|xn\-\-55qw42g|xn\-\-55qx5d|xn\-\-5su34j936bgsg|xn\-\-5tzm5g|xn\-\-6frz82g|xn\-\-6qq986b3xl|xn\-\-80adxhks|xn\-\-80ao21a|xn\-\-80aqecdr1a|xn\-\-80asehdb|xn\-\-80aswg|xn\-\-8y0a063a|xn\-\-90a3ac|xn\-\-90ae|xn\-\-90ais|xn\-\-9dbq2a|xn\-\-9et52u|xn\-\-9krt00a|xn\-\-b4w605ferd|xn\-\-bck1b9a5dre4c|xn\-\-c1avg|xn\-\-c2br7g|xn\-\-cck2b3b|xn\-\-cckwcxetd|xn\-\-cg4bki|xn\-\-clchc0ea0b2g2a9gcd|xn\-\-czr694b|xn\-\-czrs0t|xn\-\-czru2d|xn\-\-d1acj3b|xn\-\-d1alf|xn\-\-e1a4c|xn\-\-eckvdtc9d|xn\-\-efvy88h|xn\-\-fct429k|xn\-\-fhbei|xn\-\-fiq228c5hs|xn\-\-fiq64b|xn\-\-fiqs8s|xn\-\-fiqz9s|xn\-\-fjq720a|xn\-\-flw351e|xn\-\-fpcrj9c3d|xn\-\-fzc2c9e2c|xn\-\-fzys8d69uvgm|xn\-\-g2xx48c|xn\-\-gckr3f0f|xn\-\-gecrj9c|xn\-\-gk3at1e|xn\-\-h2breg3eve|xn\-\-h2brj9c|xn\-\-h2brj9c8c|xn\-\-hxt814e|xn\-\-i1b6b1a6a2e|xn\-\-imr513n|xn\-\-io0a7i|xn\-\-j1aef|xn\-\-j1amh|xn\-\-j6w193g|xn\-\-jlq480n2rg|xn\-\-jvr189m|xn\-\-kcrx77d1x4a|xn\-\-kprw13d|xn\-\-kpry57d|xn\-\-kput3i|xn\-\-l1acc|xn\-\-lgbbat1ad8j|xn\-\-mgb9awbf|xn\-\-mgba3a3ejt|xn\-\-mgba3a4f16a|xn\-\-mgba7c0bbn0a|xn\-\-mgbaakc7dvf|xn\-\-mgbaam7a8h|xn\-\-mgbab2bd|xn\-\-mgbah1a3hjkrd|xn\-\-mgbai9azgqp6j|xn\-\-mgbayh7gpa|xn\-\-mgbbh1a|xn\-\-mgbbh1a71e|xn\-\-mgbc0a9azcg|xn\-\-mgbca7dzdo|xn\-\-mgbcpq6gpa1a|xn\-\-mgberp4a5d4ar|xn\-\-mgbgu82a|xn\-\-mgbi4ecexp|xn\-\-mgbpl2fh|xn\-\-mgbt3dhd|xn\-\-mgbtx2b|xn\-\-mgbx4cd0ab|xn\-\-mix891f|xn\-\-mk1bu44c|xn\-\-mxtq1m|xn\-\-ngbc5azd|xn\-\-ngbe9e0a|xn\-\-ngbrx|xn\-\-node|xn\-\-nqv7f|xn\-\-nqv7fs00ema|xn\-\-nyqy26a|xn\-\-o3cw4h|xn\-\-ogbpf8fl|xn\-\-otu796d|xn\-\-p1acf|xn\-\-p1ai|xn\-\-pgbs0dh|xn\-\-pssy2u|xn\-\-q7ce6a|xn\-\-q9jyb4c|xn\-\-qcka1pmc|xn\-\-qxa6a|xn\-\-qxam|xn\-\-rhqv96g|xn\-\-rovu88b|xn\-\-rvc1e0am3e|xn\-\-s9brj9c|xn\-\-ses554g|xn\-\-t60b56a|xn\-\-tckwe|xn\-\-tiq49xqyj|xn\-\-unup4y|xn\-\-vermgensberater\-ctb|xn\-\-vermgensberatung\-pwb|xn\-\-vhquv|xn\-\-vuq861b|xn\-\-w4r85el8fhu5dnra|xn\-\-w4rs40l|xn\-\-wgbh1c|xn\-\-wgbl6a|xn\-\-xhq521b|xn\-\-xkc2al3hye2a|xn\-\-xkc2dl3a5ee0h|xn\-\-y9a3aq|xn\-\-yfro4i67o|xn\-\-ygbi2ammx|xn\-\-zfr164b|xxx|xyz)|(?:yachts|yahoo|yamaxun|yandex|yodobashi|yoga|yokohama|you|youtube|yun|y[et])|(?:zappos|zara|zero|zip|zone|zuerich|z[amw]))
++ إضافة حساب للتوزيع
++ إضافة زبون
++ إضافة صندوق أو محفظة
++ إضافة مستخدم جديد
++ إضافة منتج جديد
++ إضافة مورد
++ اختيار صنف من المخزون أو الكتالوج
++ فاتورة مشتريات
+. الإلغاءات المرسلة: 
+. الرقم أعلاه هو رأس المال المؤكد فقط.
+. الشهادات المسجلة أو المؤكدة: 
+. راجعها قبل الاعتماد.
+. شاركها مع الهاتف الثانوي. سيستقبل هذا الهاتف الطلب عبر الوسيط.
+. قيمة رأس المال المعروضة هي الجزء المؤكد فقط.
+. لن نفتح اتصالاً غير موثّق.
+0 أصناف
+: اكتملت العملية.
+: المقبوض 
+: تم بنجاح
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+<sheets><sheet name="كشف الحساب" sheetId="1" r:id="rId1"/></sheets></workbook>
+INSERT OR IGNORE INTO warehouses(id,name,is_default,is_active,created_at)
+                   VALUES('default-warehouse','المستودع الرئيسي',1,1,?)
+، وعند إغلاق أمس: 
+؛ أضفها من إعدادات الوحدات ثم أعد الاستيراد
+؛ أوقف الاستيراد لتجنب إنشاء تكرار
+؟
+آ
+آجل على الزبون: 
+آجل • يسدد لاحقاً
+آجلة
+آجلة – غير مدفوعة
+آخر احتساب: 
+آخر المصاريف
+آخر تسويات الجرد
+أ
+أحد الأصناف لا ينتمي إلى الفاتورة الأصلية
+أخرى
+أدخل الفرق موجباً للزيادة وسالباً للنقصان. تكلفة الزيادة مطلوبة بالدولار للوحدة، أما النقص فيُحسب تلقائياً وفق FIFO.
+أدخل الكمية التي تريد إضافتها من:
+أدخل بيانات المنتجات مرة واحدة لتظهر مباشرة في نقطة البيع
+أدخل سعر بيع صحيحاً بالدولار
+أدخل سعر صرف صحيحاً
+أدخل عنوان الوسيط الأساسي دون مسار إضافي
+أدخل عنوان الوسيط بصيغة HTTPS
+أدخل قيمة المصروف
+أدخل كلمة المرور التي استُخدمت عند إنشاء هذه النسخة.
+أدخل كمية أكبر من صفر
+أدخل كمية صحيحة أكبر من صفر
+أدخل كمية مرتجعة لصنف واحد على الأقل
+أدخل مبلغ التحويل لاحتساب ربح المتجر وإجمالي المقبوض.
+أدخل مبلغ تحصيل أكبر من صفر
+أدخل مبلغ شحن ومعرّف عملية صحيحين
+أدخل مبلغاً أكبر من صفر
+أدخل مبلغاً صحيحاً.
+أصناف الفاتورة
+أضف تصنيفاً للمصروف أولاً
+أضف حساباً أو أكثر. المبلغ يُدخل بعملة الحساب: الدولار للحساب USD والليرة للحساب SYP.
+أضف زبوناً نشطاً من قسم العملاء والديون أولاً
+أضف صنفاً واحداً على الأقل إلى الفاتورة
+أضف صنفاً واحداً على الأقل إلى المرتجع
+أضف صنفاً واحداً على الأقل قبل متابعة الدفع
+أضف ملف الزبون أولاً قبل تسجيل تحويل آجل.
+أعيد استخدام معرّف الأمر بهوية أو بيانات مختلفة
+أعيد استخدام معرّف العملية بمحتوى مزامنة مختلف
+أمر التحصيل غير موجود أو الجهاز/المستخدم غير مفعل أو غير مربوط
+أمر الزبون غير موجود في صندوق الوارد
+أمر المرتجع غير موجود أو الجهاز/المستخدم غير مربوط أو موقوف
+أمر المصروف غير موجود أو الجهاز/المستخدم غير مفعل أو غير مربوط
+أمر تحويل الرصيد غير موجود أو الجهاز/المستخدم غير مفعل أو غير مربوط
+أمر تخصيص النقد المدور غير موجود أو الجهاز/المستخدم غير مفعل أو غير مربوط
+أمر تسوية المخزون غير موجود أو الجهاز/المستخدم غير مربوط
+أمر دفعة المورد غير موجود أو الجهاز/المستخدم غير مفعل أو غير مربوط
+أنشئ حساب المدير الخاص بك. لن تكون هناك كلمة مرور افتراضية.
+أنشئ صندوقاً أو محفظة وأدخل رصيدها الافتتاحي قبل تسجيل دفعة.
+أنشئ صندوقاً نقدياً بالليرة السورية مخصصاً لمدفوعات الموردين، غير درج اليوم الرئيسي.
+أنشئ صندوقاً نقدياً مستقلاً بالليرة السورية مخصصاً لشراء رصيد الخدمات أولاً.
+أنشئ محفظة إلكترونية نشطة أولاً.
+أُرسل طلب هذا الجهاز بأمان. ننتظر موافقة الهاتف الرئيسي...
+أُلغيت صلاحية الجهاز محلياً؛ أُضيف بيان الإلغاء إلى قائمة الإرسال المؤجل.
+إ
+إبقاء اتصال المزامنة المشفر بين أجهزة المتجر
+إتمام عملية البيع
+إجمالي التحصيلات: 
+إجمالي الدين: 
+إجمالي الفاتورة
+إجمالي الفواتير: 
+إجمالي المبيعات: 
+إجمالي المدفوع: 
+إجمالي المستحق الثابت: 
+إجمالي المصاريف المسجلة: 
+إجمالي المقبوضات الإلكترونية خلال اليوم: 
+إجمالي المقبوضات النقدية الفعلية: 
+إجمالي المقبوضات النقدية في الحساب: 
+إجمالي بنود الفاتورة لا يطابق رأس الفاتورة؛ أوقف المرتجع للمراجعة
+إجمالي بنود فاتورة الشراء غير متطابق
+إجمالي تخفيضات مرتجعات الموردين: 
+إجمالي فواتير البيع الآجل: 
+إجمالي ما أُرسل من رصيد الخدمة: 
+إجمالي ما دُفع نقداً: 
+إجمالي ما قبضه المتجر من الزبائن نقداً أو إلكترونياً: 
+إجمالي مقبوضات اليوم: 
+إدارة أرصدة الخدمات وتعبئتها لم يكتمل مسار مزامنتها بعد؛ نفّذها من الجهاز الأساسي
+إدارة إقفال وفتح الصندوق اليومي
+إدارة الأجهزة والمزامنة
+إدارة الأرصدة اليومية
+إدارة الأرصدة اليومية متاحة للمدير فقط
+إدارة الأرصدة والتحويلات اليومية
+إدارة الأصناف والتصنيفات والوحدات
+إدارة الصناديق والمحافظ والحسابات
+إدارة المستخدمين والصلاحيات
+إدارة المستخدمين والصلاحيات متاحة للمدير فقط
+إدارة المشتريات
+إدارة المشتريات متاحة للمدير فقط
+إدارة المصاريف
+إدارة المصاريف التشغيلية متاحة للمدير المخوّل فقط
+إدارة المنتجات
+إدارة المنتجات والكميات
+إدارة المنتجات وسعر الصرف متاحة للمدير فقط
+إدارة بيانات الموردين
+إدارة جذر الثقة وشهادات الأجهزة والاتصال الآمن
+إدارة حسابات المتجر
+إدارة سجل شهادات الوسيط متاحة على الجهاز الأساسي فقط
+إدارة صلاحيات المستخدمين متاحة من الجهاز الأساسي فقط
+إدارة متجرك بسهولة واحترافية
+إدارة محافظ الخدمات وإعادة شحنها
+إذا بقي مبلغ مستحق لك لدى المورد، اختر الحساب أو الحسابات التي ستستقبل المبلغ. أدخل كل مبلغ بعملة الحساب.
+إرجاع أصناف ورد المبالغ للعملاء
+إرجاع البضاعة وتسوية مستحقات المورد
+إرجاع صنف من المرتجع 
+إرسال اختبار النقل
+إرسال اختبار نقل مشفر إلى الجهاز الأساسي
+إرسال الأوامر المعلقة متاح للجهاز الثانوي المسجل فقط
+إصدار إطار المزامنة غير مدعوم
+إصدار المخطط تغير أثناء التصدير
+إصدار بيانات تحويل الرصيد غير مدعوم
+إصدار شهادة الجهاز
+إصدار قاعدة SQLite داخل النسخة القديمة غير مدعوم
+إصدار قاعدة البيانات داخل النسخة غير مدعوم
+إصدار ملف النسخة الاحتياطية غير مدعوم
+إضافات أخرى: 
+إضافة
+إضافة التصنيفات متاحة للمدير فقط
+إضافة المنتجات وتعديلها متاحان للمدير فقط
+إضافة الموظفين والتحكم بصلاحياتهم
+إضافة تصنيف
+إضافة تصنيف مصروف
+إضافة جهاز ثانوي
+إضافة حساب
+إضافة حساب مالي
+إضافة زبون
+إضافة صندوق أو محفظة
+إضافة عملاء جدد
+إضافة كمية
+إضافة مستخدم
+إضافة منتج
+إضافة مورد
+إطار المزامنة المشفر لا يطابق مسار الإرسال أو يفتقد التوقيع
+إطار المزامنة موجه إلى جهاز آخر
+إطار الوسيط لا يطابق هوية الطرفين أو معرّف العملية
+إعادة تفعيل
+إعادة تفعيل الحساب
+إعداد المتجر لأول مرة
+إعداد عنوان وسيط المزامنة
+إعداد عنوان وسيط المزامنة والاتصال
+إعداد هذا الهاتف كجهاز ثانوي
+إعداد هذا الهاتف كجهاز ثانوي — الخطوة 1
+إعدادات الربط المتقدمة
+إعدادات المتجر
+إعدادات المتجر متاحة للمدير فقط
+إعدادات حماية النسخة غير صالحة
+إغلاق
+إغلاق التطبيق
+إغلاق قاعدة البيانات وتجهيز لقطة آمنة...
+إقرار إعداد المتجر لا يطابق جهازاً أو عملية مسجلة
+إقرار التطبيق يصدر فقط بين الجهاز الأساسي والجهاز الثانوي المعتمد
+إقرار الفاتورة لا يطابق أمر بيع آجل محلياً
+إقرار سعر الصرف لا يطابق جهازاً أو عملية مسجلة
+إلغاء
+إلغاء الشهادة
+إلغاء شهادة الجهاز
+إلغاء شهادة جهاز ثانوي
+إلكتروني
+إنشاء
+إنشاء الحسابات المالية متاح للمدير فقط
+إنشاء الحسابات المالية متاح من الجهاز الأساسي فقط حتى تكتمل مزامنة بيانات الحسابات
+إنشاء الدعوة
+إنشاء الطلب
+إنشاء الموردين متاح من الجهاز الأساسي فقط حتى تكتمل مزامنة بياناتهم
+إنشاء حساب المدير
+إنشاء دعوة للجهاز: 
+إنشاء طلب إعادة اقتران لهذا الجهاز
+إنشاء طلب اقتران لهذا الهاتف
+إنشاء طلب الاقتران
+إنشاء فواتير المشتريات متاح من الجهاز الرئيسي فقط
+إنشاء مرتجع
+إنشاء مرتجع مبيعات
+إنشاء مرتجع مشتريات
+إنشاء نسخة احتياطية
+إنشاء نسخة احتياطية مشفّرة
+إنشاء واعتماد فواتير الشراء
+إنشاء وتعديل بيانات الزبائن متاح من الجهاز الأساسي فقط
+إيجار
+إيقاف
+إيقاف الحساب
+إيقاف المنتج
+إيقاف ملف العميل
+ا
+ابحث باسم المنتج أو الباركود أو SKU
+ابحث بالاسم أو الباركود أو SKU
+ابحث عن المنتج أو اختره لإضافته إلى الفاتورة
+اتجاه إرسال المزامنة غير صالح
+اتصال المزامنة مفتوح أو قيد الفتح بالفعل
+اتصالات وإنترنت
+اجمع المبالغ المخصصة للحساب نفسه في سطر واحد
+اجمع كل صنف في سطر واحد
+احتفظ بكلمة المرور في مكان آمن؛ لا يمكن استعادة النسخة دونها.
+احفظ عنوان وسيط WSS صالحاً أولاً.
+اختبار النقل الوارد يُعتمد على الجهاز الأساسي فقط
+اختبار النقل غير موجود في صندوق الوارد
+اختبار النقل متاح على الجهاز الثانوي المرتبط فقط
+اختبار النقل محفوظ وينتظر الإقرار الموثق من الجهاز الأساسي.
+اختر الجهاز المراد إلغاء شهادته
+اختر الدرج اليومي الرئيسي أو محفظة إلكترونية نشطة
+اختر الزبون
+اختر الزبون الذي ستسجل الفاتورة على حسابه
+اختر الزبون لتسجيل التحويل الآجل
+اختر الصندوق أو المحفظة
+اختر الصندوق أو المحفظة التي ستستلم قيمة البيع
+اختر المجلد الذي يحتوي ملف المنتجات
+اختر المحفظة الإلكترونية المستلمة
+اختر حساب استلام المبلغ
+اختر حساب القبض
+اختر حساب قبض نشطاً بالليرة السورية
+اختر صندوق شراء الرصيد
+اختر صندوقاً نقدياً كوجهة للتحويل
+اختر صندوقاً نقدياً مختلفاً عن المحفظة
+اختر صندوقاً نقدياً مصدراً؛ لا يمكن السحب من صندوق الموردين أو صندوق شراء الرصيد.
+اختر صندوقاً نقدياً نشطاً بالليرة السورية
+اختر صندوقاً نقدياً نشطاً بالليرة السورية، مع استبعاد صندوق الموردين وصندوق شراء رصيد الخدمات.
+اختر صندوقاً نقدياً وجهة؛ يمكن تمويل صندوق الموردين أو صندوق شراء رصيد الخدمات من أي صندوق مصدر متاح.
+اختر صندوقاً ومحفظة مختلفين
+اختر صندوقين مختلفين
+اختر كلمة مرور مختلفة عن الحالية
+اختر محفظة إلكترونية نشطة
+اختر محفظة مصدر نشطة بالليرة السورية أولاً.
+اختر معرّف المنطقة الزمنية للمدينة التي يوجد فيها المتجر. ستعتمد جميع الأجهزة المرتبطة هذا التوقيت، بما في ذلك قواعد التوقيت الصيفي إن وجدت. لن تتغير تواريخ الحركات السابقة.
+اختر ملف المنتجات
+اختر منطقة زمنية صحيحة من القائمة
+اختر وحدة قياس
+اختفى أمر المزامنة أثناء التطبيق
+اختيار المنطقة الزمنية التي تعتمدها جميع أجهزة المتجر
+اختيار صنف
+اختيار ملف النسخة
+استجابة اعتماد الجهاز من الوسيط غير صالحة
+استجابة جذر الثقة فارغة
+استجابة طلب الاقتران من الوسيط غير صالحة
+استخدم 10 أحرف على الأقل
+استخدم عملية شراء رصيد الخدمات المخصصة لتمويل محفظة الخدمة
+استرداد USD سنت
+استرداد ليرة
+استعادة قاعدة البيانات
+استعادة نسخة احتياطية
+استعيد ملف القاعدة لكن ترويسة SQLite غير سليمة؛ احتفظ بالملف
+استلام الدفعة في
+استلام المبلغ من الزبون في
+استلم الهاتف الرئيسي طلب اقتران. بعد التحقق من توقيع الجهاز، سيصدر التطبيق شهادة لهذا الهاتف.
+استيراد أصناف من CSV / Excel
+استيراد الأصناف متاح للمدير فقط
+اسم التصنيف
+اسم التصنيف أو معرّفه أو وقت إنشائه الأصلي غير صالح
+اسم التصنيف مطلوب
+اسم التصنيف موجود دون معرّف أصلي
+اسم التصنيف موجود محلياً بصيغة متعارضة
+اسم الجهاز غير صالح
+اسم الجهاز مطلوب وبحد أقصى 80 حرفاً
+اسم الحساب
+اسم الحساب مطلوب
+اسم الزبون *
+اسم الزبون مطلوب
+اسم الصنف
+اسم العرض مطلوب
+اسم المادة
+اسم المدير
+اسم المستخدم
+اسم المستخدم (3 أحرف على الأقل)
+اسم المستخدم أو كلمة المرور غير صحيحة
+اسم المستخدم مستخدم مسبقاً
+اسم المستخدم يجب ألا يقل عن 3 أحرف
+اسم المنتج
+اسم المنتج *
+اسم المنتج مطلوب
+اسم المورد *
+اسم المورد مطلوب
+اسم الوحدة موجود أكثر من مرة محلياً
+اسم تصنيف المصروف
+اسم تصنيف المصروف مطلوب وبحد أقصى 80 حرفاً
+اسم تصنيف المنتج يتعارض مع تصنيف محلي
+اسم صنف مكرر داخل الملف: 
+اسم هذا الجهاز
+اسم وحدة المنتج مكرر محلياً
+اضغط معاينة لحساب تخفيض مستحق المورد والمبلغ المسترد نقداً.
+اضغط معاينة لحساب قيمة المرتجع والدين ورد النقد.
+اعتماد الاستيراد
+اعتماد الجهاز الرئيسي
+اعتماد الفاتورة
+اعتماد المرتجع
+اعتماد المصروف
+اعتماد المصروفات الواردة مسموح على الجهاز الأساسي المعتمد فقط
+اعتماد النقد المدور الوارد مسموح على الجهاز الأساسي فقط
+اعتماد تحصيل دين تحويل الرصيد متاح على الجهاز الأساسي فقط
+اعتماد تحويل الرصيد الوارد مسموح على الجهاز الأساسي فقط
+اعتماد تسوية المخزون
+اعتماد دفعات الموردين الواردة مسموح على الجهاز الأساسي المعتمد فقط
+اعتماد فواتير المشتريات متاح من الجهاز الرئيسي فقط
+اعتماد هذا الهاتف جهازاً رئيسياً
+اعتمد الهاتف الرئيسي الجهاز وأرسل الشهادة والاعتماد عبر الوسيط. يكمل الهاتف الثانوي الإعداد تلقائياً.
+اكتب اسماً للجهاز الثانوي
+اكتب اسماً يميز الهاتف الجديد. سننشئ دعوة آمنة يمكنك مشاركتها معه.
+اكتب اسماً يميز هذا الهاتف
+اكتمل إنشاء النسخة الاحتياطية
+اكتمل إنشاء النسخة الاحتياطية المشفّرة.
+اكتمل تحديث سجل الوسيط. الأجهزة الثانوية النشطة: 
+اكتملت استعادة قاعدة الاختبار.
+اكتملت الاستعادة والتحقق من قاعدة البيانات.
+اكتملت الاستعادة؛ افتح التطبيق وسجّل الدخول مجدداً
+الأسعار مدخلة بالدولار وستُحفظ كما هي دون تحويل.
+الأمر الوارد لا يحتوي وقت وقوع أصلياً صالحاً
+الأمر غير موجود أو الجهاز/المستخدم غير مفعل أو لم يتم ربط المستخدم
+الأمر غير موجود في صندوق الوارد
+الإجمالي
+
+الإجمالي
+0 ل.س
+الإجمالي المتفق عليه: 
+الإجمالي قبل الخصم: 
+الإجمالي: 
+الإجمالي: 0.00 USD
+الإصدار 1.0.0
+الإطار يخص متجراً آخر
+الإقرار لا يطابق تسلسل الأمر أو بصمة بياناته المحلية
+الاتصال المشفر جاهز.
+الاتصال غير جاهز؛ ستستمر إعادة المحاولة تلقائياً عند وجود إعداد صالح.
+الاسم
+الاسم الظاهر للموظف
+الاسم: 
+الباركود
+الباركود (اختياري)
+الباركود مستخدم مسبقاً: 
+البيان
+البيانات الأساسية
+البيع الآجل يتطلب زبوناً محدداً
+البيع النقدي الوارد لا يحتوي تفاصيل القبض
+البيع النقدي الوارد لا يحدد حساب القبض الأصلي
+التاريخ
+التاريخ | النوع | المرجع | البيان | مدين | دائن | الرصيد
+التاريخ: 
+التحصيل النقدي يجب أن يذهب إلى درج اليوم الرئيسي
+التحصيل النقدي يجب أن يذهب إلى درج اليوم الرئيسي، وليس صندوق الموردين أو الصندوق المدور.
+التحصيل الوارد لا يرتبط بفاتورة آجلة وزبون صالح
+التحصيل متاح لفواتير البيع الآجل المحددة لزبون فقط
+التحقق من الشهادة وحفظ الاقتران
+التحقق من فتح قاعدة البيانات المستعادة...
+التحقق من قاعدة SQLCipher وتجهيز النسخة...
+التحقق وإصدار الشهادة
+التصنيف
+التصنيف غير موجود في صندوق الوارد
+التصنيف: 
+التغير عن إغلاق اليوم السابق: 
+التغير في الجزء المقيم فقط (مقارنة بإغلاق أمس): 
+التقارير
+التقارير المالية متاحة للمدير فقط
+التقييم المحاسبي للمخزون المتبقي وفق طريقة FIFO، على أساس تكلفة الشراء بالدولار المرجعي الثابت، وليس سعر البيع.
+التمويل من صندوق شراء رصيد الخدمات
+الجهاز الأساسي
+الجهاز الأساسي المعتمد غير نشط
+الجهاز الأساسي غير محدد
+الجهاز الثانوي غير مسجل أو تم إيقافه
+الجهاز الثانوي غير مسجل أو غير مفعل
+الجهاز الثانوي مخصص للبيع والمزامنة فقط؛ هذه العملية متاحة من الجهاز الأساسي
+الجهاز الثانوي مخول بإرسال فواتير البيع وتحصيل ديون العملاء وتحويلات الرصيد الآجلة واختبارات المزامنة فقط
+الجهاز الثانوي مخول بطلب تحويل رصيد آجل فقط
+الجهاز الثانوي يرسل أوامره إلى الجهاز الأساسي المعتمد فقط
+الجهاز الثانوي يرسل إلى الجهاز الأساسي المعتمد فقط
+الجهاز الثانوي يستطيع تسجيل تحويل رصيد آجل فقط؛ التحويل النقدي وإدارة المحافظ على الجهاز الأساسي
+الجهاز الرئيسي
+الجهاز المرسل غير مسجل أو تم إلغاء تسجيله
+الجهاز المستلم غير مسجل أو غير مفعل
+الجهاز المستلم غير مسجل أو موقوف
+الجهاز المقابل غير متصل؛ العملية باقية في صندوق الإرسال
+الجهاز المقابل غير مسجل أو موقوف
+الجهاز المقر غير مسجل أو موقوف
+الجهاز غير موجود أو لا يملك شهادة
+الحركة النقدية والحسابات
+الحساب الأساسي المرتبط بالدور 
+الحساب المالي
+الحساب المالي الأساسي غير موجود
+الحساب المالي المرتبط لا يطابق نوع أو عملة حساب الجهاز الثانوي
+الحساب المالي غير موجود
+الحساب المالي غير موجود أو موقوف
+الحساب المالي غير موجود عند تجهيز المزامنة
+الحساب المالي مرتبط مسبقاً بمحفظة خدمة مختلفة
+الحساب غير موجود
+الحساب موقوف
+الحساب نشط
+الحساب والتحصيل
+الحسابات الأساسية تُنشأ وتُربط تلقائياً: درج البيع اليومي، صندوق الموردين المدور، صندوق شراء رصيد الخدمات، ومحفظتا سيرياتيل وشام كاش. يمكنك إضافة حسابات أخرى عند الحاجة.
+الحسابات المالية
+الخدمة
+الخصم أكبر من إجمالي الفاتورة
+الخصم لا يمكن أن يكون سالباً
+الخطوة الأخيرة — الصق هنا بيانات الاقتران التي نسختها من الهاتف الرئيسي
+الدرج الرئيسي
+الدرج النقدي الرئيسي لليوم
+الدفعات السابقة:
+
+الدور غير صالح
+الدور: 
+الربح التراكمي غير مكتمل؛ فواتير بلا تكلفة: 
+الربح غير مكتمل: فواتير بلا تكلفة FIFO: 
+الرسالة تخص متجراً آخر
+الرصيد USD سنت
+الرصيد الافتتاحي
+الرصيد الافتتاحي غير موجود
+الرصيد الافتتاحي لا يمكن أن يكون سالباً
+الرصيد الحالي: 
+الرصيد الفعلي الحالي للمحفظة بالليرة السورية
+الرصيد الفعلي في صندوق الموردين لا يكفي للمسحوب الشخصي
+الرصيد المتاح: 
+الرصيد المتبقي المرجعي: 
+الرصيد المرجعي: 
+الرصيد المستحق: 
+الرصيد المستهلك 
+الرصيد حسب الفواتير والدفعات وتخفيضات المرتجعات: 
+الرصيد غير كافٍ بعد تعديل مبلغ الدفعة
+الرصيد غير كافٍ في حساب 
+الرصيد لا يمكن أن يكون سالباً
+الرصيد ليرة
+الزبون
+الزبون أو حالة أو أصل ذمة تحويل الرصيد لا يطابق السجل الأساسي
+الزبون المدين
+الزبون المطلوب تحديثه غير موجود على الجهاز الثانوي
+الزبون غير موجود
+الزبون غير موجود أو موقوف
+الزبون غير موجود عند تجهيز المزامنة
+السبب: 
+السعر سالب في الصف 
+السعر لا يمكن أن يكون سالباً
+السلة فارغة
+اضغط على المنتج لإضافة قطعة، أو اضغط مطولاً لاختيار الكمية
+الصق بيانات الاقتران التي صدرت من الهاتف الرئيسي
+الصق بيانات الاقتران السرية كاملة هنا
+الصق حزمة دعوة الجهاز الأساسي
+الصق دعوة صادرة من الهاتف الرئيسي أولاً
+الصق طلب الاقتران القادم من الجهاز الثانوي
+الصلاحية المطلوبة غير معروفة
+الصلاحية غير معروفة
+الصناديق والمحافظ
+الصندوق أو المحفظة
+الصندوق أو المحفظة التي ستستلم قيمة البيع كاملة
+الصندوق الأساسي للنقد المدور للبضاعة
+الصندوق المرتبط لا يطابق نوع أو عملة الصندوق الأصلي
+الصندوق النقدي الوجهة
+الصنف
+الصنف غير موجود
+الصنف لا ينتمي إلى فاتورة الشراء
+الصنف موجود مسبقاً: 
+الصنف: 
+الصيغة المدعومة هي CSV أو Excel بصيغة XLSX
+العملاء والديون
+العملة
+العملة يجب أن تكون USD أو SYP
+العميل غير موجود
+العنوان
+العنوان (اختياري)
+الفئة
+الفاتورة الأصلية بلا سعر صرف محفوظ
+الفاتورة الأصلية بلا سعر صرف محفوظ؛ لا يمكن رد قيمتها بأمان
+الفاتورة الأصلية لا تحتوي بنوداً
+الفاتورة الأصلية لا تحتوي سعر صرف موثوقاً
+الفاتورة المحلية لا تطابق الفاتورة الآجلة التي اعتمدها الأساسي
+الفاتورة الواردة لا تحتوي سعر صرف صالحاً
+الفاتورة غير موجودة
+الفاتورة غير موجودة عند تجهيز حدث المزامنة
+الفاتورة ليست ديناً معتمداً قابلاً للتحصيل
+الفاتورة مسجلة مسبقاً؛ حدّث الشاشة لمراجعة حالتها
+الفاتورة مسددة بالكامل
+الفاتورة: 
+الفواتير المعتمدة: 
+القاعدة المشفرة صالحة لكن تعذر حذف نسخة SQLite الاحتياطية؛ سيُستكمل التنظيف لاحقاً
+القبض النقدي يجب أن يذهب إلى درج اليوم الرئيسي
+القيمة الدفترية الحالية وفق FIFO: 
+القيمة الدولارية للمصروف لا تطابق سعر الصرف المسجل
+الكشف المالي اليومي
+الكشوفات العامة
+الكل
+الكميات المراد إرجاعها
+الكمية 
+الكمية الافتتاحية
+الكمية الافتتاحية غير صالحة
+الكمية الفعلية بعد الجرد
+الكمية المرتجعة
+الكمية المطلوبة أكبر من المتوفر (
+الكمية المطلوبة تتجاوز الكمية المتبقية القابلة للإرجاع لهذا الصنف
+الكمية تتجاوز المتبقي من بند الشراء
+الكمية يجب أن تكون أكبر من صفر
+المبلغ
+المبلغ الجديد أقل من دفعات الموردين والمسحوبات المسجلة اليوم
+المبلغ الجديد صغير جداً
+المبلغ المتاح من النقد المدور لا يكفي لاعتماد دفعة المورد الواردة
+المبلغ المتاح من النقد المدور لا يكفي لهذه الدفعة. المتاح: 
+المبلغ المخصص يتجاوز الرصيد الفعلي الموجود في صندوق الموردين
+المبلغ المخصوم من محفظتك
+المبلغ المستحق الثابت: 
+المبلغ المعدل يتجاوز المتبقي السوري الثابت بعد احتساب الدفعات الأخرى
+المبلغ الواصل للزبون
+المبلغ من هذا الحساب
+المبلغ: 
+المبيعات والأرباح والمخزون
+المتاح من النقد المدور لا يكفي بعد تصحيح الدفعة
+المتاح من النقد المدور لا يكفي. المتاح: 
+المتبقي الثابت: 
+المتبقي المرجعي: 
+المتبقي على الفواتير الآجلة: 
+المتبقي للموردين: 
+المتبقي من مقبوضات اليوم بعد التحويل إلى الكاش: 
+المتبقي من مقبوضات اليوم بعد التحويل: 
+المتبقي: 
+المتوفر: 
+المحتوى المستلم ليس حزمة اقتران صالحة.
+المحفظة المستلمة
+المخزون الافتتاحي
+المخزون الحالي لا يغطي كمية المرتجع
+المخزون الحالي: 
+المخزون المتاح: 
+المخزون المحلي غير كافٍ للمنتج: 
+المخزون غير كافٍ للمنتج: 
+المدفوع نقداً: 
+المدفوع: 
+المرتجع السابق غير موجود
+المرتجع الوارد بلا أصناف
+المرجع
+المستخدم غير مفعل أو يجب تغيير كلمة المرور
+المستخدم غير موجود
+المستخدم غير نشط أو انتهت الجلسة
+المستخدمون والصلاحيات
+المستودع الأصلي غير محدد
+المستودع الافتراضي غير مطابق بين الجهازين
+المستودع الافتراضي غير مهيأ على الجهاز الثانوي
+المستودع الرئيسي غير مهيأ
+المستودع غير موجود أو موقوف
+المسحوبات الشخصية: 
+المسدد حتى الآن: 
+المسدد: 
+المشتريات
+المشتريات والفواتير
+المصاريف التشغيلية
+المصاريف التشغيلية التراكمية: 
+المصاريف التشغيلية اليوم: 
+المصاريف التشغيلية: 
+المصروف السابق غير موجود
+المطلوب حالياً: 
+المفتاح العام للجهاز غير صالح
+المقابل السوري لدفعة المورد لا يطابق سعر صرف الفاتورة الأصلي
+المقبوض النقدي يذهب إلى الدرج الرئيسي، والمقبوض الإلكتروني يضاف إلى محفظة الخدمة نفسها افتراضياً أو إلى المحفظة التي تختارها. عند تصريف المحفظة إلى النقدية تنقص المحفظة ويزيد الصندوق بالمبلغ نفسه. عمولة 2% تُسجل فقط عند تعبئة رصيد سيرياتيل أو شام كاش من تاجر خارجي، ولا تُضاف إلى تحويلات الزبائن.
+المقبوض من الزبون: 
+المقبوض: 
+المكافئ المحاسبي: 
+الملاحظة
+الملف لا يحتوي على صفوف أصناف
+الملف ليس نسخة احتياطية معروفة من The Daily Shop
+الملف يحتوي أسعاراً بالليرة السورية. سجّل سعر الصرف الحالي من شاشة إدارة المنتجات ثم أعد الاستيراد؛ لن أخمّن سعر التحويل.
+الملف يحتوي أسعاراً بالليرة السورية؛ سجّل سعر الصرف أولاً ولا يمكن تخمين التحويل
+المنتج المطلوب تحديثه غير موجود على الجهاز الثانوي
+المنتج المطلوب تعديله غير موجود
+المنتج المطلوب غير موجود
+المنتج غير موجود
+المنتج غير موجود أو موقوف: 
+المنتج غير موجود على الجهاز الثانوي
+المنتج غير موجود عند تجهيز المزامنة
+المنتج غير موجود: 
+المنتج لا يتتبع المخزون
+المنتجات
+المنتجات والمخزون
+المنطقة الزمنية الحالية: 
+المنطقة الزمنية للمتجر
+المورد
+المورد غير موجود
+المورد: 
+الموردون
+النسخ الاحتياطي والاستعادة
+النسخ الاحتياطي والاستعادة متاحان للمدير فقط
+النسخة القديمة لا تحتوي على جدول أساسي: 
+النسخة لا تحتوي على جدول أساسي: 
+النقد المدور للموردين
+النقد المدور للموردين: 
+النوع
+الواصل للزبون: 
+الوحدة
+الوحدة المحلية المرتبطة بالمنتج غير موجودة
+الوحدة المحلية المرتبطة غير موجودة
+الوحدة غير موجودة في صندوق الوارد
+انتهت جلسة المدير؛ سجّل الدخول مجدداً
+انتهت جلسة المستخدم
+انتهت صلاحية دعوة الاقتران؛ أنشئ دعوة جديدة
+انتهت مهلة انتظار الجهاز؛ يمكنك إنشاء دعوة جديدة.
+انتهت مهلة انتظار موافقة الهاتف الرئيسي؛ أنشئ دعوة جديدة.
+انقطع اتصال وسيط المزامنة
+باركود
+باركود مكرر داخل الملف: 
+باركود: 
+بانتظار تغيير كلمة المرور
+بانتظار طلب الجهاز الثانوي عبر وسيط المزامنة...
+بدون تحديد مورد
+بدون تصنيف
+بصمة مفتاح الجهاز المرسل لا تطابق المفتاح المسجل
+بقي ملف التراجع؛ لن يتم حذف سجل العملية
+بنك
+بنود فاتورة الشراء غير متطابقة
+بيان المصروف (اختياري)
+بيانات أحد أصناف الفاتورة غير صالحة
+بيانات إقرار التطبيق غير مكتملة
+بيانات اختبار النقل غير صالحة
+بيانات اعتماد الجهاز الأساسي غير متوفرة
+بيانات اعتماد الجهاز الثانوي غير متوفرة
+بيانات اعتماد الجهاز المرسل غير متوفرة
+بيانات اعتماد الجهاز المستلم غير متوفرة
+بيانات اعتماد الجهاز المقابل غير متوفرة
+بيانات اعتماد الجهاز غير صالحة
+بيانات اعتماد الجهاز يجب أن تكون 256 بت
+بيانات اعتماد الفاتورة غير مكتملة
+بيانات اقتران سرية — انقلها مباشرة للجهاز المقصود
+بيانات الاقتران تخص جهازاً آخر؛ استخدم الرد الذي صدر لهذا الهاتف تحديداً
+بيانات التحصيل غير مكتملة
+بيانات التحويل غير مكتملة
+بيانات الدفعة غير مكتملة
+بيانات الرصيد الافتتاحي غير صالحة
+بيانات الزبون الواردة غير صالحة
+بيانات الصنف
+بيانات العملية غير مكتملة
+بيانات الفاتورة
+بيانات المرتجع غير مكتملة
+بيانات المسحوب الشخصي غير مكتملة
+بيانات المصروف غير مكتملة
+بيانات المنتج أو الوحدة أو الأسعار أو الرصيد الافتتاحي غير صالحة
+بيانات تحديث حالة الزبون غير صالحة
+بيانات تحديث حالة المنتج غير صالحة
+بيانات تحصيل دين تحويل الرصيد غير صالحة
+بيانات تحصيل دين تحويل الرصيد غير مكتملة
+بيانات تسوية المخزون غير مكتملة
+بيانات تصنيف المنتج غير مكتملة
+بيانات تعديل الدفعة غير مكتملة
+بيانات تعريف الحساب المالي الواردة غير صالحة
+بيانات تعريف ذمة تحويل الرصيد غير صالحة
+بيانات حدث المزامنة غير مكتملة
+بيانات حساب القبض الأصلي غير مكتملة أو غير مدعومة
+بيانات حساب المدير المرفقة بالاقتران غير صالحة
+بيانات دفعة ذمة تحويل الرصيد لا تطابق الرصيد السابق
+بيانات ربط الحساب المالي غير مكتملة
+بيانات سعر الصرف الواردة غير صالحة
+بيانات سعر الصرف الواردة لا تطابق الكيان
+بيانات طلب تحصيل دين تحويل الرصيد غير متطابقة
+بيانات هوية الإطار لا تطابق الرسالة المشفرة
+بيع آجل
+بيع نقدي
+تأكد من أن الملف بصيغة CSV أو XLSX وأن الأعمدة صحيحة.
+تأكيد
+تأكيد إلغاء الشهادة
+تأكيد الجهاز الرئيسي
+تأكيد الدفع
+تأكيد كلمة المرور
+تأكيد كلمة المرور الجديدة
+تابع الفواتير والمدفوعات والمبالغ المتبقية للموردين من مكان واحد.
+تاريخ أو بيانات المرتجع غير صالحة
+تاريخ أو وقت التحويل الأصلي غير صالح
+تاريخ أو وقت التحويل غير صالح
+تاريخ أو وقت المصروف الأصلي غير صالح
+تاريخ أو وقت حركة التحصيل الأصلي غير صالح
+تاريخ أو وقت دفعة المورد الأصلي غير صالح
+تاريخ التحصيل أو يوم العمل غير صالح
+تاريخ التحصيل الوارد غير صالح
+تاريخ التحصيل غير صالح
+تاريخ التشغيل غير صالح
+تاريخ الحركة التشغيلي غير صالح
+تاريخ الفاتورة
+تاريخ الفاتورة مطلوب
+تاريخ الكشف غير صالح
+تاريخ المرتجع
+تاريخ المرتجع غير صالح
+تاريخ المصروف
+تاريخ المصروف غير صالح
+تاريخ تخصيص النقد المدور غير صالح
+تاريخ حركة التسوية غير صالح
+تاريخ ذمة تحويل الرصيد غير صالح
+تتبع المخزون
+تثبيت إقرار إعداد المتجر متاح على الجهاز الأساسي فقط
+تثبيت إقرار سعر الصرف متاح على الجهاز الأساسي فقط
+تحتوي قاعدة SQLite القديمة على علاقات غير سليمة
+تحتوي قاعدة البيانات على علاقات غير سليمة
+تحديث الذمة لا يتضمن حركة التحصيل اللازمة لتفسير تغير الرصيد
+تحديث المنتج غير موجود
+تحديث المنطقة الزمنية الوارد غير صالح
+تحديث المنطقة الزمنية غير موجود في صندوق الوارد
+تحديث حالة الاتصال
+تحديث حالة الزبون الوارد مسموح على جهاز ثانوي مرتبط فقط
+تحديث حالة الزبون غير موجود
+تحديث حالة المنتج الوارد مسموح على جهاز ثانوي مرتبط فقط
+تحديث ذمة تحويل الرصيد غير موجود
+تحديد النقد المدور للموردين
+تحصيل دفعة
+تحصيل دين 
+تحصيل دين الزبون عن الفاتورة 
+تحصيل دين تحويل الرصيد
+تحصيل دين تحويل رصيد
+تحصيل دين تحويل رصيد • 
+تحصيل دين زبون
+تحصيل ديون الزبائن متاح بالليرة السورية فقط
+تحصيل ديون العملاء
+تحصيل ديون تحويل الرصيد متاح بالليرة السورية فقط
+تحصيل ديون فواتير البيع
+تحصيل ديون – قبض 
+تحصيل ذمة تحويل الرصيد يتجاوز أصل الدين
+تحصيل على فاتورة آجلة
+تحقق من أصناف وكميات المرتجع
+تحقق من السعر والكمية
+تحقق من الكمية والتكلفة
+تحقق من مبلغ التحويل ورسوم الشركة
+تحقق واحفظ الاقتران على هذا الهاتف
+تحميل الأجهزة الثانوية المسجلة
+تحويل إلكتروني إلى محفظة
+تحويل داخلي – تصريف محفظة
+تحويل داخلي – تصريف محفظة إلى 
+تحويل داخلي – تصريف محفظة من 
+تحويل رصيد
+تحويل رصيد آجل • 
+تحويل محفظة إلى صندوق نقدي تختاره
+تحويل نقدية إلى 
+تحويل نقدية بين صندوقين
+تحويل نقدية من 
+تحويلات الرصيد الآجلة
+تحويلات الرصيد – تفصيل اليوم
+تحويلات واردة: 
+تخصيصات FIFO الأصلية لا تغطي كمية المرتجع؛ أوقف العملية للمطابقة
+تخفيض الدين المرجعي لا يطابق المبلغ وسعر التحصيل الأصلي
+تخفيض المرتجعات: 
+تخفيض دين العميل بمرتجع
+تخفيض مستحق المورد بمرتجعات: 
+تراجع
+ترحيل حركة رصيد خدمة قديمة • 
+تسجيل التحصيل
+تسجيل الجهاز الثانوي
+تسجيل الخروج
+تسجيل الدخول
+تسجيل المصروفات وربطها بالصندوق وصافي الربح
+تسجيل تحصيل على هذه الفاتورة
+تسجيل خروج
+تسجيل دفعات الموردين
+تسجيل دفعة
+تسجيل دفعة للمورد
+تسجيل رصيد الجرد
+تسجيل رصيد الجرد الافتتاحي
+تسجيل شهادات الأجهزة لدى الوسيط
+تسجيل طلب اقتران وارد من الجهاز الثانوي
+تسجيل فرق الجرد
+تسجيل فروقات الجرد بالزيادة أو النقصان
+تسجيل مسحوبات شخصية
+تسجيل مصروف تشغيلي
+تسلسل أوامر الجهاز الثانوي غير صالح
+تسلسل المزامنة غير صالح
+تسويات المخزون
+تسويات وجرد المخزون
+تسوية الرصيد الافتتاحي اليومي
+تسوية المخزون السابقة غير موجودة
+تصحيح دفعات الموردين
+تصحيح دفعة المورد
+تصدير Excel
+تصدير PDF
+تصدير كشوف الحساب متاح للمدير فقط
+تصنيف المصروف غير موجود
+تصنيف المصروف غير موجود أو موقوف
+تصنيف المصروف غير موجود أو موقوف على الجهاز الأساسي
+تصنيف المصروف غير موجود أو موقوف على هذا الجهاز
+تطبيق إعداد المنطقة الزمنية الوارد مسموح على جهاز ثانوي مرتبط فقط
+تطبيق الأوامر الواردة مسموح على الجهاز الأساسي المعتمد فقط
+تطبيق التحصيل الوارد مسموح على الجهاز الأساسي المعتمد فقط
+تطبيق التصنيفات الواردة مسموح على جهاز ثانوي مرتبط فقط
+تطبيق الرصيد الافتتاحي الوارد مسموح على جهاز ثانوي مرتبط فقط
+تطبيق المرتجعات الواردة مسموح على الجهاز الأساسي فقط
+تطبيق الوحدات الواردة مسموح على جهاز ثانوي مرتبط فقط
+تطبيق بيانات الزبائن الواردة مسموح على جهاز ثانوي مرتبط فقط
+تطبيق تسوية المخزون الواردة مسموح على الجهاز الأساسي فقط
+تطبيق تعريفات الحسابات المالية الواردة مسموح على جهاز ثانوي مرتبط فقط
+تطبيق دليل المنتجات الوارد مسموح على جهاز ثانوي مرتبط فقط
+تطبيق سعر الصرف الوارد مسموح على جهاز ثانوي مرتبط فقط
+تعارض في دفعة ذمة تحويل الرصيد المكررة
+تعارض في سجل المصروف أو إعادة استخدام معرّف العملية
+تعارض في سجل النقد المدور
+تعارض في سجل تحصيل دين تحويل الرصيد أو إعادة استخدام معرّف العملية
+تعارض في سجل تحويل الرصيد أو إعادة استخدام معرّف العملية
+تعارض في سجل دفعة المورد أو إعادة استخدام معرّفها
+تعارض في سجل عملية التحصيل أو إعادة استخدام معرّفها
+تعارض مع إقرار محفوظ سابقاً
+تعارض مع حساب محلي يحتوي رصيداً أو حركات مالية؛ لم يتم استبداله
+تعارضت بيانات العملية الواردة مع عملية محفوظة بالمعرّف نفسه
+تعديل
+تعديل البيانات
+تعديل الحساب
+تعديل الحساب المالي
+تعديل الحسابات المالية متاح للمدير فقط
+تعديل الحسابات المالية متاح من الجهاز الأساسي فقط حتى تكتمل مزامنة بيانات الحسابات
+تعديل المنتج
+تعديل المنتجات والتصنيفات والمخزون الافتتاحي متاح من الجهاز الأساسي فقط حتى يكتمل مسار مزامنة البيانات الأساسية
+تعديل بيانات الزبون
+تعديل بيانات العملاء متاح للمدير فقط
+تعديل دفعات الموردين متاح للمدير فقط
+تعديل دفعة المورد
+تعديل هذه الدفعة
+تعديل وإيقاف بيانات العملاء
+تعديلات تقييم الدين حسب سعر الصرف
+تعذر إتمام البيع؛ لم يتم ترحيل المخزون أو قبض المبلغ
+تعذر إتمام العملية
+تعذر إتمام تبادل الاقتران عبر الوسيط (
+تعذر إرسال إقرار التطبيق؛ بقي محفوظاً لإعادة المحاولة
+تعذر إرسال العمليات المعلقة
+تعذر إرسال العملية؛ بقيت محفوظة في صندوق الإرسال
+تعذر إزالة حساب محفظة محلي فارغ قبل ربط الجهاز الثانوي
+تعذر إزالة قاعدة البيانات غير السليمة
+تعذر إزالة ملف الاستعادة المؤقت السابق
+تعذر إضافة التصنيف؛ ربما الاسم مستخدم
+تعذر إعادة قاعدة SQLite الأصلية إلى مسارها
+تعذر إعادة قاعدة البيانات السابقة
+تعذر إكمال نقل قاعدة الاستعادة؛ أعد المحاولة
+تعذر إنشاء الحساب
+تعذر إنشاء المستخدم
+تعذر إنشاء النسخة الاحتياطية
+تعذر إنشاء بيان إلغاء الشهادة
+تعذر إنشاء جلسة الحساب الموثق على الجهاز الثانوي
+تعذر إنشاء حساب المدير
+تعذر إنشاء مجلد الاستعادة المؤقت
+تعذر إنشاء مجلد قاعدة البيانات
+تعذر إنشاء مجلد قاعدة البيانات المشفرة
+تعذر إنشاء مجلد ملفات التطبيق غير القابلة للنسخ الاحتياطي
+تعذر إنشاء مفتاح آمن لترحيل قاعدة SQLite القديمة
+تعذر إنشاء مفتاح قاعدة البيانات بأمان
+تعذر إنشاء ملف قاعدة البيانات المشفرة
+تعذر إنهاء الجلسة بعد الاستعادة؛ سجّل الدخول مجدداً يدوياً
+تعذر إيقاف المنتج
+تعذر استخراج جذر الثقة
+تعذر استعادة قاعدة الاختبار السابقة
+تعذر استعادة قاعدة البيانات السابقة بعد انقطاع التطبيق
+تعذر استعادة مفتاح قاعدة البيانات السابق
+تعذر استعادة مفتاح قاعدة البيانات؛ لم يتم إنشاء مفتاح بديل أو تعديل القاعدة
+تعذر استعراض المجلد
+تعذر استقبال طلب الاقتران: 
+تعذر استهلاك كامل الكمية من طبقات FIFO
+تعذر استيراد مفتاح قاعدة البيانات إلى هذا الجهاز
+تعذر اعتماد الفاتورة
+تعذر اعتماد المرتجع
+تعذر اعتماد مرتجع المشتريات
+تعذر التراجع عن استعادة قاعدة الاختبار
+تعذر التعافي: قاعدة البيانات الحالية ونسخة التراجع غير سليمتين؛ احتفظ بالملفات ولا تحذفها
+تعذر بدء اتصال الوسيط: 
+تعذر تثبيت إقرار التطبيق في صندوق الإرسال
+تعذر تثبيت اعتماد فاتورة الدين على الجهاز الثانوي
+تعذر تثبيت اكتمال توزيع العملية على الأجهزة
+تعذر تثبيت تحديث ذمة تحويل الرصيد
+تعذر تثبيت تطبيق إعداد المنطقة الزمنية
+تعذر تثبيت تطبيق التصنيف
+تعذر تثبيت تطبيق المرتجع الوارد
+تعذر تثبيت تطبيق المنتج
+تعذر تثبيت تطبيق الوحدة
+تعذر تثبيت تطبيق بيانات الزبون
+تعذر تثبيت تطبيق تسوية المخزون
+تعذر تثبيت تطبيق تعريف الحساب المالي
+تعذر تثبيت تطبيق سعر الصرف
+تعذر تثبيت حالة اعتماد المصروف الوارد
+تعذر تثبيت حالة اعتماد دفعة المورد
+تعذر تثبيت حالة تخصيص النقد المدور
+تعذر تثبيت حالة تطبيق الأمر
+تعذر تثبيت حالة تطبيق التحصيل
+تعذر تثبيت حالة تطبيق تحويل الرصيد
+تعذر تثبيت قاعدة SQLCipher؛ ستتم استعادة القاعدة الأصلية عند التعافي
+تعذر تثبيت نتيجة اختبار النقل
+تعذر تثبيت نتيجة تحصيل دين تحويل الرصيد
+تعذر تجهيز مصادقة وسيط المزامنة
+تعذر تجهيز نسخة مزامنة ذمة تحويل الرصيد
+تعذر تحديث الحساب
+تعذر تحديث تعريف الحساب المالي
+تعذر تحديث حالة الفاتورة
+تعذر تحديث حالة المستخدم
+تعذر تحديث حالة دين تحويل الرصيد
+تعذر تحديث حالة فاتورة البيع
+تعذر تحديث حالة فاتورة الدين بعد التحصيل
+تعذر تحديث حالة فاتورة الشراء بعد اعتماد دفعة المورد
+تعذر تحديث درج اليوم الرئيسي
+تعذر تحديث رصيد المخزون
+تعذر تحديث سجل شهادات الأجهزة
+تعذر تحديث كلمة المرور
+تعذر تحديث مسودة الفاتورة
+تعذر تحديث نسخة ذمة تحويل الرصيد
+تعذر تحديد حالة العملية الواردة
+تعذر تسجيل التحصيل
+تعذر تسجيل التسوية
+تعذر تسجيل الدفعة
+تعذر تسجيل المصروف
+تعذر تسجيل رصيد الجرد
+تعذر تسجيل شهادات الأجهزة
+تعذر تسليم بيانات بدء الدخول المشفرة عبر الوسيط؛ لا تشارك رداً غير مشفر.
+تعذر تصدير قاعدة SQLite إلى SQLCipher
+تعذر تصدير كشف الحساب
+تعذر تعديل الحساب
+تعذر تعديل الحساب المالي
+تعذر تعديل الدفعة
+تعذر تعديل حركة الصندوق المرتبطة بالدفعة
+تعذر تعديل سجل دفعة الفاتورة
+تعذر تعيين الدرج اليومي
+تعذر تعيين صندوق شراء الرصيد
+تعذر تغيير الصلاحية
+تعذر تغيير كلمة المرور
+تعذر تنظيف ملف التجهيز بعد التحقق
+تعذر تنظيف ملف التجهيز بعد التراجع
+تعذر تنظيف ملف التجهيز بعد نجاح الترحيل
+تعذر تنظيف ملف جانبي بعد إغلاق قاعدة SQLite
+تعذر تنظيف ملف جانبي بعد إغلاق قاعدة البيانات
+تعذر تنظيف نسخة التراجع بعد التحقق من قاعدة البيانات الحالية
+تعذر تنفيذ التحويل
+تعذر تنفيذ العملية
+تعذر توزيع تكلفة المرتجع على تخصيصات FIFO الأصلية
+تعذر جلب جذر الثقة من وسيط المزامنة (
+تعذر حذف بيانات اعتماد الجهاز
+تعذر حساب قيمة المرتجع
+تعذر حفظ إعداد المنطقة الزمنية
+تعذر حفظ التصنيف
+تعذر حفظ الرصيد
+تعذر حفظ المسودة
+تعذر حفظ المنتج؛ تحقق من عدم تكرار الباركود أو SKU
+تعذر حفظ المورد
+تعذر حفظ بيانات اعتماد المزامنة بشكل آمن
+تعذر حفظ بيانات الزبون
+تعذر حفظ تقدم عملية الاستعادة بأمان
+تعذر حفظ تكلفة البضاعة المباعة على بند الفاتورة
+تعذر حفظ حالة تمرير إقرار التطبيق
+تعذر حفظ حساب المدير
+تعذر حفظ سجل الاستعادة الآمن
+تعذر حفظ سجل ترحيل SQLCipher
+تعذر حفظ طلب اعتماد الفاتورة
+تعذر حفظ قاعدة SQLite الأصلية كنقطة تراجع
+تعذر حفظ قاعدة الاختبار الحالية للتراجع
+تعذر حفظ قاعدة البيانات الحالية للتراجع
+تعذر حفظ محاولة تمرير الإقرار
+تعذر خصم الكمية من طبقة الشراء الأصلية
+تعذر شراء الرصيد
+تعذر عزل القاعدة الجديدة قبل استعادة القاعدة السابقة
+تعذر عزل ملف القاعدة غير المعتمد قبل استعادة الأصل
+تعذر فتح الملف المحدد
+تعذر فتح ملف التصدير للحفظ
+تعذر فتح ملف النسخة المحدد
+تعذر فتح ملف النسخة للحفظ
+تعذر فتح منتقي المجلدات على هذا الجهاز
+تعذر فتح نافذة حفظ الملف: 
+تعذر فك تشفير النسخة. تحقق من كلمة المرور وسلامة الملف
+تعذر قراءة إعدادات مزامنة الأجهزة
+تعذر قراءة الزبون بعد الحفظ
+تعذر قراءة الملف
+تعذر قراءة بيانات الزبون
+تعذر قراءة محتويات المجلد المحدد
+تعذر مطابقة المرتجعات السابقة مع سعر صرف الفاتورة
+تعذر وضع قاعدة الاختبار المستعادة
+تعذرت إعادة إرسال العمليات المعلقة
+تعذرت عملية النسخ أو الاستعادة
+تعذرت معاينة المرتجع
+تعريف الوحدة المحلية المرتبط بالمنتج تغير
+تعريف الوحدة المحلية تغير بعد ربطه بالجهاز الأساسي
+تعريف الوحدة الموجودة محلياً يتعارض مع تعريف الجهاز الأساسي
+تعريف الوحدة الوارد أو معرّفها الأصلي غير صالح
+تعريف وحدة المنتج لا يطابق ربط الوحدة الأصلي
+تعريف وحدة المنتج يختلف عن الوحدة المحلية؛ أوقف المزامنة للمراجعة
+تعيين الدرج اليومي الرئيسي متاح للمدير فقط
+تعيين كدرج اليوم الرئيسي
+تعيين كصندوق شراء رصيد الخدمات
+تغذية محفظة
+تغير مفتاح قاعدة البيانات المحلية؛ أُوقفت الاستعادة
+تغيرت حالة الأمر أثناء التطبيق
+تغيرت طبقة التكلفة أثناء الاعتماد؛ أعد المحاولة
+تغيير المنطقة الزمنية مسموح من الجهاز الأساسي فقط
+تغيير حساب دفعة المورد بالليرة يتطلب صندوق النقد المدور المحدد في يوم تسجيل الدفعة
+تغيير حساب شحن الخدمات متاح من الجهاز الأساسي فقط حتى تكتمل مزامنته
+تغيير سعر الصرف
+تغيير سعر الصرف متاح من الجهاز الأساسي فقط
+تغيير كلمة المرور إلزامي
+تغيير مفتاح جهاز مسجل يتطلب إلغاء الاقتران وإعادة تسجيله
+تكلفة FIFO المباعة: 
+تكلفة الشراء
+تكلفة الشراء بالدولار
+تكلفة الشراء بالليرة السورية
+تكلفة الشراء بالليرة والدولار غير متطابقة في الصف 
+تكلفة الشراء غير محددة
+تكلفة الشراء ل س
+تكلفة الشراء: 
+تكلفة الكمية المنقوصة تُحسب تلقائياً وفق FIFO ولا تُدخل يدوياً
+تكلفة الوحدة المعتمدة: 
+تكلفة الوحدة بالدولار
+تكلفة الوحدة بالليرة السورية
+تكلفة شراء المنتج غير مسجلة؛ حدّث تكلفة الشراء أولاً حتى لا يدخل المخزون في رأس المال بقيمة مجهولة
+تكلفة شراء الوحدة بالدولار (للزيادة فقط)
+تم إعداد حساب مستخدم مسبقاً؛ لا يمكن إعادة تهيئة المدير
+تم إلغاء تسجيل الجهاز المرسل
+تم إنشاء الحساب المالي
+تم إنشاء المستخدم. يجب عليه تغيير كلمة المرور عند أول دخول.
+تم إنشاء حساب المدير. سجّل الدخول الآن للمتابعة.
+تم إنشاء دعوة آمنة للجهاز 
+تم إنشاء نسخة احتياطية مشفّرة بنجاح
+تم إيقاف المنتج
+تم استيراد 
+تم اعتماد البيع الآجل على حساب الزبون • فاتورة 
+تم اعتماد الجهاز، لكن تعذر تسليم الرد عبر الوسيط: 
+تم اعتماد الفاتورة وتحديث المخزون
+تم اعتماد القاعدة الجديدة لكن تعذر تنظيف نسخة التراجع؛ سيُستكمل التنظيف لاحقاً
+تم اعتماد المرتجع 
+تم اعتماد توقيت المتجر: 
+تم اعتماد مرتجع المشتريات 
+تم البيع وقبض كامل القيمة وتحديث الصندوق • فاتورة 
+تم التحصيل وأصبحت الفاتورة مسددة بالكامل
+تم التحقق من القاعدة لكن تعذر تنظيف ملف التجهيز
+تم النسخ
+تم تبديل المفتاح لكن تعذر وضع القاعدة الجديدة؛ يمكن استكمال التراجع بأمان
+تم تحديث حالة الحساب
+تم تحديث سجل شهادات الأجهزة
+تم تحديث سعر الصرف؛ بقيت أسعار الدولار المرجعية ثابتة
+تم تحديث صلاحية الموظف
+تم تحديد النقد المدور. المتاح: 
+تم تسجيل التحصيل
+تم تسجيل التحصيل المالي الجزئي بنجاح
+تم تسجيل التحويل
+تم تسجيل الدخول. هذا الهاتف غير معيّن بعد. إذا كان هو الهاتف الرئيسي فاعتمده مرة واحدة. أما الهاتف الثانوي فاترك خيار الرئيسي دون لمس، وأنشئ طلب الاقتران من الدعوة ثم الصق رد الهاتف الرئيسي في الحقل الظاهر أسفل هذه الصفحة.
+تم تسجيل الدفعة الجزئية بنجاح
+تم تسجيل العملية في السجل المالي
+تم تسجيل المصروف بقيمة 
+تم تسجيل رصيد الجرد وتكلفته الافتتاحية
+تم تسديد الدين بالكامل
+تم تسديد الفاتورة بالكامل
+تم تسديد هذا الدين أو إغلاقه
+تم تصحيح الدفعة وتحديث الحساب والفاتورة
+تم تصدير كشف الحساب بنجاح: 
+تم تطبيق العملية، لكن تعذر إرسال الإقرار؛ سيعاد إرساله عند الاتصال التالي
+تم تعديل الحساب مع حفظ سجل التدقيق
+تم تعيين 
+تم تعيين صندوق شراء رصيد الخدمات
+تم تنفيذ التحويل وتسجيل الدين
+تم حفظ المسودة 
+تم حفظ المفتاح المحلي لكن تعذر نقل ملف الاستعادة؛ أعد المحاولة دون حذف ملف التجهيز
+تم حفظ بيانات الزبون
+تم حفظ بيانات المنتج
+تم حفظ طلب اعتماد الشراء محلياً بانتظار المزامنة واعتماد الجهاز الأساسي؛ لم يُرحّل المخزون بعد
+تم حفظ طلب البيع محلياً بانتظار المزامنة واعتماد الجهاز الأساسي؛ لم يُعتمد البيع بعد • فاتورة 
+تم حفظ طلب التحصيل للمزامنة
+تم حفظ طلب التحويل للمزامنة
+تم حفظ طلب تخصيص النقد المدور محلياً، وينتظر اعتماد الجهاز الأساسي.
+تم حفظ طلب دفعة المورد محلياً بانتظار المزامنة واعتماد الجهاز الأساسي
+تم رفض إعادة تشغيل تسلسل قديم
+تم رفض تحديث إعداد متجر أقدم أو معاد التشغيل
+تم رفض سعر صرف أقدم أو معاد التشغيل
+تم شراء الرصيد. عمولة الشحن: 
+تم قطع الاتصال وإيقاف إعادة الاتصال التلقائية.
+تم نسخ البيانات إلى الحافظة
+تمت إضافة 
+تمت إضافة التصنيف
+تمت إضافة التصنيف 
+تمت استعادة القاعدة الأصلية لكن تعذر تنظيف ملف التجهيز
+تمت الاستعادة والتحقق من قاعدة البيانات. سجّل الدخول مجدداً.
+تمت التسوية. الرصيد الجديد: 
+تمت مطابقة رصيد المحفظة مع الرصيد الفعلي
+تمت مطابقة رصيد المخزون مع سجل الحركات، والتقييم مبني على طبقات التكلفة FIFO وليس على سعر البيع أو سعر الصنف الحالي.
+تمويل محفظة من 
+تنبيه قبل الاستعادة
+تنبيه محاسبي: توجد كميات غير مقيمة أو فروقات في سجل المخزون. الأصناف المتأثرة حالياً: 
+تنبيه: 
+تنبيه: توجد 
+تنبيه: فاتورة قديمة بلا سعر صرف موثوق؛ لا يمكن تقييم دينها أو تحصيله آلياً قبل مراجعتها.
+تنبيه: لا يوجد سعر صرف محفوظ في هذه الفاتورة القديمة، لذلك لا يمكن حساب رصيدها السوري تلقائياً.
+تنبيه: لم نحتسب قيمة الأصناف التي تحتوي على كميات بلا تكلفة مسجلة أو فروقات في سجل المخزون. الأصناف المتأثرة حالياً: 
+تنفيذ
+تنفيذ التحويل
+تنفيذ المرتجعات ورد الأموال
+تنفيذ تحويل رصيد
+تنفيذ تحويلات العملاء للخدمات
+تنفيذ عمليات البيع
+تهيئة الاستعادة...
+تهيئة الجهاز الرئيسي
+تهيئة النسخ الاحتياطي...
+توجد أجهزة ثانوية نشطة بلا شهادة صالحة في قاعدة الجهاز الرئيسي: 
+توجد أرصدة أو حركات أو ارتباطات محلية في محفظة خدمة على هذا الهاتف. لا يمكن ربطه كثانوي قبل مطابقة هذه البيانات.
+توجد علاقات غير سليمة في قاعدة SQLCipher
+توجد عملية نسخ أو استعادة قيد التنفيذ بالفعل
+توجد عمليتا تعافٍ متداخلتان لقاعدة البيانات؛ أُوقف التشغيل لحماية الملفات
+توجد محاولة اقتران أخرى لهذه الدعوة
+توجد محفظة خدمة محلية غير معروفة؛ أوقف الربط وراجع إعداداتها أولاً
+توجد ملفات ترحيل سابقة بلا سجل قابل للاستعادة؛ احتفظ بها وأوقف الترحيل
+توجد ملفات ترحيل يتيمة بلا سجل؛ لم يتم حذف أي ملف
+توجد ملفات جانبية لقاعدة سابقة؛ رُفضت الاستعادة الآمنة
+توجد نقطة تراجع سابقة؛ يجب التعافي منها أولاً
+توزيع إعدادات المتجر متاح من الجهاز الأساسي فقط
+توزيع المبلغ المسترد لا يساوي القيمة المستحقة وفق سعر صرف الفاتورة
+توزيع المبلغ المسترد من المورد
+توزيع رد المبلغ النقدي
+توزيع رد المبلغ غير صالح
+توقيع الجهاز الرئيسي على بيانات الاقتران غير صحيح
+تُحوّل المصروفات إلى الدولار بسعر الصرف المحفوظ وقت تسجيل كل مصروف. صافي نتيجة التشغيل = مجمل الربح بعد مرتجعات المبيعات − المصروفات المسجلة، ولا يشمل الضرائب أو البنود غير المسجلة.
+تُطبق التغييرات على جميع الحسابات ذات دور «موظف». اترك الصلاحيات الإدارية مغلقة، وامنح فقط ما يحتاجه الموظف فعلياً.
+جارٍ التحقق من جذر الثقة وتسجيل شهادات الأجهزة الثانوية...
+جذر الثقة المثبت في الوسيط لا يطابق هوية الجهاز الأساسي؛ أوقفنا المزامنة الآمنة
+جذر الثقة غير مهيأ على وسيط المزامنة
+جذر الثقة متاح على الجهاز الأساسي فقط
+جرام
+جزئية
+جلسة المدير غير صالحة
+جلسة المستخدم غير صالحة
+جلسة المستخدم غير صالحة لتسجيل عملية الاستيراد
+جهاز الاستعادة يحتوي على قاعدة بيانات؛ رُفض الاستبدال
+حالة أمر التحصيل لا تسمح بالتطبيق: 
+حالة أمر المصروف لا تسمح بالتطبيق
+حالة أمر دفعة المورد لا تسمح بالتطبيق
+حالة أو نوع أو مرجع أمر تحويل الرصيد غير صالح
+حالة أو نوع طلب تحصيل دين تحويل الرصيد غير صالح
+حالة اختبار النقل لا تسمح بالتطبيق
+حالة الأمر المحلي لا تسمح بقبول الإقرار
+حالة الأمر لا تسمح بالتطبيق: 
+حالة التصنيف لا تسمح بالتطبيق
+حالة التقييم: مكتمل؛ الكميات مطابقة لسجل الحركات، وتم احتساب الطبقات المتبقية وفق FIFO.
+حالة الدفع: 
+حالة الوحدة لا تسمح بالتطبيق
+حالة تحديث المنطقة الزمنية لا تسمح بالتطبيق
+حالة تحديث ذمة تحويل الرصيد لا تسمح بالتطبيق
+حالة حدث الحساب المالي لا تسمح بالتطبيق
+حالة حدث الزبون لا تسمح بالتطبيق
+حالة حدث المنتج لا تسمح بالتطبيق
+حالة ذمة تحويل الرصيد لا تطابق رصيدها
+حالة سعر الصرف لا تسمح بالتطبيق
+حجم إقرار المزامنة غير صالح
+حجم المفتاح العام غير صالح
+حجم بيانات المزامنة غير صالح
+حجم قاعدة البيانات أكبر من الحد المسموح
+حجم قاعدة البيانات يتجاوز الحد المدعوم
+حجم قاعدة البيانات يتجاوز الحد المدعوم للنسخ الاحتياطي
+حدث الحساب المالي غير موجود في صندوق الوارد
+حدث خطأ أثناء الاستيراد؛ لم يتم حفظ أي صنف.
+حدث خطأ أثناء حفظ الملف
+حدث خطأ غير متوقع. لم يتم اعتماد بيانات غير متحقق منها.
+حدد الأصناف المرتجعة
+حدد الحساب الذي سيستقبل المبلغ المسترد
+حدد الحسابات التي سيُرد منها المبلغ للزبون
+حدد الفاتورة والأصناف المرتجعة
+حدد النقد المدور للموردين لهذا اليوم أولاً من خيار إدارة الأرصدة اليومية.
+حدد حساباً ومبلغ الاسترداد
+حدد حساباً ومبلغ الرد
+حدّث تكلفة شراء المنتج أولاً؛ لا يمكن إدخال رصيد جرد في رأس المال بتكلفة مجهولة.
+حدّد دور هذا الهاتف أولاً: الجهاز الرئيسي أو الجهاز الثانوي.
+حذف
+حركات اليوم
+حركة بيع سالبة بلا مرجع فاتورة: 
+حركة مالية
+حساب الاسترداد غير موجود أو موقوف
+حساب الاستلام يجب أن يكون درجاً نقدياً أو محفظة إلكترونية
+حساب التحصيل النقدي المرتبط ليس درج اليوم الرئيسي لتاريخ الحركة
+حساب الربح أو مبلغ ذمة التحويل لا يطابق سياسة التحويل المعتمدة على الجهاز الأساسي
+حساب القبض غير موجود
+حساب القبض غير موجود أو موقوف
+حساب المحفظة الوارد لا يطابق محفظة الخدمة المعتمدة على الجهاز الأساسي
+حساب المدير غير نشط أو يتطلب تغيير كلمة المرور
+حساب المستخدم الأساسي غير مفعل أو يتطلب تغيير كلمة المرور
+حساب المستخدم غير نشط
+حساب المصروف على الجهاز الثانوي غير مربوط أو موقوف
+حساب النقد المدور يجب أن يكون صندوقاً بالليرة السورية
+حساب بنكي
+حساب حفظ التحويل الآجل غير صالح
+حساب دفع المورد على الجهاز الثانوي غير مربوط أو موقوف
+حساب رد المبلغ غير صالح
+حساب رد المبلغ غير مربوط أو موقوف
+حساب رد المبلغ غير موجود
+حساب قبض البيع غير موجود أو موقوف
+حساب قبض الجهاز الثانوي غير مربوط أو موقوف
+حسابات الموردين
+حسابات الموردين متاحة للمدير فقط
+حسناً
+حفظ
+حفظ الإعداد
+حفظ التصحيح
+حفظ التعديلات
+حفظ الرصيد
+حفظ القاعدة الحالية ونقطة التراجع...
+حفظ النسخة
+حفظ بيانات المتجر واستعادتها بأمان
+حفظ سعر الصرف
+حفظ عنوان الوسيط وبدء المصادقة
+حفظ كلمة المرور
+حفظ كمسودة
+حفظ واعتماد الفاتورة وتحديث المخزون
+حماية النسخة الاحتياطية
+حُفظ طلب التحصيل على الجهاز الثانوي وسيُرسل إلى الجهاز الأساسي. لن يُرحّل إلى الصندوق أو يُعتمد في رصيد الدين حتى يؤكد الأساسي تطبيقه.
+خدمة المزامنة تعمل؛ تبقى العمليات معلقة حتى إقرار الجهاز الأساسي
+خصم الفاتورة بالدولار (مثال 1.50)
+خصم الفاتورة غير قابل للتوزيع بأمان
+خطأ اتصال
+خطأ غير محدد
+خطأ وسيط المزامنة: 
+خفض مرجع الدين: 
+خوارزمية توقيع الجهاز غير مدعومة
+خوارزمية هوية الجهاز غير مدعومة
+دائن USD سنت
+دائن ليرة
+دائن: 
+دخول
+درج البيع اليومي
+درج المبيعات
+درج نقدي
+دعوة الاقتران لا تحتوي معرّف الجهاز الرئيسي
+دعوة الاقتران لا تحتوي معرّف المتجر
+دعوة ربط جهاز The Daily Shop
+دفتر تحصيل دين تحويل الرصيد غير متوازن؛ يلزم التدقيق قبل التحصيل
+دفعات الموردين: 
+دفعة المورد غير موجودة
+دفعة سابقة بلا سعر صرف موثوق
+دفعة قديمة بلا سعر صرف موثوق
+دفعة للمورد
+دفعة للمورد عن الفاتورة 
+دفعة ليرة قديمة بلا سعر صرف محفوظ
+دفعة مصححة للمورد عن الفاتورة 
+دفعة مورد
+دقة الرصيد الافتتاحي تتجاوز دقة الوحدة
+دقة الكمية الافتتاحية تتجاوز دقة وحدة القياس
+دقة الكمية تتجاوز المنازل العشرية المسموحة لوحدة القياس
+دقة الكمية تتجاوز دقة وحدة قياس الصنف
+دقة الكمية لا تتوافق مع وحدة قياس المنتج (المنازل العشرية المسموحة: 
+دقة كمية المرتجع غير صالحة
+دور الجهاز غير صالح لإدارة أرصدة الخدمات
+دور الجهاز غير صالح لإنشاء ذمم تحويل الرصيد
+دور الجهاز غير صالح لتحصيل دين تحويل الرصيد
+دور الجهاز غير صالح لتسجيل دفعات الموردين
+دور الجهاز غير صالح لتنفيذ الحركة المالية
+دور الجهاز غير صالح لتنفيذ تحصيل الديون
+دور الجهاز غير صالح لتنفيذ تحويل الرصيد
+دور الجهاز غير مهيأ
+دور الجهاز غير مهيأ للمزامنة
+دور جهاز المزامنة غير صالح
+دور جهاز المزامنة غير معروف
+دور جهاز المزامنة غير مهيأ
+دين تحويل الرصيد غير متاح على هذا الجهاز؛ انتظر مزامنة الأساسي
+دين تحويل الرصيد غير موجود
+ديون تحويل الرصيد الآجلة
+ديون تحويلات آجلة جديدة: 
+ذمة تحويل الرصيد غير موجودة على الجهاز الأساسي
+رأس المال الكلي للمخزون
+ربح المتجر: 
+ربط التصنيفات لا يطابق الجهاز الأساسي المعتمد
+ربط تصنيف المنتج يتعارض مع الاسم الأصلي
+ربط محفظة الخدمة غير صالح للمزامنة
+ربط هاتف بلا حساب محلي يتطلب فتح الدعوة مباشرة على الهاتف الثانوي والاتصال بوسيط المزامنة
+ربطة
+رجوع
+رد مبلغ مرتجع للعميل
+رد مبلغ مرتجع مبيعات 
+رد نقدي: 
+رسالة الوسيط لا تطابق هوية المرسل أو المستلم
+رسالة وسيط غير معروفة
+رسم شركة سيريتل كاش يُحتسب تلقائياً وفق السياسة المعتمدة
+رسوم التعبئة المدفوعة فعلياً اليوم: 
+رسوم الشركة (تُحسب تلقائياً لسيريتل كاش)
+رسوم وعمولات
+رصيد 
+رصيد آخر اليوم: 
+رصيد أول اليوم: 
+رصيد افتتاحي عند إنشاء المنتج
+رصيد افتتاحي ناتج عن جرد فعلي
+رصيد افتتاحي وارد من الجهاز الأساسي
+رصيد الحساب الأساسي غير كافٍ لاعتماد المصروف الوارد
+رصيد الحساب الأساسي غير كافٍ لاعتماد دفعة المورد
+رصيد الحساب الجديد غير كافٍ لتسجيل الدفعة المصححة
+رصيد الحساب غير كافٍ. الرصيد المتاح: 
+رصيد الحساب لا يكفي لتسجيل المصروف. الرصيد المتاح: 
+رصيد المحفظة غير كافٍ
+رصيد المخزون غير كافٍ لإتمام المرتجع
+رصيد سيرياتيل
+رصيد سيرياتيل المشترك
+رصيد شام كاش
+رصيد صندوق المصدر غير كافٍ
+رصيد صندوق شراء الرصيد لا يكفي لقيمة الشحن والعمولة
+رفض
+رفض وسيط المزامنة إلغاء الجهاز (
+رفض وسيط المزامنة شهادة الجهاز (
+رفض وسيط المزامنة طلب الاقتران أو بيانات الوصول
+رقم الزبون / مرجع التحويل / ملاحظة
+رقم الهاتف
+رقم الهاتف (اختياري)
+رقم فاتورة أو مرجع (اختياري)
+رمز SKU (اختياري)
+رمز SKU مستخدم مسبقاً: 
+رمز SKU مكرر داخل الملف: 
+رمز sku
+رمز الاقتران غير صالح
+رمز الاقتران غير صالح أو منتهي الصلاحية أو مستخدم سابقاً
+رواتب وأجور
+زيادة 
+سبب التسوية
+سبب التسوية مطلوب
+سبب العكس مطلوب
+سبب المرتجع
+سبب المرتجع مطلوب
+سبب المرتجع والأصناف مطلوبان
+سبق رفض العملية؛ لن يصدر إقرار تطبيق
+ستستبدل الاستعادة بيانات المتجر الموجودة على هذا الهاتف ببيانات النسخة المختارة. لن يبدأ الاستبدال إلا بعد فك التشفير والتحقق من سلامة قاعدة البيانات، مع الاحتفاظ بنسخة تراجع مؤقتة.
+سجل استعادة SQLCipher على الجهاز تالف؛ احتفظ بكل الملفات وأوقف الاستعادة
+سجل الاستعادة تالف؛ أوقف الاستعادة واحتفظ بملفات قاعدة البيانات دون حذفها
+سجل الترحيل لا يطابق قاعدة البيانات المطلوبة؛ أوقف التعافي
+سجل الدفعات
+سجل الدفعات:
+سجل العملية لا يحتوي مرجع التحصيل
+سجل العملية لا يحتوي مرجع التسوية
+سجل العملية لا يحتوي مرجع الدفعة
+سجل العملية لا يحتوي مرجع الفاتورة
+سجل العملية لا يحتوي مرجع المرتجع
+سجل تحويلات الرصيد
+سجل ترحيل SQLCipher تالف؛ احتفظ بكل الملفات وأوقف التعافي
+سجل عكس المحفظة موجود لكن حركة حساب القبض مفقودة
+سجل فواتير الشراء
+سجل هذا الجهاز يثبت أنه أساسي؛ لا يمكن تحويله إلى ثانوي تلقائياً
+سجل هذا الجهاز يثبت أنه ثانوي؛ لا يمكن ترقيته إلى أساسي
+سجّل سعر الصرف أولاً
+سجّل سعر الصرف قبل اعتماد البيع الآجل
+سجّل سعر الصرف قبل قبض البيع بالليرة السورية
+سعر البيع المحوّل إلى الدولار أقل من سنت واحد أو غير صالح للصنف: 
+سعر البيع بالدولار
+سعر البيع بالليرة السورية
+سعر البيع بالليرة والدولار غير متطابق في الصف 
+سعر البيع ل س
+سعر البيع مفقود في الصف 
+سعر البيع يجب أن يكون موجباً والتكلفة غير سالبة
+سعر الصرف الحالي (ليرة سورية لكل 1 دولار)
+سعر الصرف المستخدم: 
+سعر الصرف غير صالح
+سعر الصرف غير موجود في صندوق الوارد
+سعر الصرف يجب أن يكون أكبر من صفر
+سعر المبيع (الدولار هو المرجع الثابت)
+سعر المبيع بالدولار
+سعر المبيع بالدولار *
+سعر المبيع بالليرة السورية
+سعر المبيع ل س
+سعر المبيع: 
+سعر صرف الفاتورة المحلية يختلف عن السعر الوارد
+سعر صرف قيد القبض لا يطابق سعر الفاتورة
+سلة الفاتورة
+سيتم إخفاء 
+سيتم إغلاق التطبيق فقط. عند فتحه مجدداً ستعود إلى الصفحة التي كنت تعمل عليها. لتسجيل الخروج استخدم القائمة الجانبية.
+سيختفي 
+سيرياتيل العادي
+سيرياتيل العادي وكاش وشام كاش
+سيرياتيل العادي • ربح 20%
+سيرياتيل كاش
+سيرياتيل كاش • ربح 10%
+سيصبح هذا الهاتف المرجع الأساسي لبيانات المتجر، وسيصدر دعوات اقتران للأجهزة الثانوية. لا تختَر هذا الخيار على الهاتف الثانوي.
+سيُحوّل سعر الشراء والبيع من الليرة إلى مرجع الدولار بسعر الصرف المسجل حالياً: 
+سيُسجّل قبض كامل بقيمة 
+سيُسجّل هذا الرصيد مرة واحدة فقط، وتُحفظ تكلفته الحالية كطبقة افتتاحية FIFO. لا تستخدمه لتعديل مخزون سبق أن تحرك.
+سيُطلب من المستخدم تغيير كلمة المرور المؤقتة عند أول تسجيل دخول.
+سيُمنع هذا الجهاز من الاتصال بعد وصول الإلغاء إلى الوسيط.
+
+
+شام كاش
+شام كاش • ربح 5%
+شحن محافظ الخدمات متاح من الجهاز الأساسي فقط حتى يكتمل مسار مزامنته المالية
+شراء / شحن رصيد الخدمة
+شراء الرصيد
+شراء رصيد 
+شراء رصيد خدمة
+شهادة الجهاز غير موجودة
+شهادة الجهاز غير موجودة أو ملغاة
+شهادة الجهاز غير موقعة من جذر الثقة أو لا تخص هذا الجهاز
+صادر
+صافي الإيراد بعد المرتجعات: 
+صافي نتيجة التشغيل التراكمية بعد المصاريف: 
+صافي نتيجة التشغيل بعد المصاريف: 
+صفحة 
+صلاحيات دور الموظف
+صلاحية المستخدم غير صالحة
+صندوق البضاعة
+صندوق البيع اليومي
+صندوق الجهاز الثانوي غير مربوط أو موقوف
+صندوق المبيعات اليومي
+صندوق الموردين المدور
+صندوق النقد المدور للبضاعة
+صندوق النقد المدور للبضاعة مخصص لدفعات الموردين والمسحوبات الشخصية فقط
+صندوق النقد المدور للموردين لا يستقبل مبيعات
+صندوق النقد المدور للموردين مخصص لدفعات الموردين والمسحوبات الشخصية فقط
+صندوق تعبئة رصيد الخدمات
+صندوق رصيد الخدمات
+صندوق رصيد الخدمات النقدي
+صندوق رصيد الخدمات نقدي
+صندوق رصيد خدمات نقدي
+صندوق شراء رصيد الخدمات
+صندوق شراء رصيد الخدمات الموحد
+صندوق شراء رصيد الخدمات مخصص لتعبئة رصيد الخدمات فقط
+صندوق نقدي
+صندوق نقدي مدور للبضاعة
+صيانة
+صيغة المفتاح العام غير مدعومة
+صيغة النسخة الاحتياطية غير معروفة
+صيغة غير مدعومة
+طابع الحركة الزمني غير صالح: 
+طبقات تكلفة FIFO لا تغطي الكمية المطلوبة؛ أوقف الاعتماد حتى تتم مطابقة المخزون
+طبقة شراء الصنف الأصلية لا تحتوي كمية كافية؛ لا يمكن خصم دفعات شراء أخرى
+طرد
+طريقة التحصيل
+طريقة السداد
+طريقة السداد: آجل
+الزبون: 
+طريقة دفع تحويل الرصيد غير صالحة
+طلب الاقتران لا يثبت امتلاك المفتاح الخاص للجهاز الثانوي
+طلب تحصيل دين تحويل الرصيد غير موجود أو المستخدم/الجهاز غير مخول
+طلب ربط جهاز جديد
+ظهر ملف WAL غير متوقع بعد نقل قاعدة البيانات
+عدد أصناف الفاتورة غير صالح
+عدد الأصناف التي تتبع المخزون: 
+عدد الأصناف ذات رصيد موجب: 
+عدد الأصناف: 
+عدد السجلات المطلوب غير صالح
+عدد الفواتير: 
+عرض التقارير
+عرض بيانات العملاء
+عكس تحويل رصيد: 
+علبة
+عملة الحساب المالي غير مدعومة للمزامنة
+عملة الحساب غير مدعومة
+عملة الحساب غير مدعومة لتسجيل المصروف
+عملة حساب القبض غير مدعومة
+عملة حساب رد المبلغ غير مدعومة
+عملة حساب غير مدعومة
+عملة دفعة المورد غير مدعومة
+عملة دفعة سابقة غير مدعومة
+عملة دفعة غير مدعومة
+عملة قبض غير مدعومة
+عملة قيد القبض لا تطابق عملة الحساب الأصلي
+عملية الإقرار غير موجودة في صندوق الوارد
+عملية التحويل غير موجودة
+عملية التحويل معكوسة مسبقاً أو غير قابلة للعكس
+عملية المزامنة غير موجودة
+عملية المنتج غير موجودة في صندوق الوارد
+عمولة تعبئة 2% عند شراء رصيد سيرياتيل أو شام كاش من تاجر خارجي فقط؛ لا عمولة على تحويلات الزبائن.
+عمولة شحن سيرياتيل: 2% من قيمة الرصيد المشتَرى
+عمولة شحن شام كاش: 2% من قيمة الرصيد المشتَرى
+عميل
+عناية شخصية
+عنوان HTTPS للوسيط
+عنوان الوسيط مطلوب
+عنوان الوسيط يجب أن يكون أساس HTTPS دون مسارات إضافية
+عنوان غير صالح
+عنوان وسيط المزامنة
+عنوان وسيط المزامنة غير صالح
+عنوان وسيط المزامنة يجب أن يكون أساس HTTPS دون مسارات أو بيانات إضافية
+عنوان وسيط المزامنة يحتوي بيانات أو معاملات غير مسموحة
+عودة
+عيّن درج اليوم الرئيسي أو أنشئ محفظة قبض إلكترونية بالليرة السورية أولاً.
+عيّن درج اليوم الرئيسي أو أنشئ محفظة قبض إلكترونية بالليرة السورية قبل تنفيذ التحويل.
+غ
+غرام
+غير خاضع للمخزون
+غير محدد
+غير مسددة
+غير مصنف
+غير معروف
+غير مهيأ
+ـ
+فاتورة 
+فاتورة البيع الأصلية غير موجودة
+فاتورة البيع غير موجودة
+فاتورة البيع لديها أمر مزامنة سابق؛ لن يُنشأ أمر مكرر بمعرّف مختلف
+فاتورة الدين المؤكدة لا تحدد زبوناً
+فاتورة الدين المحلية غير موجودة عند استلام الإقرار
+فاتورة الدين غير موجودة على الجهاز الأساسي
+فاتورة الشراء أو المورد غير موجود
+فاتورة الشراء بلا سعر صرف محفوظ
+فاتورة الشراء غير موجودة
+فاتورة الشراء غير موجودة على الجهاز الأساسي
+فاتورة الشراء لا تحتوي سعر صرف محفوظاً
+فاتورة الشراء لا تحتوي سعر صرف محفوظاً صالحاً
+فاتورة الشراء لا تحتوي سعر صرف محفوظاً؛ لا يمكن تثبيت المتبقي السوري بأمان
+فاتورة الشراء لا تحتوي سعر صرف محفوظاً؛ لا يمكن تصحيح المتبقي السوري بأمان
+فاتورة الشراء لا تحتوي مورداً محدداً
+فاتورة بيع آجل
+فاتورة شراء
+فاتورة قديمة بلا سعر صرف محفوظ؛ يلزم مراجعتها يدوياً قبل الدفع.
+فاتورة مشتريات جديدة
+فتح الصناديق والمحافظ
+فتح الكشف المالي اليومي
+فجوة في تسلسل أوامر الجهاز الأساسي؛ انتظر الأمر السابق
+فجوة في تسلسل أوامر الجهاز الثانوي؛ انتظر الأمر السابق
+فحص نتيجة اختبار النقل
+فرق الكمية يجب ألا يساوي صفراً
+فرق الكمية: مثال 3 أو -2
+فرق كمية التسوية لا يمكن أن يكون صفراً
+فشل التحقق من النسخة المشفرة؛ لم يتم لمس قاعدة البيانات الحالية
+فشل التحقق من تشفير إقرار التطبيق
+فشل التحقق من توقيع الجهاز المرسل
+فشل التحقق من توقيع المزامنة
+فشل التحقق من توقيع هوية الجهاز المرسل
+فشل التحقق من مفتاح ترحيل قاعدة البيانات
+فشل التحقق من مفتاح قاعدة البيانات بعد الاستبدال
+فشل بدء مزامنة صندوق الإرسال
+فشل تحديث سجل شهادات الأجهزة: 
+فشل تصدير مخطط قاعدة البيانات
+فشل فحص سلامة قاعدة SQLCipher
+فشل فحص سلامة قاعدة SQLite القديمة
+فشل فحص سلامة قاعدة البيانات
+فشل فك تشفير إطار المزامنة أو التحقق من سلامته
+فشل معالجة إطار المزامنة
+فشلت استعادة قاعدة الاختبار؛ أُعيدت القاعدة السابقة
+فشلت العملية
+فك تشفير النسخة والتحقق من سلامتها...
+فواتير البيع الآجل
+فواتير الشراء والموردون
+فواتير شراء قابلة للإرجاع
+فواتير غير مسددة: 
+فواتير قابلة للإرجاع
+قائمة الأجهزة الثانوية متاحة على الجهاز الأساسي فقط
+قاعدة SQLite القديمة غير موجودة أو فارغة
+قاعدة SQLite القديمة غير موجودة أو فارغة؛ رُفض إنشاء مفتاح ترحيل
+قاعدة الاستعادة المعتمدة مفقودة؛ احتفظ بالملفات ولا تحذفها
+قاعدة الاستعادة موجودة لكن مفتاحها المحلي مفقود؛ أوقف العملية
+قاعدة البيانات السابقة غير موجودة بعد التراجع
+قاعدة البيانات غير موجودة أو فارغة
+قاعدة البيانات مشغولة؛ تعذر تجهيز نسخة احتياطية آمنة
+قاعدة البيانات موجودة لكن بيانات مفتاح التشفير مفقودة؛ أوقف الفتح ولا تنشئ قاعدة بديلة
+قاعدة المصدر غير موجودة أو تجاوزت الحجم المدعوم
+قبض المبيعات النقدي بالليرة يجب أن يذهب إلى درج البيع اليومي الرئيسي فقط
+قبض قيمة فاتورة البيع 
+قبض مبيعات
+قسم 
+قطع اتصال المزامنة
+قطعة
+قيم ربح أو قبض التحويل غير صالحة
+قيمة أو تاريخ سعر الصرف الوارد غير صالح
+قيمة البيع أصغر من أصغر وحدة نقدية
+قيمة الرصيد المراد شراؤه
+قيمة الرصيد المستهلك هي المبلغ الأساسي اللازم لتعويض الرصيد. عمولة 2% تُحسب فقط عند تعبئة رصيد سيرياتيل أو شام كاش من تاجر خارجي، وتظهر حينها ضمن رسوم التعبئة المدفوعة.
+قيمة المخزون المقيم حالياً
+قيمة المرتجع: 
+قيمة المصروف
+قيمة المصروف يجب أن تكون أكبر من صفر
+قيمة تتبع المخزون غير مفهومة في الصف 
+قيمة رقمية غير صحيحة في الصف 
+قيمة قيد القبض الأصلي لا تطابق إجمالي الفاتورة وسعر صرفها
+كتالوج المتجر
+كرتونة
+كشف المقبوضات والحركات اليومية
+كشف حركة الحساب
+كشف حركة المورد
+كشف حساب 
+كشف حساب الزبون
+كشف_حساب_
+كغ
+كل مصروف يُسجّل كحركة خروج نقدية، ويُحفظ سعر الصرف وقت تسجيله حتى لا تتغير قيمته التاريخية لاحقاً.
+كل موظف يستخدم حساباً مستقلاً. كلمة المرور المؤقتة يجب تغييرها عند أول دخول، وإيقاف الحساب يمنع تسجيل الدخول والعمليات الجديدة.
+كلمة المرور
+كلمة المرور (10 أحرف على الأقل وحرف ورقم)
+كلمة المرور الجديدة (10 أحرف على الأقل)
+كلمة المرور الجديدة يجب أن تتكون من 10 أحرف على الأقل وتتضمن حرفاً ورقماً
+كلمة المرور الحالية غير صحيحة
+كلمة المرور يجب أن تتكون من 10 أحرف على الأقل وتتضمن حرفاً ورقماً
+كلمة مرور النسخة
+كلمة مرور النسخة (10 أحرف على الأقل)
+كلمة مرور النسخة الاحتياطية يجب ألا تقل عن 10 أحرف
+كلمة مرور مؤقتة قوية
+كلمتا المرور غير متطابقتين
+كمية الجرد يجب أن تكون أكبر من صفر
+كمية المرتجع أو دقتها غير صالحة
+كمية المرتجع يجب أن تكون موجبة
+كمية صنف الفاتورة غير صالحة
+كيلو
+كيلوجرام
+كيلوغرام
+ل
+لأمان المتجر، يجب تعيين كلمة مرور قوية قبل الدخول.
+لأن الحساب يحتوي حركات مالية سابقة، يمكن تعديل الاسم فقط. نوع الحساب والعملة محميان حتى لا تتغير دلالة الحركات التاريخية.
+لإضافة هاتف جديد، اضغط الزر أدناه واكتب اسمه. سيُنشئ التطبيق دعوة آمنة ويتيح لك مشاركتها مباشرة.
+لا
+لا تدخل تكلفة للنقص؛ تُحسب تلقائياً وفق FIFO
+لا تربط زبوناً بعملية تحويل نقدية
+لا تكرر الحساب؛ اجمع مبلغه في سطر واحد
+لا تكرر بند الفاتورة
+لا تكرر بند الفاتورة نفسه
+لا تكرر بند الفاتورة نفسه؛ اجمع كميته في سطر واحد
+لا توجد أجهزة ثانوية نشطة لإلغاء صلاحيتها.
+لا توجد أصناف تتبع المخزون.
+لا توجد أصناف للاستيراد
+لا توجد بيانات اعتماد آمنة للجهاز المستلم
+لا توجد بيانات مفتاح محلي لحفظها
+لا توجد تحويلات مسجلة حتى الآن.
+لا توجد حركات مالية مسجلة.
+لا توجد حركات مسجلة اليوم.
+لا توجد حسابات مالية
+لا توجد دعوة سارية لانتظار جهاز ثانوي.
+لا توجد دفعات سابقة.
+لا توجد ديون آجلة متبقية
+لا توجد ديون تحويل رصيد مفتوحة.
+لا توجد رسوم شركة على تحويل شام كاش وفق السياسة المعتمدة
+لا توجد عمليات تحويل رصيد اليوم.
+لا توجد فواتير بيع آجل لهذا الزبون حتى الآن.
+لا توجد فواتير شراء معتمدة تحتوي كميات متاحة من طبقات الشراء الأصلية.
+لا توجد فواتير ضمن هذا التصنيف.
+لا توجد فواتير مشتريات بعد.
+لا توجد فواتير معتمدة تحتوي كميات متاحة للإرجاع.
+لا توجد قاعدة حالية صالحة لحفظها كنقطة تراجع
+لا توجد كمية إضافية كافية في المخزون
+لا توجد مصاريف مسجلة بعد.
+لا توجد مقبوضات إلكترونية
+لا توجد مقبوضات نقدية
+لا توجد منتجات بعد. ابدأ بإضافة أول منتج إلى متجرك.
+لا توجد منتجات مسجلة بعد
+أضف المنتجات من قسم إدارة المنتجات لتظهر هنا
+لا توجد نسخة تراجع ولا يمكن إثبات سلامة قاعدة SQLite الأصلية؛ أوقف التعافي
+لا توجد هوية موثوقة مثبتة للجهاز المرسل
+لا توجد وجهة نقدية متاحة
+لا يتتبع المخزون
+لا يتم اعتماد أي جهاز ثانوي قبل التحقق من شهادة جذر الثقة.
+لا يتوفر مدير ملفات لاختيار موقع النسخة
+لا يجوز ربط البيع الآجل بتحصيل نقدي عند الاعتماد
+لا يجوز قبول إقرار من جهاز ثانوي لعملية إدارية أو مالية غير موزعة عليه
+لا يمكن أن تؤدي التسوية إلى مخزون سالب على النسخة المحلية
+لا يمكن أن تؤدي التسوية إلى مخزون سالب. الرصيد الحالي: 
+لا يمكن إدخال سعر سالب
+لا يمكن إدخال كمية افتتاحية عند تعديل منتج موجود؛ استخدم عملية جرد مستقلة
+لا يمكن إدخال مبلغ سالب
+لا يمكن إرجاع أصناف من فاتورة غير معتمدة أو ملغاة
+لا يمكن إرجاع فاتورة غير معتمدة
+لا يمكن إرجاع فاتورة غير معتمدة أو ملغاة
+لا يمكن إصدار إقرار تطبيق قبل نجاح المعالجة على الجهاز المستلم
+لا يمكن إلغاء الجهاز الأساسي من هذه الشاشة
+لا يمكن إيقاف آخر حساب مدير نشط
+لا يمكن إيقاف حسابك أثناء استخدامه؛ سجّل الخروج من الحساب الآخر أولاً
+لا يمكن استخدام درج اليوم الرئيسي لشراء رصيد الخدمات
+لا يمكن استخدام صندوق النقد المدور للموردين لرد مبالغ العملاء
+لا يمكن استخدام صندوق النقد المدور للموردين لشراء رصيد الخدمات
+لا يمكن استيراد ذمة برصيد مسدد دون سجل تحصيل سابق
+لا يمكن استيراد مفتاح إلى جهاز يحتوي على قاعدة بيانات موجودة
+لا يمكن اعتماد البيع النقدي دون تسجيل قبض كامل في صندوق أو محفظة
+لا يمكن اعتماد بيع آجل دون سعر صرف محفوظ
+لا يمكن اعتماد فاتورة بهذه الحالة: 
+لا يمكن اعتماد فاتورة شراء دون سعر صرف محفوظ؛ يجب تثبيت سعرها السوري أولاً
+لا يمكن اعتماد فاتورة فارغة
+لا يمكن التحصيل في حساب موقوف
+لا يمكن التحويل إلى الحساب نفسه
+لا يمكن الدفع من حساب موقوف
+لا يمكن الربط بحساب مالي موقوف
+لا يمكن تبديل صندوق النقد المدور بعد تسجيل دفعات أو مسحوبات عليه اليوم
+لا يمكن تحصيل فاتورة غير معتمدة أو مدفوعة أو ملغاة
+لا يمكن تحويل المحفظة إلى صندوق النقد المدور للبضاعة
+لا يمكن تحويل المقبوضات إلى صندوق النقد المدور للموردين
+لا يمكن تحويل المقبوضات إلى صندوق شراء رصيد الخدمات
+لا يمكن تحويل جهاز أساسي قائم إلى ثانوي تلقائياً
+لا يمكن تخصيص هذا الصندوق للنقد المدور لأنه استقبل حركات أخرى اليوم؛ استخدم صندوقاً منفصلاً
+لا يمكن ترقية جهاز ثانوي إلى جهاز أساسي؛ يجب إعداد جهاز أساسي مستقل
+لا يمكن تسجيل الجهاز الأساسي كجهاز ثانوي
+لا يمكن تسجيل كمية افتتاحية لصنف لا يتتبع المخزون
+لا يمكن تسجيل مصروف من مخصص دفعات الموردين اليومي
+لا يمكن تسوية صنف موقوف
+لا يمكن تعديل الرصيد الافتتاحي بعد بدء الحركات اليوم؛ استخدم عملية تسوية مستقلة موثقة
+لا يمكن تعديل دفعة فاتورة غير معتمدة أو ملغاة
+لا يمكن تغيير تتبع المخزون بعد وجود حركات أو رصيد للصنف
+لا يمكن تغيير نوع الحساب أو عملته بعد تسجيل حركات عليه؛ يمكن تعديل الاسم فقط حفاظاً على سلامة السجلات
+لا يمكن تغيير وحدة أو تتبع مخزون منتج له حركات محلية
+لا يمكن تغيير وحدة القياس بعد وجود حركات أو رصيد للصنف
+لا يمكن تمويل المحافظ من صندوق النقد المدور للبضاعة
+لا يمكن تمويل المحافظ من صندوق النقد المدور للموردين
+لا يمكن دفع فاتورة شراء غير معتمدة أو ملغاة
+لا يمكن دفع فاتورة غير معتمدة أو ملغاة
+لا يمكن رد المبلغ من حساب موقوف
+لا يمكن سحب صلاحيات المدير الأساسية
+لا يمكن عكس العملية: الرصيد المتبقي في حساب القبض أقل من المبلغ المقبوض
+لا يمكن عكس تحويل آجل بعد تسجيل أي تحصيل عليه
+لا يمكن قبض قيمة البيع في حساب موقوف
+لا يمكن معاينة مرتجع لفاتورة غير معتمدة
+لا يمكن نقل الدفعة إلى حساب موقوف
+لا يوجد أمر محلي مطابق لإقرار التطبيق
+لا يوجد اختبار نقل محفوظ على هذا الجهاز.
+لا يوجد تخصيص نقد مدور لهذا الصندوق في تاريخ دفعة المورد الأصلية
+لا يوجد حساب USD أو SYP نشط لاستقبال المبلغ
+لا يوجد حساب صالح للتحصيل
+لا يوجد حساب مالي مناسب للعملية المختارة؛ أنشئ الحساب أولاً.
+لا يوجد حساب مالي مناسب لهذه العملية
+لا يوجد حساب نشط بعملة هذه الدفعة
+لا يوجد حساب نشط صالح لرد المبلغ
+لا يوجد رقم هاتف
+لا يوجد زبائن نشطون حالياً. أضف زبوناً من قسم العملاء والديون قبل اعتماد البيع الآجل.
+لا يوجد صندوق أو محفظة نشطة بعملة USD أو SYP
+لا يوجد عملاء مسجلون بعد.
+لا يوجد عملاء نشطون
+لا يوجد مبلغ إلكتروني متبقٍ
+لا يوجد مبلغ مسترد نقداً؛ احذف توزيعات القبض
+لا يوجد مبلغ نقدي لرده؛ أزل توزيعات رد المبلغ
+لا يوجد مبلغ نقدي مستحق؛ احذف توزيعات رد المبلغ
+لا يوجد مبلغ نقدي مسترد من المورد
+لا يوجد مستودع نشط
+لا يوجد مستودع نشط لتسجيل التسوية
+لا يوجد موردون مسجلون بعد.
+لاحقاً
+لتر
+لم أتعرف على نوع حزمة الاقتران المستلمة.
+لم أتمكن من قراءة الملفات داخل المجلد المحدد.
+لم أجد أصنافاً صالحة للاستيراد
+لم أجد عمود اسم المنتج في الصف الأول
+لم أجد عمود سعر البيع بالليرة أو الدولار
+لم أجد ملفاً بامتداد CSV أو XLSX داخل هذا المجلد. اختر المجلد الذي يحتوي ملف المنتجات مباشرة.
+لم أجد ورقة العمل الأولى داخل ملف Excel
+لم تتم إضافة أصناف بعد.
+لم تتم الاستعادة
+لم تصل الوحدة الأصلية قبل المنتج؛ أوقف التطبيق وانتظر مزامنة الوحدات
+لم تصل بيانات الحساب الموثق من الجهاز الرئيسي
+لم يؤكد الوسيط تمرير الرسالة
+لم يتم الاستيراد
+لم يتم تعيين الدرج النقدي الرئيسي لهذا اليوم. اطلب من المدير تعيين درج اليوم من قسم الصناديق والمحافظ.
+لم يتم تعيين درج اليوم الرئيسي؛ لا يمكن تسجيل التحصيل النقدي
+لم يتم حفظ الفاتورة بالمعرّف الوارد
+لم يتم ربط حساب قبض الجهاز الثانوي بحساب على الجهاز الأساسي
+لم يتم ربط مستخدم الجهاز الثانوي بحساب مخول على الجهاز الأساسي
+لم يكتمل تطبيق العملية على قاعدة البيانات
+لم يُسجّل سعر صرف بعد. أدخل سعر الصرف من شاشة إدارة المنتجات لتفعيل حقول الليرة.
+لم يُنشأ سجل المرتجع على الجهاز الأساسي
+ليس لديك صلاحية تنفيذ هذا الإجراء
+مبالغ ذمة تحويل الرصيد غير متوازنة
+مبالغ مردودة للعملاء: 
+مبالغ مستردة من الموردين: 
+مبلغ أو سعر صرف التحصيل غير صالح
+مبلغ أو سعر صرف المصروف غير صالح
+مبلغ أو سعر صرف دفعة المورد غير صالح
+مبلغ التحصيل بالليرة السورية
+مبلغ التحصيل صغير جداً ولا يقابل وحدة مرجعية بالدولار
+مبلغ التحصيل لا يقابل رصيداً مرجعياً صالحاً
+مبلغ التحصيل يتجاوز الرصيد المتبقي
+مبلغ التحصيل يتجاوز المتبقي المرجعي على الفاتورة
+مبلغ التحصيل يتجاوز المتبقي المستحق
+مبلغ التحصيل يتجاوز المتبقي المستحق بالليرة السورية
+مبلغ التحصيل يجب أن يكون أكبر من صفر
+مبلغ التحويل يجب أن يكون أكبر من صفر
+مبلغ الدفعة
+مبلغ الدفعة صغير جداً
+مبلغ الدفعة يتجاوز المتبقي السوري الثابت على الفاتورة
+مبلغ الدفعة يجب أن يكون أكبر من صفر
+مبلغ الدفعة • المتبقي 
+مبلغ الذمة لا يطابق مبلغ التحويل المسجل؛ أوقف التحصيل لحين التدقيق
+مبلغ النقد المدور غير صالح
+مبلغ النقد المدور لا يمكن أن يكون سالباً
+مبلغ دفعة المورد يتجاوز المتبقي السوري الثابت على الفاتورة
+مبلغ ذمة تحويل الرصيد غير صالح لحساب الربح المحصل
+مبلغ مسترد من المورد
+مبلغ مسترد من المورد عن المرتجع 
+مبيعات اليوم – قبض 
+متابعة
+متابعة إلى الدفع
+متابعة العمل
+متابعة انتظار الجهاز الثانوي
+مثال: 15000
+مثال: Asia/Damascus
+مثلاً: هاتف الكاشير
+مجلد قاعدة البيانات غير متاح
+مجمل الربح التراكمي بعد المرتجعات وقبل المصاريف: 
+مجمل الربح بعد المرتجعات وقبل المصاريف: 
+مجموع توزيعات رد المبلغ لا يساوي المبلغ المستحق وفق سعر صرف الفاتورة الأصلية
+محافظ التشغيل والقبض الإلكتروني للخدمات
+محافظ تشغيل سيرياتيل وشام كاش تُغذى حصراً من صندوق شراء رصيد الخدمات عبر عملية التعبئة المخصصة
+محتوى إقرار التطبيق غير صالح أو لا يخص هذا الجهاز
+محتوى اختبار النقل غير صالح
+محفظة
+محفظة إلكترونية
+محفظة الخدمة
+محفظة الخدمة المرتبطة غير نشطة أو تغير نوعها؛ راجع الحسابات المالية
+محفظة الخدمة غير مربوطة بحساب مالي
+محفظة الخدمة غير معروفة
+محفظة الخدمة غير مهيأة على الجهاز الأساسي
+محفظة الخدمة لا تطابق نوع التحويل
+محفظة الخدمة مرتبطة مسبقاً بحساب مالي مختلف
+محفظة رصيد سيرياتيل
+محفظة سيرياتيل
+محفظة سيرياتيل كاش
+محفظة سيرياتيل • تشغيل وقبض إلكتروني
+محفظة شام
+محفظة شام كاش
+محفظة شام كاش • تشغيل وقبض إلكتروني
+محفظتا سيرياتيل وشام كاش هما رصيد التشغيل نفسه وحساب القبض الإلكتروني للخدمة؛ كل حركة بيع أو قبض أو تحويل داخلي تظهر على رصيد المحفظة ذاتها.
+مدفوعة
+مدفوعة بالكامل
+مدفوعة جزئياً
+مدير
+مدين USD سنت
+مدين ليرة
+مدين: 
+مراجعة استيراد الأصناف
+مرتجع مشتريات وتخفيض مستحق المورد
+مرتجع من بند الشراء الأصلي 
+مرتجعات المبيعات
+مرتجعات المبيعات: 
+مرتجعات المشتريات
+مرتجعات المشتريات متاحة للمدير فقط
+مرجع / ملاحظة
+مرجع المرتجع مفقود
+مرجع المصروف السابق مفقود
+مرجع عملية الشراء / ملاحظة
+مزامنة The Daily Shop
+مزامنة الأجهزة
+مزامنة الأجهزة وحماية الاقتران
+مزامنة المتجر
+مزامنة ذمم تحويل الرصيد متاحة على الجهاز الثانوي المرتبط فقط
+مسحوبات شخصية
+مسددة بالكامل
+مسددة جزئياً
+مسودة
+مسودة غير معتمدة
+مسوّاة بمرتجع مورد
+مشاركة
+مشاركة 
+مشاركة دعوة الجهاز 
+مشروبات
+مصدر أو مستلم الإطار لا يطابق هوية الجهاز المعتمدة
+مصدر أو نوع اختبار النقل غير صالح
+مصدر أو نوع التصنيف الوارد غير صالح
+مصدر أو نوع الرصيد الافتتاحي غير صالح
+مصدر أو نوع الوحدة الواردة غير صالح
+مصدر أو نوع تحديث المنطقة الزمنية غير صالح
+مصدر أو نوع تحديث ذمة تحويل الرصيد غير صالح
+مصدر أو نوع حدث الحساب المالي غير صالح
+مصدر أو نوع حدث الزبون غير صالح
+مصدر أو نوع حدث المنتج غير صالح
+مصدر أو نوع سعر الصرف الوارد غير صالح
+مصدر التحويل يجب أن يكون صندوقاً نقدياً نشطاً بالليرة السورية
+مصدر التحويل يجب أن يكون محفظة سورية نشطة
+مصدر التمويل يجب أن يكون صندوقاً نقدياً نشطاً بالليرة السورية
+مصدر الرسالة ليس الجهاز الأساسي المعتمد
+مصدر العملية لا يطابق دور هذا الجهاز
+مصدر العملية ليس الجهاز الأساسي النشط
+مصدر تحديث المنتج غير صالح
+مصدر تحديث حالة الزبون غير صالح
+مصروف الليرة لا يحتوي سعر صرف محفوظاً صالحاً
+مصروف تشغيلي
+مصروف تشغيلي: 
+مطابقة الرصيد الافتتاحي اليومي لمحفظة
+مطابقة الرصيد الفعلي لمحفظة التشغيل
+مطابقة رصيد محفظة التشغيل
+معاينة
+معتمدة
+معرّف UUID غير صالح
+معرّف أمر الزبون مطلوب
+معرّف اختبار النقل مطلوب
+معرّف الأمر مطلوب
+معرّف الاعتماد مستخدم لعملية مختلفة
+معرّف التحصيل مستخدم لعملية أو بيانات مختلفة
+معرّف التحويل مستخدم لبيانات مختلفة
+معرّف التحويل مطلوب
+معرّف التصنيف الأصلي غير صالح
+معرّف التصنيف الأصلي مرتبط مسبقاً بتصنيف محلي مختلف
+معرّف الجهاز
+معرّف الجهاز أو التصنيف الأصلي غير صالح
+معرّف الجهاز أو العملية غير صالح
+معرّف الجهاز الأساسي غير صالح
+معرّف الجهاز غير صالح
+معرّف الزبون مطلوب
+معرّف الشحن مستخدم لبيانات مختلفة
+معرّف العكس مستخدم مسبقاً لعملية أو بيانات مختلفة
+معرّف العملية مستخدم ببيانات مختلفة
+معرّف العملية مستخدم لبيانات مختلفة
+معرّف العملية مستخدم لتسوية مختلفة أو بيانات مختلفة
+معرّف العملية مستخدم لعملية أو بيانات مختلفة
+معرّف العملية مستخدم لمرتجع أو بيانات مختلفة
+معرّف العملية مستخدم لمصروف مختلف أو بيانات مختلفة
+معرّف العملية مستخدم لنوع أو بيانات مختلفة
+معرّف العملية مطلوب
+معرّف الفاتورة لا يطابق معرّف الكيان في الظرف
+معرّف الفاتورة مطلوب
+معرّف المتجر
+معرّف المتجر أو الجهاز غير صالح
+معرّف المتجر غير صالح
+معرّف المتجر غير مهيأ
+معرّف المستخدم مطلوب
+معرّف المصروف لا يطابق كيان الظرف
+معرّف المنطقة الزمنية الوارد غير صالح
+معرّف المنطقة الزمنية غير صالح
+معرّف المنطقة الزمنية غير صالح. اختر منطقة من القائمة.
+معرّف الوحدة الأصلي في المنتج غير صالح
+معرّف الوحدة الأصلي مرتبط مسبقاً بتعريف وحدة مختلف
+معرّف حدث الحساب المالي مطلوب
+معرّف دفعة التحصيل لا يطابق كيان الظرف
+معرّف دفعة المورد لا يطابق معرّف الكيان في الظرف
+معرّف سعر الصرف موجود مسبقاً ببيانات مختلفة
+معرّف شهادة الجهاز غير صالح
+معرّف قيد القبض الأصلي مفقود
+معكوسة
+معلق
+مفتاح Android Keystore المطلوب غير موجود
+مفتاح الترحيل مفقود؛ احتفظ بجميع الملفات وأوقف التعافي
+مفتاح الجهاز الثانوي غير صالح
+مفتاح النسخة لا يطابق المفتاح المحلي؛ رُفض الاستبدال
+مفتاح قاعدة SQLCipher غير موجود
+مفتاح قاعدة البيانات الحالية غير موجود
+مفتاح قاعدة البيانات مفقود؛ أوقف التعافي واحتفظ بالملفات
+مفتاح هوية الجهاز غير صالح
+مقبوض تحويل رصيد
+مقبوض تحويل رصيد – قبض 
+مقبوض تحويل رصيد • 
+ملاحظات
+ملاحظات (اختياري)
+ملاحظة (اختياري)
+ملاحظة / مرجع
+ملاحظة / مرجع التحصيل
+ملاحظة اختيارية
+ملاحظة الجرد (اختياري)
+ملاحظة: لا نجمع كميات القطعة والكيلوغرام والطرد في رقم واحد لاختلاف وحدات القياس. رأس المال محسوب بالقيمة المالية الموحدة بالدولار المرجعي.
+ملخص المخزون
+ملخص حسابات الموردين
+ملخص ربح المبيعات وفق تكلفة FIFO
+ملخص عمليات اليوم ومبلغ إعادة التعبئة
+ملغاة
+ملف SQLCipher المؤقت موجود مسبقاً؛ رُفضت الكتابة فوقه
+ملف الاستعادة المؤقت غير موجود
+ملف التجهيز المتبقي غير صالح؛ احتفظ به وأوقف التنظيف
+ملف التجهيز غير صالح؛ احتفظ به وأوقف التعافي
+ملف التجهيز مفقود؛ احتفظ بالسجل والملفات ولا تحذفها
+ملف التجهيز مفقود؛ احتفظ بالسجل والملفات ولا تنشئ قاعدة بديلة
+ملف التجهيز موجود مسبقاً؛ رُفضت الكتابة فوقه
+ملف العميل غير موجود
+ملف القاعدة الحالي وملف التجهيز موجودان مع نسخة التراجع؛ أوقف التعافي دون حذف
+ملف النسخة الاحتياطية فارغ
+ملف النسخة القديمة ليس قاعدة SQLite plaintext معروفة
+ملف الوجهة موجود مسبقاً؛ رُفضت الكتابة فوقه
+ملف قاعدة SQLCipher غير موجود أو غير صالح
+ملف قاعدة SQLCipher غير موجود أو فارغ
+ملف قاعدة SQLite المستعادة غير موجود أو تجاوز الحجم المدعوم
+ملف قاعدة البيانات غير موجود أو فارغ
+ملفا الاستعادة الحالي والمؤقت موجودان؛ أُوقف التراجع دون حذف أي منهما
+ملفات العملاء
+ملفات العملاء والأرصدة
+منذ بداية التشغيل • المبيعات: 
+منطقة المتجر الزمنية غير صالحة
+منظفات
+منفذة
+مواد تشغيلية
+مواد غذائية
+مورد
+موظف
+موقوف
+نتيجة المبيعات المسجلة اليوم
+نجح اختبار النقل: وصل الأمر إلى الجهاز الأساسي وعاد الإقرار المشفر الموثق.
+نجح الترحيل لكن تعذر حذف نسخة التراجع؛ سيُستكمل التنظيف عند التشغيل التالي
+نسخ
+نسخ جذر الثقة لتثبيته في Cloudflare
+نسخ قاعدة الاختبار إلى ملف مؤقت...
+نسخة التراجع الأصلية غير سليمة؛ لن يتم حذفها
+نسخة التراجع لا تحمل ترويسة SQLite الأصلية؛ لم يتم استبدال أي ملف
+نسخة التراجع ليست قاعدة SQLite أصلية معروفة؛ لن يتم حذفها
+نسخة المفتاح القديمة مفقودة؛ لا يمكن التراجع بأمان
+نشط
+نطاق التاريخ غير صالح
+نظام إدارة المتجر
+نعم
+نقداً (يتطلب تعيين درج اليوم الرئيسي)
+نقداً إلى درج اليوم الرئيسي: 
+نقدي
+نقدي • قبض فوري
+نقصان 
+نقطة البيع
+نقل ومواصلات
+نوع أو إصدار إقرار المزامنة غير مدعوم
+نوع أو حالة أمر النقد المدور غير صالح
+نوع أو حالة تسوية المخزون الواردة غير صالحة
+نوع أو حالة كيان المرتجع الوارد غير صالحة
+نوع أو عملة حساب التحصيل الوارد غير مدعومين
+نوع أو عملة حساب القبض المرتبط لا يطابق الحساب الأصلي
+نوع أو عملة حساب المصروف المرتبط لا يطابق الحساب الأصلي
+نوع أو عملة حساب المصروف الوارد غير مدعومين
+نوع أو عملة حساب المصروف غير مدعومين
+نوع أو عملة حساب دفع المورد المرتبط لا يطابق الحساب الأصلي
+نوع أو عملة حساب دفع المورد غير مدعومين
+نوع أو عملة حساب رد المبلغ المرتبط غير متطابقين
+نوع أو عملة حساب قبض التحويل غير مدعومين
+نوع أو عملة حساب قبض تحصيل الدين غير مدعومين
+نوع إعداد المتجر الوارد غير مدعوم
+نوع الأمر غير مدعوم في مطبّق الفواتير: 
+نوع البيع
+نوع البيع الوارد غير مدعوم
+نوع البيع غير صالح
+نوع البيع غير معروف
+نوع الحساب
+نوع الحساب المالي غير مدعوم للمزامنة
+نوع الحساب غير صالح
+نوع الخدمة
+نوع العملية
+نوع العملية الواردة غير صالح
+نوع العملية الواردة غير مدعوم بعد؛ بقي الأمر محفوظاً دون تطبيق
+نوع العملية الواردة ليس تحصيلاً لذمم الزبائن
+نوع العملية الواردة ليس دفعة مورد
+نوع العملية الواردة ليس مصروفاً تشغيلياً
+نوع بيانات SQLite غير مدعوم في مقارنة الترحيل
+نوع تحديث سعر الصرف الوارد غير مدعوم
+نوع تغيير المزامنة غير صالح
+نوع حدث المنتج الوارد غير صالح
+نوع خدمة التحويل الوارد غير مدعوم
+نوع خدمة التحويل غير معروف
+نوع عملية إعداد المتجر غير صالح
+نوع عملية التصنيف الواردة غير صالح
+نوع عملية المرتجع الوارد غير صالح
+نوع عملية تسوية المخزون الواردة غير صالح
+نوع كيان التحصيل الوارد غير صالح
+نوع كيان المصروف الوارد غير صالح
+نوع كيان دفعة المورد الوارد غير صالح
+هذا الإجراء متاح للمدير فقط
+هذا الجهاز ثانوي؛ لا يمكن ترحيل عملية مالية أو مخزنية محلياً قبل اعتمادها من الجهاز الأساسي
+هذا الجهاز ليس الجهاز الأساسي المعتمد
+هذا الجهاز ليس جهازاً ثانوياً مسجلاً
+هذا الجهاز مسجل بالفعل
+هذا الحساب غير مخصص لقبض مبيعات الجهاز الثانوي
+هذا الدين غير قابل للتحصيل أو أُغلق سابقاً
+هذا الدين غير مفتوح أو تم تسديده.
+هذا الصندوق مخصص لشراء رصيد الخدمات ولا يمكن تخصيصه للموردين
+هذا الصندوق مخصص لشراء رصيد الخدمات ولا يمكن تعيينه كدرج المبيعات والتحصيل
+هذا الصندوق مخصص للنقد المدور للبضاعة
+هذا الصندوق مخصص للنقد المدور للموردين اليوم ولا يمكن تعيينه كدرج المبيعات والتحصيل
+هذا الصندوق مخصص للنقد المدور للموردين ولا يمكن تعيينه كدرج المبيعات والتحصيل
+هذا الصنف لا يتتبع المخزون ولا يقبل تسوية كمية
+هذا المنتج لا يتتبع المخزون
+هذا الهاتف ليس الجهاز الأساسي
+هذا الهاتف هو الجهاز الأساسي بالفعل
+هذا الهاتف يحتوي حسابات محلية؛ سجّل الدخول بالحساب الموجود قبل ربطه بالمتجر
+هذا طلب صادر من جهاز ثانوي؛ افتح المشاركة على الهاتف الرئيسي.
+هذه استجابة اقتران؛ افتح المشاركة على الهاتف الثانوي المقصود.
+هذه الحركة المالية لم يكتمل مسار اعتمادها ومزامنتها بعد؛ نفّذها من الجهاز الأساسي لتجنب اختلاف الأرصدة
+هذه الفاتورة قديمة ولا تحتوي سعر صرف موثوقاً؛ لا يمكن تحصيلها آلياً قبل مراجعتها
+هذه دعوة صادرة من الهاتف الرئيسي؛ افتح المشاركة على الهاتف الثانوي.
+هل تريد 
+هوية الجهاز الأساسي غير مفعلة
+هوية الجهاز الأساسي لا تطابق جذر الثقة المنشور لدى وسيط المزامنة
+هوية الجهاز الرئيسي لا تطابق جذر الثقة المنشور لدى الوسيط
+هوية العملية المفكوكة لا تطابق إطار النقل
+هوية مرسل أو مستلم إقرار التطبيق لا تطابق إعدادات الجهاز
+واجهة البيع الرئيسية
+وارد
+وجهة التحويل النقدية
+وجهة التحويل يجب أن تكون صندوقاً نقدياً نشطاً بالليرة السورية
+وجهة التحويل يجب أن تكون محفظة نشطة بالليرة السورية
+وحدة
+وحدة القياس
+وحدة القياس غير معروفة: 
+وحدة القياس غير موجودة
+وصل تحصيل ذمة قبل إنشاء سجل الذمة
+وصل طلب جهاز ثانوي. راجع اسمه ثم وافق على اعتماده.
+وصلت دعوة المتجر. جارٍ تجهيز ربط هذا الهاتف دون إنشاء حساب أو متجر مستقل...
+وقت الحركة الأصلي غير صالح
+وقود وطاقة
+ى
+ي
+يتتبع المخزون
+يجب أن تكون القاعدة المؤقتة والحالية في مجلد قواعد البيانات نفسه
+يجب أن يحتوي البيع النقدي على قيد قبض واحد مطابق
+يجب أن يكون ملف التجهيز والوجهة في المجلد نفسه
+يجب أن يكون ملف التجهيز والوجهة في المجلد نفسه لضمان النقل الذري
+يجب أولاً تهيئة الهاتف الرئيسي وإنشاء دعوة اقتران منه. الصق الدعوة هنا ثم أنشئ الطلب.
+يجب إدخال عنوان WSS مشفر
+يجب إعداد هذا الهاتف كالجهاز الأساسي أولاً
+يجب إغلاق قاعدة البيانات وإتمام WAL checkpoint قبل النسخ
+يجب إنشاء لقطة الدليل ضمن معاملة الاقتران
+يجب اختيار الدرج اليومي الرئيسي أو محفظة إلكترونية نشطة
+يجب اختيار الصندوق أو المحفظة المستلمة
+يجب اختيار حساب بنفس عملة الدفعة؛ لا يمكن تغيير العملة التاريخية أثناء التصحيح
+يجب اختيار صندوق أو محفظة نشطة بعملة مدعومة
+يجب اختيار صندوق شراء رصيد الخدمات المخصص من شاشة الصناديق والمحافظ
+يجب اختيار صندوق نقدي أو محفظة إلكترونية نشطة لقبض المبيعات
+يجب استخدام HTTPS مشفر لإدارة شهادات الأجهزة
+يجب استخدام HTTPS مشفر للاقتران
+يجب استخدام اتصال WebSocket مشفر WSS
+يجب استخدام عنوان WSS مشفر
+يجب استلام المفتاح العام للجهاز قبل تسجيله
+يجب تحديد الزبون للبيع الآجل
+يجب تحديد المورد في الفاتورة قبل تسجيل الدفعة
+يجب تحديد النقد المدور لهذا اليوم أولاً
+يجب تحديد تاريخي البداية والنهاية معاً
+يجب تحديد تكلفة شراء موجبة للكمية المضافة حتى لا يتشوه رأس مال المخزون
+يجب تحديد زبون صالح للتحويل الآجل
+يجب تحديد سعر الصرف قبل تسجيل مصروف بالليرة السورية
+يجب تسجيل الدخول بحساب مدير نشط
+يجب تسجيل الدخول بحساب مدير نشط لتنفيذ هذا الإجراء
+يجب تسجيل تكلفة شراء موجبة للصنف الذي يتتبع المخزون
+يجب تسجيل تكلفة شراء موجبة للصنف الذي يتتبع المخزون: 
+يجب تسجيل حدث المزامنة ضمن معاملة العملية الأصلية
+يجب تسجيل سعر الصرف قبل البيع النقدي بالليرة السورية
+يجب تسجيل سعر الصرف قبل تحصيل دين الزبون
+يجب تسجيل مرجع الحساب المالي ضمن معاملة
+يجب تطبيق أسعار الصرف حسب ترتيب صدورها من الجهاز الأساسي
+يجب تطبيق تحديثات المنطقة الزمنية حسب ترتيب وصولها
+يجب حفظ الأمر ضمن معاملة قاعدة البيانات
+يجب حفظ مزامنة ذمة تحويل الرصيد ضمن معاملة العملية
+يجب على المدير تحديد مبلغ النقد المدور لهذا الصندوق اليوم قبل دفع الموردين منه
+يجب على المدير تعيين درج نقدي رئيسي لليوم أو إنشاء محفظة إلكترونية نشطة بالليرة السورية. لا يمكن استخدام صندوق الموردين المدور.
+يجب فصل صندوق الموردين المدور عن درج الكاش الرئيسي اليومي
+يجب مزامنة ملف الزبون قبل مزامنة ذمته
+يجري انتظار طلب الجهاز الثانوي بالفعل.
+يختلف محتوى قاعدة البيانات أو مخططها بعد التصدير؛ رُفض اعتماد الملف
+يعرض هذا القسم فواتير البيع الآجل والتحصيلات المسجلة عليها فقط. البيع النقدي والأرصدة الافتتاحية غير المرتبطة بفواتير لا تدخل في هذا الرصيد.
+يلزم تسجيل سعر الصرف أولاً
+يمكن تعديل المبلغ أو الحساب من نفس العملة أو الملاحظة. سيُعاد احتساب رصيد الحساب والمتبقي على الفاتورة، مع الاحتفاظ بسعر الصرف الأصلي.
+يمكن تعديل المسودات فقط
+يوجد WAL غير مفرغ بعد إغلاق قاعدة SQLite؛ أُوقف الترحيل لحماية المعاملات
+يوجد WAL غير مفرغ؛ أُوقفت الاستعادة لحماية المعاملات
+يوجد اقتباس غير مغلق في ملف CSV
+يوجد جهاز أساسي آخر؛ لا يمكن نقل سلطة الاعتماد تلقائياً
+يوجد حساب محلي متعارض؛ لن يتم استبدال بيانات المستخدم
+يوجد رصيد أو حركة سابقة؛ لا يمكن تطبيق رصيد افتتاحي ثانٍ
+يوجد رصيد مخزون مسجل بالفعل؛ لا يجوز استبداله برصيد افتتاحي
+يوجد سجل استعادة سابق؛ يجب التعافي منه أولاً
+يوجد سجل استعادة سابق؛ يجب التعافي منه قبل بدء استعادة جديدة
+يوجد سجل ترحيل سابق؛ يجب التعافي منه أولاً
+يوجد سجل حركة سابق لهذا المنتج؛ لا يجوز إنشاء رصيد افتتاحي جديد فوق سجل قائم. استخدم تسوية جرد مستقلة.
+يوجد سجل عكس دون اكتمال حالة العملية؛ يلزم فحص سلامة الدفتر
+يوجد صنف غير محدد
+يوجد مفتاح قاعدة بيانات محلي مختلف؛ رُفض استبداله
+يُخصم الدين المستحق أولاً، ثم يُرد المتبقي نقداً. يمكنك توزيع المبلغ النقدي على أكثر من صندوق أو محفظة.
+يُخصم المرتجع من مستحق المورد أولاً. إذا كانت الفاتورة مسددة، يُسجل الفرق كمبلغ مسترد يدخل إلى الصندوق أو المحفظة المختارة.
+٫
+٬
+↩ مرتجعات المشتريات
+⌕  اسم المنتج أو الباركود
+● جاهز للبيع
+＋ تسجيل دفعة للمورد
+＋ تسجيل مصروف
+＋ تصنيف جديد
+＋ تنفيذ تحويل للزبون
