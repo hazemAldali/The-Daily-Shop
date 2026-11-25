@@ -137,8 +137,18 @@ jobs:
                   root.remove(element)
 
           tree.write(path, encoding="utf-8", xml_declaration=True)
+
+          # JADX's public.xml republishes the original APK's entire merged resource
+          # table, including IDs owned by AndroidX/Material AARs. Those <public>
+          # entries collide with the AAR definitions when rebuilding an application;
+          # AAPT generates fresh IDs for the reconstructed app.
+          public_index = path.with_name("public.xml")
+          if public_index.exists():
+              public_index.unlink()
+
           print(f"Scanned {aar_count} resolved AARs and {xml_count} values XML files.")
           print(f"Found {len(library_attrs)} library attrs; removed {len(removed)} overlapping APK-bundled attrs.")
+          print("Removed JADX's merged public.xml index; AAPT will regenerate resource IDs.")
           PY
       - name: Assemble debug APK
         run: gradle --no-daemon --stacktrace :app:assembleDebug
