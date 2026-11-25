@@ -1,0 +1,69 @@
+name: APK JADX Recovery
+
+on:
+  push:
+    branches:
+      - the-daily-shop-development
+    paths:
+      - ".github/workflows/apk-decompile-recovery.yml"
+      - "recovery/app-release.apk"
+      - "recovery/scripts/decompile-apk.sh"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  decompile-apk:
+    name: Decompile APK with JADX
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout development branch
+        uses: actions/checkout@v4
+        with:
+          ref: the-daily-shop-development
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Verify original APK
+        shell: bash
+        run: |
+          test -s recovery/app-release.apk
+          echo "1ecb5c388ba7cf8f67fe6aa23c903f15c55d8d818f43f960515005b14a744ab0  recovery/app-release.apk" | sha256sum --check
+
+      - name: Run JADX decompilation
+        shell: bash
+        run: |
+          chmod +x recovery/scripts/decompile-apk.sh
+          recovery/scripts/decompile-apk.sh recovery/app-release.apk recovery/decompiled
+
+      - name: Package decompiled source and log metadata
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p recovery-decompile-result
+          if [ -d recovery/decompiled ]; then
+            cp -a recovery/decompiled recovery-decompile-result/
+          fi
+          {
+            echo "Branch: ${GITHUB_REF_NAME}"
+            echo "Commit: ${GITHUB_SHA}"
+            echo "JADX: 1.5.7"
+            echo "APK SHA-256:"
+            sha256sum recovery/app-release.apk
+          } > recovery-decompile-result/RECOVERY_METADATA.txt
+          zip -qr jadx-decompiled-source.zip recovery-decompile-result
+
+      - name: Upload decompiled source artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: the-daily-shop-jadx-decompiled
+          path: jadx-decompiled-source.zip
+          if-no-files-found: error
+          retention-days: 30
