@@ -1,0 +1,114 @@
+name: Reassemble The Daily Shop from original DEX
+
+on:
+  push:
+    branches:
+      - the-daily-shop-development
+    paths:
+      - "recovery/app-release.apk"
+      - "recovery/dex-files-2026-11-25.zip"
+      - ".github/workflows/reassemble-from-smali.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reassemble-from-smali:
+    name: Rebuild APK from recovered Dalvik bytecode
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout development branch
+        uses: actions/checkout@v5
+        with:
+          ref: the-daily-shop-development
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Verify original APK and recovery inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s recovery/app-release.apk
+          test -s recovery/dex-files-2026-11-25.zip
+          unzip -tq recovery/app-release.apk
+          unzip -l recovery/app-release.apk | grep -E 'classes([0-9]+)?\.dex|resources\.arsc|AndroidManifest\.xml'
+          sha256sum recovery/app-release.apk recovery/dex-files-2026-11-25.zip
+
+      - name: Install pinned Apktool
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fL --retry 3 --retry-delay 2 \
+            https://github.com/iBotPeaches/Apktool/releases/download/v2.11.1/apktool_2.11.1.jar \
+            -o /tmp/apktool.jar
+          java -jar /tmp/apktool.jar --version
+
+      - name: Decode DEX and manifest while preserving compiled resources
+        shell: bash
+        run: |
+          set -euo pipefail
+          java -jar /tmp/apktool.jar d --force --no-res recovery/app-release.apk -o build/apktool
+          test -d build/apktool/smali
+          find build/apktool -maxdepth 2 -type d -name 'smali*' -print
+          test -f build/apktool/AndroidManifest.xml
+          test -f build/apktool/resources.arsc
+
+      - name: Reassemble recovered smali and original binary resources
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p app/build/outputs/apk/recovered
+          java -jar /tmp/apktool.jar b --force --no-res build/apktool \
+            -o app/build/outputs/apk/recovered/the-daily-shop-unsigned.apk
+          test -s app/build/outputs/apk/recovered/the-daily-shop-unsigned.apk
+          unzip -tq app/build/outputs/apk/recovered/the-daily-shop-unsigned.apk
+          unzip -l app/build/outputs/apk/recovered/the-daily-shop-unsigned.apk | grep -E 'classes([0-9]+)?\.dex|resources\.arsc|AndroidManifest\.xml'
+
+      - name: Align and sign recovered APK
+        shell: bash
+        run: |
+          set -euo pipefail
+          BUILD_TOOLS="$(find "$ANDROID_HOME/build-tools" -mindepth 1 -maxdepth 1 -type d | sort -V | tail -1)"
+          ZIPALIGN="$BUILD_TOOLS/zipalign"
+          APKSIGNER="$BUILD_TOOLS/apksigner"
+          test -x "$ZIPALIGN"
+          test -x "$APKSIGNER"
+          keytool -genkeypair -noprompt -keystore /tmp/recovered-debug.keystore \
+            -storepass android -keypass android -alias androiddebugkey \
+            -dname "CN=Android Debug,O=Android,C=US" -keyalg RSA -keysize 2048 -validity 10000
+          "$ZIPALIGN" -f 4 \
+            app/build/outputs/apk/recovered/the-daily-shop-unsigned.apk \
+            app/build/outputs/apk/recovered/the-daily-shop-aligned.apk
+          "$APKSIGNER" sign --ks /tmp/recovered-debug.keystore \
+            --ks-key-alias androiddebugkey --ks-pass pass:android --key-pass pass:android \
+            --out app/build/outputs/apk/recovered/the-daily-shop-recovered-debug.apk \
+            app/build/outputs/apk/recovered/the-daily-shop-aligned.apk
+          "$APKSIGNER" verify --verbose --print-certs \
+            app/build/outputs/apk/recovered/the-daily-shop-recovered-debug.apk
+
+      - name: Validate package metadata and DEX payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          APK="app/build/outputs/apk/recovered/the-daily-shop-recovered-debug.apk"
+          AAPT="$(find "$ANDROID_HOME/build-tools" -mindepth 2 -maxdepth 2 -name aapt | sort -V | tail -1)"
+          test -x "$AAPT"
+          "$AAPT" dump badging "$APK" | tee /tmp/recovered-badging.txt
+          grep -q "package: name='com.hazem.dailystore'" /tmp/recovered-badging.txt
+          grep -q "versionCode='1284'" /tmp/recovered-badging.txt
+          unzip -l "$APK" | grep -E 'classes([0-9]+)?\.dex'
+          echo "Recovered APK package, version and DEX payload verified."
+
+      - name: Upload rebuilt APK
+        uses: actions/upload-artifact@v5
+        with:
+          name: the-daily-shop-smali-rebuilt-${{ github.run_number }}
+          path: app/build/outputs/apk/recovered/the-daily-shop-recovered-debug.apk
+          if-no-files-found: error
+          retention-days: 14
