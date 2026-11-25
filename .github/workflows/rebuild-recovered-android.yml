@@ -1,0 +1,57 @@
+name: Rebuild Recovered Android Project
+on:
+  push:
+    branches:
+      - the-daily-shop-development
+    paths:
+      - "settings.gradle.kts"
+      - "build.gradle.kts"
+      - "gradle.properties"
+      - "app/**"
+      - "recovery/decompiled/**"
+      - ".github/workflows/rebuild-recovered-android.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  recovered-debug-build:
+    name: Compile recovered Android source
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout development branch
+        uses: actions/checkout@v5
+        with:
+          ref: the-daily-shop-development
+      - name: Set up Java 17
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Set up Gradle 8.9
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.9"
+      - name: Verify recovered inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f recovery/decompiled/RECOVERY_STATUS.txt
+          test -f recovery/decompiled/resources/AndroidManifest.xml
+          test -d recovery/decompiled/sources/com/hazem/dailystore
+          grep -q 'DATABASE_VERSION = 33' recovery/decompiled/sources/com/hazem/dailystore/data/AppDatabase.java
+          echo "Recovery inputs and schema version 33 verified."
+          cat recovery/decompiled/RECOVERY_STATUS.txt
+      - name: Assemble debug APK
+        run: gradle --no-daemon --stacktrace :app:assembleDebug
+      - name: Upload debug APK and build reports
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: recovered-android-build-${{ github.run_number }}
+          path: |
+            app/build/outputs/apk/debug/*.apk
+            app/build/reports/**
+            app/build/tmp/compileDebugJavaWithJavac/**
+          if-no-files-found: warn
+          retention-days: 14
