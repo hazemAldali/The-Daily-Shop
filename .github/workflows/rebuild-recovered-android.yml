@@ -77,31 +77,55 @@ jobs:
           remaining="$(find "$resource_root" -type f -name '*.9.png' | wc -l)"
           test "$remaining" -eq 0
           echo "Removed all ${#ninepatch_files[@]} decompiled AppCompat Nine-Patch copies; dependency AAR supplies originals."
-      - name: Remove APK-bundled attributes already supplied by Android libraries
+      - name: Resolve Android libraries and remove duplicate bundled attributes
         shell: bash
         run: |
           set -euo pipefail
+          cat > /tmp/resolve-android-aars.gradle <<'GRADLE'
+          gradle.projectsEvaluated {
+              def app = gradle.rootProject.project(":app")
+              app.tasks.register("resolveDebugRuntimeAars") {
+                  doLast {
+                      def artifacts = app.configurations
+                          .getByName("debugRuntimeClasspath")
+                          .resolvedConfiguration.resolvedArtifacts
+                      def aars = artifacts.findAll { it.file.name.endsWith(".aar") }
+                      println("Resolved " + aars.size() + " Android AAR dependencies.")
+                      aars.each { println("AAR_RESOURCE_SOURCE=" + it.file.absolutePath) }
+                  }
+              }
+          }
+          GRADLE
+          gradle --no-daemon -I /tmp/resolve-android-aars.gradle :app:resolveDebugRuntimeAars
           python3 - <<'PY'
+          import zipfile
           import xml.etree.ElementTree as ET
           from pathlib import Path
 
-          # Read the actual AAR resource tables resolved by this workflow. This avoids
-          # maintaining a brittle list of AndroidX/Material/ConstraintLayout attrs.
-          transform_root = Path.home() / ".gradle/caches/8.9/transforms"
+          aar_root = Path.home() / ".gradle/caches/modules-2/files-2.1"
           library_attrs = set()
+          aar_count = 0
           xml_count = 0
-          for xml_path in transform_root.glob("*/transformed/*/res/values*/*.xml"):
+          for aar_path in aar_root.rglob("*.aar"):
               try:
-                  root = ET.parse(xml_path).getroot()
-              except (ET.ParseError, OSError):
+                  with zipfile.ZipFile(aar_path) as archive:
+                      aar_count += 1
+                      for entry in archive.namelist():
+                          if not entry.startswith("res/values") or not entry.endswith(".xml"):
+                              continue
+                          try:
+                              root = ET.fromstring(archive.read(entry))
+                          except ET.ParseError:
+                              continue
+                          xml_count += 1
+                          for child in root:
+                              if child.tag == "attr" and child.attrib.get("name"):
+                                  library_attrs.add(child.attrib["name"])
+              except (OSError, zipfile.BadZipFile):
                   continue
-              xml_count += 1
-              for child in root:
-                  if child.tag == "attr" and child.attrib.get("name"):
-                      library_attrs.add(child.attrib["name"])
 
           if not library_attrs:
-              raise SystemExit("No Android AAR attribute resources found in Gradle transform cache.")
+              raise SystemExit("No Android AAR attribute resources found after dependency resolution.")
 
           path = Path("recovery/decompiled/resources/res/values/attrs.xml")
           tree = ET.parse(path)
@@ -113,8 +137,8 @@ jobs:
                   root.remove(element)
 
           tree.write(path, encoding="utf-8", xml_declaration=True)
-          print(f"Scanned {xml_count} AAR values XML files and {len(library_attrs)} library attrs.")
-          print(f"Removed {len(removed)} overlapping APK-bundled attr declarations; app-specific attrs remain.")
+          print(f"Scanned {aar_count} resolved AARs and {xml_count} values XML files.")
+          print(f"Found {len(library_attrs)} library attrs; removed {len(removed)} overlapping APK-bundled attrs.")
           PY
       - name: Assemble debug APK
         run: gradle --no-daemon --stacktrace :app:assembleDebug
