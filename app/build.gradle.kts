@@ -14,10 +14,6 @@ android {
     sourceSets {
         getByName("main") {
             manifest.srcFile("../recovery/decompiled/resources/AndroidManifest.xml")
-            java.setSrcDirs(listOf("../recovery/decompiled/sources"))
-            // JADX also emitted thousands of third-party library classes. Compile only app-owned sources.
-            java.include("com/hazem/dailystore/**/*.java")
-            java.exclude("**/R.java", "**/BuildConfig.java")
             res.setSrcDirs(listOf("../recovery/decompiled/resources/res"))
             assets.setSrcDirs(listOf("../recovery/decompiled/resources/assets"))
             jniLibs.setSrcDirs(listOf("../recovery/decompiled/resources/lib"))
