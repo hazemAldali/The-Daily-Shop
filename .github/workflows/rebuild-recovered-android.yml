@@ -77,6 +77,43 @@ jobs:
           remaining="$(find "$resource_root" -type f -name '*.9.png' | wc -l)"
           test "$remaining" -eq 0
           echo "Removed all ${#ninepatch_files[@]} decompiled AppCompat Nine-Patch copies; dependency AAR supplies originals."
+      - name: Remove duplicate library attribute declarations from merged APK resources
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          path = Path("recovery/decompiled/resources/res/values/attrs.xml")
+          duplicate_names = {
+              "navigationMode", "layout_scrollFlags", "tintMode", "tickMarkTintMode",
+              "autoSizeTextType", "actionBarSize", "badgeGravity", "showAnimationBehavior",
+              "fabAlignmentMode", "behavior_peekHeight", "carousel_alignment",
+              "checkMarkTintMode", "indicatorDirectionCircular", "titleTextEllipsize",
+              "layout_collapseMode", "buttonTintMode", "layout_anchorGravity",
+              "extendStrategy", "fabSize", "fontProviderFetchStrategy", "fontStyle",
+              "keyPositionType", "showDividers", "indeterminateAnimationType",
+              "iconGravity", "checkedIconGravity", "buttonIconTintMode",
+              "thumbIconTintMode", "logoScaleType", "alphabeticModifiers",
+              "motionDebug", "telltales_velocityMode", "labelVisibilityMode",
+              "menuGravity", "clickAction", "nestedScrollFlags", "cornerFamily",
+              "labelBehavior", "animationMode", "thumbTintMode", "tabIndicatorGravity",
+              "errorIconTintMode", "buttonGravity", "autoTransition", "backgroundTintMode",
+          }
+          tree = ET.parse(path)
+          root = tree.getroot()
+          removed = []
+          for element in list(root):
+              if element.tag == "attr" and element.attrib.get("name") in duplicate_names:
+                  removed.append(element.attrib["name"])
+                  root.remove(element)
+          missing = duplicate_names - set(removed)
+          if missing:
+              raise SystemExit("Expected duplicate attr declarations not found: " + ", ".join(sorted(missing)))
+          tree.write(path, encoding="utf-8", xml_declaration=True)
+          print(f"Removed {len(removed)} APK-bundled library attr declarations; AAR dependencies provide them.")
+          PY
       - name: Assemble debug APK
         run: gradle --no-daemon --stacktrace :app:assembleDebug
       - name: Upload debug APK and build reports
