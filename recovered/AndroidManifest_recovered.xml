@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1284" android:versionName="1.0.1" android:compileSdkVersion="35" android:compileSdkVersionCodename="15" package="com.hazem.dailystore" platformBuildVersionCode="35" platformBuildVersionName="15" xmlns:android="http://schemas.android.com/apk/res/android">
+<uses-sdk android:minSdkVersion="23" android:targetSdkVersion="35">
+</uses-sdk>
+<uses-permission android:name="android.permission.INTERNET">
+</uses-permission>
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE">
+</uses-permission>
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE">
+</uses-permission>
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED">
+</uses-permission>
+<permission android:name="com.hazem.dailystore.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="0x00000002">
+</permission>
+<uses-permission android:name="com.hazem.dailystore.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION">
+</uses-permission>
+<application android:theme="@0x7f10000b" android:label="@0x7f0f001d" android:icon="@0x7f0d0000" android:name="com.hazem.dailystore.TheDailyShopApplication" android:allowBackup="false" android:supportsRtl="true" android:extractNativeLibs="false" android:roundIcon="@0x7f0d0000" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+<receiver android:name="com.hazem.dailystore.SyncBootReceiver" android:enabled="true" android:exported="false">
+<intent-filter>
+<action android:name="android.intent.action.BOOT_COMPLETED">
+</action>
+<action android:name="android.intent.action.MY_PACKAGE_REPLACED">
+</action>
+</intent-filter>
+</receiver>
+<service android:name="com.hazem.dailystore.SyncForegroundService" android:enabled="true" android:exported="false" android:foregroundServiceType="0x40000000">
+<property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="Persistent authenticated encrypted synchronization between the store's paired primary and secondary devices.">
+</property>
+</service>
+<activity android:name="com.hazem.dailystore.SyncDeviceManagementActivity" android:exported="false">
+</activity>
+<activity android:name="com.hazem.dailystore.MainActivity" android:exported="true">
+<intent-filter>
+<action android:name="android.intent.action.SEND">
+</action>
+<category android:name="android.intent.category.DEFAULT">
+</category>
+<data android:mimeType="text/plain">
+</data>
+</intent-filter>
+</activity>
+<activity android:name="com.hazem.dailystore.SplashActivity" android:exported="true">
+<intent-filter>
+<action android:name="android.intent.action.MAIN">
+</action>
+<category android:name="android.intent.category.LAUNCHER">
+</category>
+</intent-filter>
+</activity>
+<provider android:name="androidx.startup.InitializationProvider" android:exported="false" android:authorities="com.hazem.dailystore.androidx-startup">
+<meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup">
+</meta-data>
+<meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.lifecycle.ProcessLifecycleInitializer">
+</meta-data>
+<meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.profileinstaller">
+</meta-data>
+</provider>
+</application>
+</manifest>
