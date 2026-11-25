@@ -53,15 +53,30 @@ jobs:
             cp "$file" "app/src/main/java/$relative_path"
           done < <(find recovery/decompiled/sources/com/hazem/dailystore -type f -name '*.java' ! -name 'R.java' ! -name 'BuildConfig.java' -print0)
           echo "Staged $(find app/src/main/java -type f -name '*.java' | wc -l) application source files."
-      - name: Exclude invalid decompiled AppCompat Nine-Patch placeholders
+      - name: Replace decompiled AppCompat Nine-Patch assets with dependency originals
         shell: bash
         run: |
           set -euo pipefail
-          # JADX emitted 1x1/2x2 placeholders for this AppCompat density asset;
-          # Android requires a valid Nine-Patch border. AppCompat supplies the
-          # original resource from its AAR dependency, so omit only these bad copies.
-          find recovery/decompiled/resources/res -type f -name 'abc_list_divider_mtrl_alpha.9.png' -delete
-          echo "Removed invalid decompiled placeholders; AppCompat dependency provides the drawable."
+          resource_root="recovery/decompiled/resources/res"
+          mapfile -d '' ninepatch_files < <(find "$resource_root" -type f -name '*.9.png' -print0)
+          echo "Found ${#ninepatch_files[@]} decompiled Nine-Patch files."
+          # The recovered APK contains only standard AppCompat resources here.
+          # JADX preserved compiled Nine-Patch chunks in a form AAPT2 cannot rebuild.
+          # AppCompat 1.7.0 supplies these exact resources from its AAR dependency.
+          for file in "${ninepatch_files[@]}"; do
+            name="$(basename "$file")"
+            case "$name" in
+              abc_*.9.png|notification_bg_*.9.png) ;;
+              *)
+                echo "::error::Unexpected custom Nine-Patch resource: $file"
+                exit 1
+                ;;
+            esac
+          done
+          find "$resource_root" -type f \( -name 'abc_*.9.png' -o -name 'notification_bg_*.9.png' \) -delete
+          remaining="$(find "$resource_root" -type f -name '*.9.png' | wc -l)"
+          test "$remaining" -eq 0
+          echo "Removed all ${#ninepatch_files[@]} decompiled AppCompat Nine-Patch copies; dependency AAR supplies originals."
       - name: Assemble debug APK
         run: gradle --no-daemon --stacktrace :app:assembleDebug
       - name: Upload debug APK and build reports
