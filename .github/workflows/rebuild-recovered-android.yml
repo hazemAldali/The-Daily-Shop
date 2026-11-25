@@ -42,6 +42,17 @@ jobs:
           grep -q 'DATABASE_VERSION = 33' recovery/decompiled/sources/com/hazem/dailystore/data/AppDatabase.java
           echo "Recovery inputs and schema version 33 verified."
           cat recovery/decompiled/RECOVERY_STATUS.txt
+      - name: Stage app-owned JADX sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p app/src/main/java
+          while IFS= read -r -d '' file; do
+            relative_path="${file#recovery/decompiled/sources/}"
+            mkdir -p "app/src/main/java/$(dirname "$relative_path")"
+            cp "$file" "app/src/main/java/$relative_path"
+          done < <(find recovery/decompiled/sources/com/hazem/dailystore -type f -name '*.java' ! -name 'R.java' ! -name 'BuildConfig.java' -print0)
+          echo "Staged $(find app/src/main/java -type f -name '*.java' | wc -l) application source files."
       - name: Assemble debug APK
         run: gradle --no-daemon --stacktrace :app:assembleDebug
       - name: Upload debug APK and build reports
