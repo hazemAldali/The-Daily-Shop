@@ -77,7 +77,7 @@ jobs:
           remaining="$(find "$resource_root" -type f -name '*.9.png' | wc -l)"
           test "$remaining" -eq 0
           echo "Removed all ${#ninepatch_files[@]} decompiled AppCompat Nine-Patch copies; dependency AAR supplies originals."
-      - name: Remove duplicate library attribute declarations from merged APK resources
+      - name: Remove APK-bundled attributes already supplied by Android libraries
         shell: bash
         run: |
           set -euo pipefail
@@ -85,34 +85,36 @@ jobs:
           import xml.etree.ElementTree as ET
           from pathlib import Path
 
+          # Read the actual AAR resource tables resolved by this workflow. This avoids
+          # maintaining a brittle list of AndroidX/Material/ConstraintLayout attrs.
+          transform_root = Path.home() / ".gradle/caches/8.9/transforms"
+          library_attrs = set()
+          xml_count = 0
+          for xml_path in transform_root.glob("*/transformed/*/res/values*/*.xml"):
+              try:
+                  root = ET.parse(xml_path).getroot()
+              except (ET.ParseError, OSError):
+                  continue
+              xml_count += 1
+              for child in root:
+                  if child.tag == "attr" and child.attrib.get("name"):
+                      library_attrs.add(child.attrib["name"])
+
+          if not library_attrs:
+              raise SystemExit("No Android AAR attribute resources found in Gradle transform cache.")
+
           path = Path("recovery/decompiled/resources/res/values/attrs.xml")
-          duplicate_names = {
-              "navigationMode", "layout_scrollFlags", "tintMode", "tickMarkTintMode",
-              "autoSizeTextType", "actionBarSize", "badgeGravity", "showAnimationBehavior",
-              "fabAlignmentMode", "behavior_peekHeight", "carousel_alignment",
-              "checkMarkTintMode", "indicatorDirectionCircular", "titleTextEllipsize",
-              "layout_collapseMode", "buttonTintMode", "layout_anchorGravity",
-              "extendStrategy", "fabSize", "fontProviderFetchStrategy", "fontStyle",
-              "keyPositionType", "showDividers", "indeterminateAnimationType",
-              "iconGravity", "checkedIconGravity", "buttonIconTintMode",
-              "thumbIconTintMode", "logoScaleType", "alphabeticModifiers",
-              "motionDebug", "telltales_velocityMode", "labelVisibilityMode",
-              "menuGravity", "clickAction", "nestedScrollFlags", "cornerFamily",
-              "labelBehavior", "animationMode", "thumbTintMode", "tabIndicatorGravity",
-              "errorIconTintMode", "buttonGravity", "autoTransition", "backgroundTintMode",
-          }
           tree = ET.parse(path)
           root = tree.getroot()
           removed = []
           for element in list(root):
-              if element.tag == "attr" and element.attrib.get("name") in duplicate_names:
+              if element.tag == "attr" and element.attrib.get("name") in library_attrs:
                   removed.append(element.attrib["name"])
                   root.remove(element)
-          missing = duplicate_names - set(removed)
-          if missing:
-              raise SystemExit("Expected duplicate attr declarations not found: " + ", ".join(sorted(missing)))
+
           tree.write(path, encoding="utf-8", xml_declaration=True)
-          print(f"Removed {len(removed)} APK-bundled library attr declarations; AAR dependencies provide them.")
+          print(f"Scanned {xml_count} AAR values XML files and {len(library_attrs)} library attrs.")
+          print(f"Removed {len(removed)} overlapping APK-bundled attr declarations; app-specific attrs remain.")
           PY
       - name: Assemble debug APK
         run: gradle --no-daemon --stacktrace :app:assembleDebug
