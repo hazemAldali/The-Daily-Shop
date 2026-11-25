@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
 set -euo pipefail
-APK="${1:-recovery/input/app-release.apk}"
+APK="${1:-recovery/app-release.apk}"
 OUT="${2:-recovery/decompiled}"
 if [[ ! -f "$APK" ]]; then
   echo "Missing APK: $APK" >&2
   exit 2
 fi
 mkdir -p "$OUT"
-# Pin the JADX version for reproducible decompilation.
 JADX_VERSION="1.5.7"
 JADX_ZIP="/tmp/jadx-${JADX_VERSION}.zip"
 curl --fail --location --retry 3 "https://github.com/skylot/jadx/releases/download/v${JADX_VERSION}/jadx-${JADX_VERSION}.zip" -o "$JADX_ZIP"
