@@ -77,7 +77,7 @@ jobs:
           remaining="$(find "$resource_root" -type f -name '*.9.png' | wc -l)"
           test "$remaining" -eq 0
           echo "Removed all ${#ninepatch_files[@]} decompiled AppCompat Nine-Patch copies; dependency AAR supplies originals."
-      - name: Resolve Android libraries and remove duplicate bundled attributes
+      - name: Resolve Android libraries and remove APK-bundled duplicate value resources
         shell: bash
         run: |
           set -euo pipefail
@@ -100,12 +100,13 @@ jobs:
           python3 - <<'PY'
           import zipfile
           import xml.etree.ElementTree as ET
+          from collections import Counter
           from pathlib import Path
 
           aar_root = Path.home() / ".gradle/caches/modules-2/files-2.1"
-          library_attrs = set()
+          library_symbols = set()
           aar_count = 0
-          xml_count = 0
+          aar_xml_count = 0
           for aar_path in aar_root.rglob("*.aar"):
               try:
                   with zipfile.ZipFile(aar_path) as archive:
@@ -117,38 +118,55 @@ jobs:
                               root = ET.fromstring(archive.read(entry))
                           except ET.ParseError:
                               continue
-                          xml_count += 1
-                          for child in root.iter("attr"):
-                              if child.attrib.get("name"):
-                                  library_attrs.add(child.attrib["name"])
+                          aar_xml_count += 1
+                          for child in root:
+                              name = child.attrib.get("name")
+                              if child.tag == "item":
+                                  resource_type = child.attrib.get("type")
+                              else:
+                                  resource_type = child.tag
+                              if name and resource_type not in {"public", "eat-comment"}:
+                                  library_symbols.add((resource_type, name))
+                          for attr in root.iter("attr"):
+                              if attr.attrib.get("name"):
+                                  library_symbols.add(("attr", attr.attrib["name"]))
               except (OSError, zipfile.BadZipFile):
                   continue
 
-          if not library_attrs:
-              raise SystemExit("No Android AAR attribute resources found after dependency resolution.")
+          if not library_symbols:
+              raise SystemExit("No Android AAR value resources found after dependency resolution.")
 
-          path = Path("recovery/decompiled/resources/res/values/attrs.xml")
-          tree = ET.parse(path)
-          root = tree.getroot()
-          removed = []
-          for element in list(root):
-              if element.tag == "attr" and element.attrib.get("name") in library_attrs:
-                  removed.append(element.attrib["name"])
-                  root.remove(element)
+          res_root = Path("recovery/decompiled/resources/res")
+          removed = Counter()
+          scanned = 0
+          for xml_path in res_root.glob("values*/*.xml"):
+              if xml_path.name == "public.xml":
+                  xml_path.unlink()
+                  removed["public-index"] += 1
+                  continue
+              try:
+                  tree = ET.parse(xml_path)
+              except ET.ParseError:
+                  continue
+              root = tree.getroot()
+              changed = False
+              for element in list(root):
+                  name = element.attrib.get("name")
+                  if element.tag == "item":
+                      resource_type = element.attrib.get("type")
+                  else:
+                      resource_type = element.tag
+                  if name and (resource_type, name) in library_symbols:
+                      root.remove(element)
+                      removed[resource_type] += 1
+                      changed = True
+              if changed:
+                  tree.write(xml_path, encoding="utf-8", xml_declaration=True)
+              scanned += 1
 
-          tree.write(path, encoding="utf-8", xml_declaration=True)
-
-          # JADX's public.xml republishes the original APK's entire merged resource
-          # table, including IDs owned by AndroidX/Material AARs. Those <public>
-          # entries collide with the AAR definitions when rebuilding an application;
-          # AAPT generates fresh IDs for the reconstructed app.
-          public_index = path.with_name("public.xml")
-          if public_index.exists():
-              public_index.unlink()
-
-          print(f"Scanned {aar_count} resolved AARs and {xml_count} values XML files.")
-          print(f"Found {len(library_attrs)} library attrs; removed {len(removed)} overlapping APK-bundled attrs.")
-          print("Removed JADX's merged public.xml index; AAPT will regenerate resource IDs.")
+          print(f"Scanned {aar_count} AARs / {aar_xml_count} library values XML files.")
+          print(f"Compared against {len(library_symbols)} library resource symbols across {scanned} APK values files.")
+          print("Removed duplicate resource definitions:", dict(removed))
           PY
       - name: Assemble debug APK
         run: gradle --no-daemon --stacktrace :app:assembleDebug
