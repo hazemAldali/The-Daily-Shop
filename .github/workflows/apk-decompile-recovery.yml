@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   decompile-apk:
@@ -41,6 +41,20 @@ jobs:
         run: |
           chmod +x recovery/scripts/decompile-apk.sh
           recovery/scripts/decompile-apk.sh recovery/app-release.apk recovery/decompiled
+
+      - name: Save decompiled source on development branch
+        if: success()
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add recovery/decompiled
+          if ! git diff --cached --quiet; then
+            git commit -m "Add JADX decompiled APK source"
+            git push origin HEAD:the-daily-shop-development
+          else
+            echo "No new decompiled source changes to commit."
+          fi
 
       - name: Package decompiled source and log metadata
         if: always()
