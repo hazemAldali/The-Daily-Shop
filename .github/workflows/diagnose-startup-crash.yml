@@ -14,7 +14,11 @@ permissions:
 jobs:
   startup-smoke-test:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
+    # GitHub-hosted Linux runners may lack KVM. Explicitly allow Android Emulator's
+    # software CPU emulation (TCG) instead of letting the emulator exit before ADB.
+    env:
+      ANDROID_I_WANT_MY_TCG: "yes"
     steps:
       - name: Checkout development branch only
         uses: actions/checkout@v5
@@ -50,7 +54,7 @@ jobs:
           api-level: 29
           arch: x86_64
           profile: pixel_2
-          emulator-options: -no-window -no-audio -no-boot-anim
+          emulator-options: -no-window -no-audio -no-boot-anim -no-snapshot -no-metrics -gpu swiftshader_indirect
           disable-animations: true
           script: |
             set +e
