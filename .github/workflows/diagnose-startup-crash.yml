@@ -64,22 +64,16 @@ jobs:
             adb install -r /tmp/the-daily-shop.apk > test-output/install.txt 2>&1
             INSTALL_STATUS=$?
             adb logcat -c
-            if [ "$INSTALL_STATUS" -eq 0 ]; then
-              adb shell monkey -p com.hazem.dailystore -c android.intent.category.LAUNCHER 1 > test-output/launch.txt 2>&1
-              sleep 15
-              adb shell pidof com.hazem.dailystore > test-output/app-pid.txt 2>&1
-              PID_STATUS=$?
-            else
-              PID_STATUS=1
-            fi
+            adb shell monkey -p com.hazem.dailystore -c android.intent.category.LAUNCHER 1 > test-output/launch.txt 2>&1
+            sleep 15
+            adb shell pidof com.hazem.dailystore > test-output/app-pid.txt 2>&1
+            PID_STATUS=$?
             adb logcat -d -v threadtime > test-output/logcat-full.txt
             adb logcat -d -v threadtime AndroidRuntime:E System.err:E libc:F DEBUG:F '*:S' > test-output/crash-logcat.txt
             printf 'install_status=%s\nprocess_alive_status=%s\n' "$INSTALL_STATUS" "$PID_STATUS" > test-output/result.txt
             cat test-output/result.txt
-            if [ "$INSTALL_STATUS" -ne 0 ] || [ "$PID_STATUS" -ne 0 ]; then
-              echo "Startup smoke test failed; crash logs have been saved."
-              exit 1
-            fi
+            test "$INSTALL_STATUS" -eq 0
+            test "$PID_STATUS" -eq 0
 
       - name: Upload startup diagnostics and APK
         if: always()
