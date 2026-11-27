@@ -6,6 +6,7 @@ on:
       - the-daily-shop-development
     paths:
       - ".github/workflows/diagnose-startup-crash.yml"
+      - ".github/scripts/startup-smoke-test.sh"
   workflow_dispatch:
 
 permissions:
