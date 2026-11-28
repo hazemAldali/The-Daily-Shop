@@ -26,7 +26,7 @@ for node in root.iter('node'):
     if node.attrib.get('class') == kind and needle in node.attrib.get('text',''):
         b = node.attrib.get('bounds','')
         import re
-        m = re.fullmatch(r'\\[(\\d+),(\\d+)\\]\\[(\\d+),(\\d+)\\]', b)
+        m = re.fullmatch(r'\[(\d+),(\d+)\]\[(\d+),(\d+)\]', b)
         if m:
             x1,y1,x2,y2 = map(int,m.groups())
             matches.append(f"{(x1+x2)//2} {(y1+y2)//2}")
