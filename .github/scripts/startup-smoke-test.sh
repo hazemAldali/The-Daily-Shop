@@ -39,6 +39,9 @@ tap_bounds() {
   local pair="$1"; read -r x y <<< "$pair"; adb shell input tap "$x" "$y"
 }
 type_text() { adb shell input text "$1"; }
+SMOKE_SUFFIX="$(date +%s)"
+SMOKE_USERNAME="smoke${SMOKE_SUFFIX}"
+SMOKE_PASSWORD="TdsSmoke${SMOKE_SUFFIX}X9"
 
 # Clean first-run state must show the bootstrap form.
 dump_ui first-run
@@ -55,11 +58,11 @@ test "$FIRST_FIELDS" -eq 4
 tap_bounds "$(bounds_for test-output/first-run.xml android.widget.EditText 'اسم المدير')"
 type_text "SmokeManager"
 adb shell input keyevent 61
-type_text "smoketest"
+type_text "$SMOKE_USERNAME"
 adb shell input keyevent 61
-type_text "TdsSmoke1234"
+type_text "$SMOKE_PASSWORD"
 adb shell input keyevent 61
-type_text "TdsSmoke1234"
+type_text "$SMOKE_PASSWORD"
 adb shell input keyevent 4
 sleep 2
 tap_bounds "$(bounds_for test-output/first-run.xml android.widget.Button 'إنشاء حساب المدير')"
@@ -81,9 +84,9 @@ PY
 )"
   test "$fields" -ge 2
   tap_bounds "$(bounds_for "$xml" android.widget.EditText '')"
-  type_text "smoketest"
+  type_text "$SMOKE_USERNAME"
   adb shell input keyevent 61
-  type_text "TdsSmoke1234"
+  type_text "$SMOKE_PASSWORD"
   adb shell input keyevent 4
   sleep 2
   tap_bounds "$(bounds_for "$xml" android.widget.Button 'دخول')"
@@ -104,11 +107,11 @@ adb shell am force-stop com.hazem.dailystore
 adb shell monkey -p com.hazem.dailystore -c android.intent.category.LAUNCHER 1 > test-output/relaunch.txt 2>&1
 sleep 12
 dump_ui after-restart
-if grep -q "إعداد المتجر لأول مرة" test-output/after-restart.xml; then
+if grep -q 'text="إعداد المتجر لأول مرة"' test-output/after-restart.xml; then
   echo "Admin bootstrap reappeared after restart" >&2
   exit 1
 fi
-if grep -q "تسجيل الدخول" test-output/after-restart.xml; then
+if grep -q 'text="تسجيل الدخول"' test-output/after-restart.xml; then
   login_with_test_account test-output/after-restart.xml after-restart-login
   echo "session_restore=not_restored_but_account_login_after_restart=passed" >> test-output/auth-test-result.txt
 else
