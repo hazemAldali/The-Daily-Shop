@@ -92,7 +92,7 @@ PY
   tap_bounds "$(bounds_for "$xml" android.widget.Button 'دخول')"
   sleep 10
   dump_ui "$stage"
-  if grep -q "تسجيل الدخول\|إعداد المتجر لأول مرة" "test-output/$stage.xml"; then
+  if grep -q 'text="تسجيل الدخول"\|text="إعداد المتجر لأول مرة"' "test-output/$stage.xml"; then
     echo "Login did not leave the login/bootstrap screen at $stage" >&2
     return 1
   fi
