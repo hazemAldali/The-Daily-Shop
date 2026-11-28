@@ -1,56 +1,124 @@
 #!/usr/bin/env bash
-set -u
+set -euo pipefail
 mkdir -p test-output
 adb wait-for-device
-adb shell getprop ro.build.version.release > test-output/android-version.txt 2>&1
-adb shell getprop ro.build.version.sdk > test-output/android-sdk.txt 2>&1
+adb shell getprop ro.build.version.release > test-output/android-version.txt
+adb shell getprop ro.build.version.sdk > test-output/android-sdk.txt
 adb install -r /tmp/the-daily-shop.apk > test-output/install.txt 2>&1
-INSTALL_STATUS=$?
+adb shell pm clear com.hazem.dailystore > test-output/pm-clear.txt 2>&1
 adb logcat -c
-PID_STATUS=1
-LAUNCH_STATUS=1
-SCREENSHOT_STATUS=1
-UI_STATUS=1
-if [ "$INSTALL_STATUS" -eq 0 ]; then
-  adb shell monkey -p com.hazem.dailystore -c android.intent.category.LAUNCHER 1 > test-output/launch.txt 2>&1
-  LAUNCH_STATUS=$?
-  sleep 12
-  adb shell pidof com.hazem.dailystore > test-output/app-pid.txt 2>&1
-  PID_STATUS=$?
-  adb shell dumpsys activity activities > test-output/activity-state.txt 2>&1
-  adb shell dumpsys window windows > test-output/window-state-before-wait.txt 2>&1
-  adb exec-out screencap -p > test-output/startup-screen-before-wait.png 2> test-output/screenshot-error.txt
-  SCREENSHOT_STATUS=$?
-  adb shell uiautomator dump /sdcard/window-before-wait.xml > test-output/uiautomator-before-wait.txt 2>&1
-  adb pull /sdcard/window-before-wait.xml test-output/window-before-wait.xml >> test-output/uiautomator-before-wait.txt 2>&1
+adb shell monkey -p com.hazem.dailystore -c android.intent.category.LAUNCHER 1 > test-output/launch.txt 2>&1
+sleep 14
 
-  # If the emulator displays Android's System UI ANR dialog, choose Wait once.
-  if adb shell uiautomator dump /sdcard/window-check.xml >/dev/null 2>&1 && adb pull /sdcard/window-check.xml /tmp/window-check.xml >/dev/null 2>&1; then
-    if grep -q "System UI isn't responding" /tmp/window-check.xml; then
-      echo "System UI ANR dialog detected; selecting Wait (not Close app)." > test-output/system-ui-anr-action.txt
-      adb shell input tap 540 1060 >> test-output/system-ui-anr-action.txt 2>&1
-      sleep 15
-    else
-      echo "No System UI ANR dialog detected at first check." > test-output/system-ui-anr-action.txt
-    fi
+dump_ui() {
+  local name="$1"
+  adb shell uiautomator dump "/sdcard/${name}.xml" > "test-output/uiautomator-${name}.txt" 2>&1
+  adb pull "/sdcard/${name}.xml" "test-output/${name}.xml" >> "test-output/uiautomator-${name}.txt" 2>&1
+}
+bounds_for() {
+  local xml="$1" kind="$2" needle="$3" index="${4:-0}"
+  python3 - "$xml" "$kind" "$needle" "$index" <<'PY'
+import sys, xml.etree.ElementTree as ET
+path, kind, needle, index = sys.argv[1], sys.argv[2], sys.argv[3], int(sys.argv[4])
+root = ET.parse(path).getroot()
+matches = []
+for node in root.iter('node'):
+    if node.attrib.get('class') == kind and needle in node.attrib.get('text',''):
+        b = node.attrib.get('bounds','')
+        import re
+        m = re.fullmatch(r'\\[(\\d+),(\\d+)\\]\\[(\\d+),(\\d+)\\]', b)
+        if m:
+            x1,y1,x2,y2 = map(int,m.groups())
+            matches.append(f"{(x1+x2)//2} {(y1+y2)//2}")
+if len(matches) <= index:
+    sys.exit(2)
+print(matches[index])
+PY
+}
+tap_bounds() {
+  local pair="$1"; read -r x y <<< "$pair"; adb shell input tap "$x" "$y"
+}
+type_text() { adb shell input text "$1"; }
+
+# Clean first-run state must show the bootstrap form.
+dump_ui first-run
+grep -q "إعداد المتجر لأول مرة" test-output/first-run.xml
+FIRST_FIELDS="$(python3 - <<'PY'
+import xml.etree.ElementTree as ET
+r=ET.parse('test-output/first-run.xml').getroot()
+print(sum(1 for n in r.iter('node') if n.attrib.get('class')=='android.widget.EditText'))
+PY
+)"
+test "$FIRST_FIELDS" -eq 4
+
+# Create an emulator-only manager account with non-production credentials.
+tap_bounds "$(bounds_for test-output/first-run.xml android.widget.EditText 'اسم المدير')"
+type_text "SmokeManager"
+adb shell input keyevent 61
+type_text "smoketest"
+adb shell input keyevent 61
+type_text "TdsSmoke1234"
+adb shell input keyevent 61
+type_text "TdsSmoke1234"
+adb shell input keyevent 4
+sleep 2
+tap_bounds "$(bounds_for test-output/first-run.xml android.widget.Button 'إنشاء حساب المدير')"
+sleep 8
+dump_ui after-admin-create
+grep -q "تسجيل الدخول" test-output/after-admin-create.xml
+grep -q "دخول" test-output/after-admin-create.xml
+echo "admin_creation=passed" > test-output/auth-test-result.txt
+
+login_with_test_account() {
+  local xml="$1" stage="$2"
+  local fields
+  fields="$(python3 - "$xml" <<'PY'
+import sys, xml.etree.ElementTree as ET
+r=ET.parse(sys.argv[1]).getroot()
+nodes=[n for n in r.iter('node') if n.attrib.get('class')=='android.widget.EditText']
+print(len(nodes))
+PY
+)"
+  test "$fields" -ge 2
+  tap_bounds "$(bounds_for "$xml" android.widget.EditText '')"
+  type_text "smoketest"
+  adb shell input keyevent 61
+  type_text "TdsSmoke1234"
+  adb shell input keyevent 4
+  sleep 2
+  tap_bounds "$(bounds_for "$xml" android.widget.Button 'دخول')"
+  sleep 10
+  dump_ui "$stage"
+  if grep -q "تسجيل الدخول\|إعداد المتجر لأول مرة" "test-output/$stage.xml"; then
+    echo "Login did not leave the login/bootstrap screen at $stage" >&2
+    return 1
   fi
+}
+login_with_test_account test-output/after-admin-create.xml after-first-login
+echo "login_after_creation=passed" >> test-output/auth-test-result.txt
+adb exec-out screencap -p > test-output/after-first-login.png
 
-  adb exec-out screencap -p > test-output/startup-screen-after-wait.png 2>> test-output/screenshot-error.txt
-  adb shell uiautomator dump /sdcard/window-after-wait.xml > test-output/uiautomator-after-wait.txt 2>&1
-  adb pull /sdcard/window-after-wait.xml test-output/window-after-wait.xml >> test-output/uiautomator-after-wait.txt 2>&1
-  adb shell dumpsys activity activities > test-output/activity-state-after-wait.txt 2>&1
-  adb shell dumpsys window windows > test-output/window-state-after-wait.txt 2>&1
-else
-  echo "Install failed; launch skipped." > test-output/launch.txt
+# Relaunch without clearing app data. Either a restored authenticated POS session
+# or a login screen is acceptable; the account must remain and authenticate again.
+adb shell am force-stop com.hazem.dailystore
+adb shell monkey -p com.hazem.dailystore -c android.intent.category.LAUNCHER 1 > test-output/relaunch.txt 2>&1
+sleep 12
+dump_ui after-restart
+if grep -q "إعداد المتجر لأول مرة" test-output/after-restart.xml; then
+  echo "Admin bootstrap reappeared after restart" >&2
+  exit 1
 fi
-adb shell pidof com.hazem.dailystore > test-output/app-pid-final.txt 2>&1
+if grep -q "تسجيل الدخول" test-output/after-restart.xml; then
+  login_with_test_account test-output/after-restart.xml after-restart-login
+  echo "session_restore=not_restored_but_account_login_after_restart=passed" >> test-output/auth-test-result.txt
+else
+  echo "session_restore=passed" >> test-output/auth-test-result.txt
+fi
+adb exec-out screencap -p > test-output/after-restart.png
+adb shell pidof com.hazem.dailystore > test-output/app-pid-final.txt
 adb logcat -d -v threadtime > test-output/logcat-full.txt 2>&1
 adb logcat -d -v threadtime AndroidRuntime:E System.err:E libc:F DEBUG:F '*:S' > test-output/crash-logcat.txt 2>&1
 adb shell dumpsys activity lastanr > test-output/last-anr.txt 2>&1
-printf 'install_status=%s\nlaunch_command_status=%s\nprocess_alive_status=%s\nscreenshot_status=%s\n' "$INSTALL_STATUS" "$LAUNCH_STATUS" "$PID_STATUS" "$SCREENSHOT_STATUS" > test-output/result.txt
+printf 'install=passed\nfirst_run_setup=passed\nadmin_creation=passed\nlogin_after_creation=passed\nrestart_account_persistence=passed\n' > test-output/result.txt
 cat test-output/result.txt
-if [ "$INSTALL_STATUS" -ne 0 ] || [ "$LAUNCH_STATUS" -ne 0 ] || [ "$PID_STATUS" -ne 0 ] || [ "$SCREENSHOT_STATUS" -ne 0 ]; then
-  echo "Startup smoke test failed; inspect test-output logs."
-  exit 1
-fi
-echo "Startup smoke test passed; post-wait screen and ANR diagnostics captured."
+cat test-output/auth-test-result.txt
