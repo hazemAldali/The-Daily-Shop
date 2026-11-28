@@ -128,7 +128,7 @@ import xml.etree.ElementTree as ET, sys
 r=ET.parse('test-output/after-primary-designation.xml').getroot()
 texts=[n.attrib.get('text','') for n in r.iter('node')]
 all_text='\\n'.join(texts)
-if 'الدور: رئيسي' not in all_text and not ('رئيسي' in all_text and 'غير مهيأ' not in all_text):
+if 'الدور: رئيسي' not in all_text:
     print(all_text)
     sys.exit('Primary designation did not produce a confirmed primary-role state')
 PY
@@ -148,7 +148,7 @@ import xml.etree.ElementTree as ET, sys
 r=ET.parse('test-output/after-primary-restart.xml').getroot()
 texts=[n.attrib.get('text','') for n in r.iter('node')]
 all_text='\\n'.join(texts)
-if 'الدور: رئيسي' not in all_text and not ('رئيسي' in all_text and 'غير مهيأ' not in all_text):
+if 'الدور: رئيسي' not in all_text:
     print(all_text)
     sys.exit('Primary role did not persist after process restart')
 PY
