@@ -117,7 +117,43 @@ if grep -q 'text="تسجيل الدخول"' test-output/after-restart.xml; then
 else
   echo "session_restore=passed" >> test-output/auth-test-result.txt
 fi
-adb exec-out screencap -p > test-output/after-restart.png
+# Primary-device designation is the next required stage after authentication.
+# This runs only in the disposable emulator database.
+if grep -q 'text="اعتماد هذا الهاتف جهازاً رئيسياً"' test-output/after-restart.xml; then
+  tap_bounds "$(bounds_for test-output/after-restart.xml android.widget.Button 'اعتماد هذا الهاتف جهازاً رئيسياً')"
+  sleep 12
+  dump_ui after-primary-designation
+  python3 - <<'PY'
+import xml.etree.ElementTree as ET, sys
+r=ET.parse('test-output/after-primary-designation.xml').getroot()
+texts=[n.attrib.get('text','') for n in r.iter('node')]
+all_text='\\n'.join(texts)
+if 'الدور: رئيسي' not in all_text and not ('رئيسي' in all_text and 'غير مهيأ' not in all_text):
+    print(all_text)
+    sys.exit('Primary designation did not produce a confirmed primary-role state')
+PY
+  echo "primary_designation=passed" >> test-output/auth-test-result.txt
+else
+  echo "Primary designation action was not present on authenticated device page" >&2
+  exit 1
+fi
+
+# Confirm that primary role survives a process restart.
+adb shell am force-stop com.hazem.dailystore
+adb shell monkey -p com.hazem.dailystore -c android.intent.category.LAUNCHER 1 > test-output/relaunch-primary.txt 2>&1
+sleep 12
+dump_ui after-primary-restart
+python3 - <<'PY'
+import xml.etree.ElementTree as ET, sys
+r=ET.parse('test-output/after-primary-restart.xml').getroot()
+texts=[n.attrib.get('text','') for n in r.iter('node')]
+all_text='\\n'.join(texts)
+if 'الدور: رئيسي' not in all_text and not ('رئيسي' in all_text and 'غير مهيأ' not in all_text):
+    print(all_text)
+    sys.exit('Primary role did not persist after process restart')
+PY
+echo "primary_role_persistence=passed" >> test-output/auth-test-result.txt
+adb exec-out screencap -p > test-output/after-primary-restart.png
 adb shell pidof com.hazem.dailystore > test-output/app-pid-final.txt
 adb logcat -d -v threadtime > test-output/logcat-full.txt 2>&1
 adb logcat -d -v threadtime AndroidRuntime:E System.err:E libc:F DEBUG:F '*:S' > test-output/crash-logcat.txt 2>&1
